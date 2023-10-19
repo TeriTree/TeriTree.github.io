@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Teri Tower</title>
+
+
+  <!-- <meta name="viewport" content="width=1920, height=1080, initial-scale=1"> -->
+
+</head>
+
+<style>
+  @font-face {
+    font-family: Chinzel;
+    src: url('./res/cinzel.regular.ttf');
+  }
+  
+  div.gameBox {
+    /* border: 2px solid black; */
+    /* outline: #000000 solid 5px; */
+    margin: auto;
+    /* padding: auto; */
+    text-align: center;
+    align-content: center;
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  div.pathName {
+    /* border: 1px solid black; */
+    /* outline: #00c1fc solid 5px; */
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    align-content: center;
+    width: 1920px;
+    height: 180px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  img.pathNameBG {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+
+  div.map {
+    /* border: 1px solid black; */
+    /* outline: #e4fd00 solid 5px; */
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    align-content: center;
+    width: 320px;
+    height: 720px;
+    position: absolute;
+    left: 0px;
+    top: 180px;
+  }
+
+  div.gameScreen {
+    /* border: 1px solid black; */
+    /* outline: #4CAF50 solid 5px; */
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    align-content: center;
+    width: 1280px;
+    height: 720px;
+    position: absolute;
+    left: 320px;
+    top: 180px;
+  }
+  img.gameScreenBG {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+
+  div.inventory {
+    /* border: 1px solid black; */
+    /* outline: #af1831 solid 5px; */
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    align-content: center;
+    width: 320px;
+    height: 720px;
+    position: absolute;
+    left: 1600px;
+    top: 180px;
+  }
+  img.inventoryBG {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  img.inventoryOverlay{
+    z-index: 125;
+    opacity: 0.8;
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    border: none;
+  }
+  button.closeInventory{
+    z-Index: 126;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1180px;
+    top: 50px;
+  }
+
+  div.interactions {
+    /* border: 1px solid black; */
+    /* outline: #fc00ef solid 5px; */
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    align-content: center;
+    width: 1920px;
+    height: 180px;
+    position: absolute;
+    left: 0px;
+    top: 900px;
+  }
+  img.interactionsBG {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+
+  button.textOverlay{
+    z-index: 100;
+    opacity: 0.8;
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    border: none;
+    text-align: center;
+    font-size: large;
+    color:aqua;
+    font-family:Chinzel;
+  }
+
+  button.optionButton{
+    position: absolute;
+    width: 1825px;
+    height: 43px;
+    left: 47px;
+    border: none;
+    background: none;
+    background-image: url('./res/textOptionBG.png');;
+    text-align: center;
+    line-height: 45px;
+    font-size: 40px;
+    color:rgb(255, 0, 75);
+    font-family:Chinzel;
+  }
+</style>
+
+<body>
+
+
+  <!--Header-->
+  <!-- <div class="header">
+  <div class="fade-in-text">
+  <img src="./Teri Tower_files/Teri.png" alt="Teri" border="0" width="27" height="37">
+</div>
+</div> -->
+
+
+  <div class="gameBox">
+    <div class="pathName">
+      <img class="pathNameBG" id="pathNameBG" src="./res/Entrance/pathName.png"></img>
+    </div>
+
+    <div class="map"></div>
+
+    <div class="gameScreen" id="gameScreen" displayedtile="0">
+      <img class="gameScreenBG" id="gameScreenBG" src="./res/Entrance/bg.png"></img>
+      <script type="module" src="./res/gameScreen.js"></script>
+    </div>
+
+    <div class="inventory" id="inventory">
+      <img class="inventoryBG" src="./res/inventory_bg.png"></img>
+      <script type="module" src="./res/inventory.js"></script>
+    </div>
+
+    <div class="interactions" id="interactions">
+      <img class="interactionsBG" src="./res/interactions_bg.png"></img>
+    </div>
+    
+  </div>
+  
+</body>
+
+</html>
