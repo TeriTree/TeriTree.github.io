@@ -481,6 +481,13 @@ var paths = [
                 hasItem: 'Excalibur',
                 deadendType: null,
                 hasPuzzle: false,
+                bg: 11,
+            },
+            {
+                id: 12,
+                hasItem: 'Letter',
+                deadendType: null,
+                hasPuzzle: false,
                 bg: 10,
             },
         ],

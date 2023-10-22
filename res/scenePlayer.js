@@ -510,7 +510,7 @@ var scenes = [
                     [[playText, [path, tile, 1, 0]]],
                     [[playText, [path, tile, 2, 0]]],
                     [[playText, [path, tile, 3, 0]]],
-                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 4, 0]], [playSound, [path, 'teri.mp3', 0]]],
                     ];
             },
             function Leo_8(path, tile) {
@@ -560,6 +560,16 @@ var scenes = [
                     [[playText, [path, tile, 10, 0]]],
                     [[playText, [path, tile, 11, 0]]],
                     [[playText, [path, tile, 12, 0]]],
+                    ];
+            },
+            function Leo_12(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]], [playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]], [playSound, [path, 'ohyeahbaby.mp3', 0]]],
                     ];
             },
         ],

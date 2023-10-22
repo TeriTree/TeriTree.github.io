@@ -1020,10 +1020,29 @@ var buttons = [
                         posY: 360,
                         newPath: null,
                     },
+                    {
+                        tile: 12,
+                        text: 'Felix Natalis',
+                        posX: 670,
+                        posY: 360,
+                        newPath: null,
+                    },
                 ],
             },
             {
                 tile: 11,
+                destinationTiles: [
+                    {
+                        tile: 10,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 12,
                 destinationTiles: [
                     {
                         tile: 10,

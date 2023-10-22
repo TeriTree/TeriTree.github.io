@@ -69,6 +69,7 @@ var files = [
             'awake.mp3',
             'bang.mp3',
             'letyougo.mp3',
+            'teri.mp3',
         ],
     },
 ];
