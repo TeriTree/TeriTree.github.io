@@ -1,0 +1,42 @@
+Room 1 [Entrance] {start}
+You awake from a long sleep, you're disoriented, confused this is not your Room this looks like an ancient temple a voice passes by your ears and it says "You are finally awake" and you are at the entrace of it, so you decide to explore it with all your courage you see two written words signed on a marble plate.
+Bellum(War) and Pax(Peace) wich one do you choose to enter in?
+
+Room 2 [Bellum(War)] {choice}
+A living skeletrical centurion stands in front of you he want to fight and you cannot refuse, so you grab a random iron sword from the ground enchanted with sharpness I after taking the sword the skeleton rushes towards you and one shot you want to know why? is simple. He had full netherite gear how can you win this??
+
+Room 3 [Pax(peace)] {choice}
+You hear a loud roar coming from the other room maybe this was the best choice, this place if full of tombstones and flowers on one of this tombstone is dedicated to Himeko?!? wow even in the roman times weebs existed im amazed aherm.... on the ceeling there is a big hole to let the sun in and there is written something in latin again: hic iacent milites qui pace et honore pugnaverunt(here rest the soldiers that died in battle fighting for the peace and honor) You decide to pray for them, as you start praying a light illuminate your path so you decide to follow it.
+
+Room 4 [Follow the light] {obligatory}
+The light takes you in a big ruined hall full of moss and lianas with a not working fountain in it multiple rooms stands in front of you wich direction do you want to take? Right, Left, Go straight ahead
+
+Room 5 [Right] {choice}
+After entering the room the floor start shaking and everything is collapsing so you start running back, im sorry but you died crushed by a big and ancient Teri Teri Statue that came from above the ceiling at least your last words can be TERI TERI DAISHOURI!!
+
+Room 6 [Go straight ahead] {choice}
+In this room You instantly find a scaled reproduction of the tour Eiffel with a shop selling baguettes? the shop owner decide to make a free sandwich for you and after eating that you feel satisfied and satiated but this room didnt actually gave or helped you with something, at least you can continue without being hungry anymore.
+
+Room 7 [Left] {choice,key item in it}
+Something is not right in this room i feel a simp vibe in here i cant even narrate well here wait... IN FRONT OF YOU APPEAR A GODDES AND ITS DURANDAL(dudu for friends) she wants to offer her blessing(an umbrella?) to help you, so you accept it or not? just to clarify if you say no im gonna kill you with my own narrator hands >:(
+
+choice: yes
+you receive the Dudu's blessing maybe this can be usefull. It has to be!,(the player get the item called Dudu's blessing required to get to the end of the maze) there is a crossroads one way take you to a room called extremum proelium(the final battle) and the other one is called Felix natalis
+
+choice: no
+So you decided to die well then LET ME HELP YOU, you died stroke by a thunder thrown by durandal and then shot by the narrator as finisher move. You disappointed me
+
+Room 8 [extremum proelium(the final battle)] {choice}
+You smell a repulsive smell of blood a giant armored troll is in here and he have already killed lots of soldier, you are scared and panicked to death but suddenly as the troll was going to hit you with his enormous axe the "umbrella" emmits an immense light that temporary blind you and the troll after some seconds the blind effect vanish and you are not alone anymore but THE BRO'S AND SIS ARE HERE TO HELP YOU DEFEAT THIS MOTHER FU****. The dudu's blessing summoned the whole teri tower server!, and the rusty iron sword is not here anymore it evolved in a light sword called EXCALIBUR enchanted with the power of friendship, so as the troll starts running again towards you, you do the same but this time with the power of friendship and by screaming loud EXCALIBUUUUUUUUR!!! as saber teached you in the past, and the troll evaporate almost instantly consumed by the light beam generated from your sword. The battle is over you type ez gg wp in chat and leaves the room but only after thanking dudu and the teri tower server that gave you the power to defeat the (MR)beast.
+
+Room 9 [Felix natalis] {choice,end}
+(if the player choose this room before entering room 8): The door is locked you cannot enter here try a different room!
+
+You hear an angelic voice its durandal again, it say you "survived the ㄥ maze and proved your honor,loyalty and courage so now its time to let you go BUT" before you leave she gives you a letter as gift and indicate to open it [insert the letter here LMAO]
+
+
+THE END  
+
+
+
+

@@ -61,6 +61,16 @@ var files = [
             
         ],
     },
+    {
+        path: 'Leo',
+        folder: './res/Leo/',
+        audio:[
+            'ohyeahbaby.mp3',
+            'awake.mp3',
+            'bang.mp3',
+            'letyougo.mp3',
+        ],
+    },
 ];
 
 export {files}

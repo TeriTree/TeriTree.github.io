@@ -424,6 +424,82 @@ var seq = [
             
         ],
     },
+    {
+        path: 'Leo',
+        sequence: [
+            {
+                tile: 1,
+                type: 'n',
+                complete: false,
+                text: [
+                    "You awake from a long sleep.", /*0*/
+                    "You're disoriented, confused for...", /*1*/
+                    "This is not your comfortable room where you can turn off your brain.", /*2*/
+                    "This looks more like... an ancient temple.", /*3*/
+                ],
+            },
+            {
+                tile: 2,
+                type: 'n',
+                complete: false,
+                text: [
+                    "Suddenly, a voice whispers into your ears:", /*0*/
+                    "Hey, you, you are finally awake.", /*1*/
+                    "You are at the entrance of the temple, so you gather your courage and decide to discover its secrets, hidden deep within the structure.", /*2*/
+                    "Two marble plates indicate the directions you can take.", /*3*/
+                    "Which path are you going to take?" /*4*/
+                ],
+            },
+            {
+                tile: 3,
+                type: 'n',
+                complete: false,
+                text: [
+                    "The doors before you closes on its own, with a loud bang.", /*0*/
+                    "A living skeleton ceturion stands before you.", /*1*/
+                    "He wants to fight, you cannot refuse as there's no other escape.", /*2*/
+                    "You grab an iron sword from the ground, enchanted with sharpness, but...", /*3*/
+                    "Righ after picking up the sword, the skeleton rushes towards you and oneshots you.", /*4*/
+                    "Want to know why? It's simple.", /*5*/
+                    "The skeleton had a full netherite gear, how can you win this?!", /*6*/
+                ],
+            },
+            {
+                tile: 4,
+                type: 'n',
+                complete: false,
+                text: [
+                    "You hear a loud roar coming from the other room.", /*0*/
+                    "This was probably the best choice.", /*1*/
+                    "This place is full of tombstones and flowers...", /*2*/
+                    "wait, one of these tombstones is dedicated to Himeko?!", /*3*/
+                    "Wow, weebs existed even in the Roman Empire era, amazing!", /*4*/
+                ],
+            },
+            {
+                tile: 5,
+                type: 'n',
+                complete: false,
+                text: [
+                    "A window at the center of the dome lets sunlight penetrate the room.", /*0*/
+                    "Around it, you can read the following:", /*1*/
+                    "HIC IACENT MILITES QUI PACE ET HONORE PUGNAVERUNT.", /*2*/
+                    "You decide to pray for the fallen soldiers.", /*3*/
+                    "As you pray, the light changes its direction, to illuminate your path.", /*4*/
+                ],
+            },
+            {
+                tile: 6,
+                type: 'n',
+                complete: false,
+                text: [
+                    "The light guides you towards a spacious, mossy hall in ruin.",
+                    "Multiple rooms are connected to this hall.",
+                    "Which direction are you going to take?",
+                ],
+            },
+        ],
+    },
 
     {
         path: 'default',

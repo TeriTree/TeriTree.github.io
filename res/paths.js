@@ -404,12 +404,54 @@ var paths = [
         ],
     },
     {
-        id: 'Jas',
+        id: 'Leo',
         tiles: [
+            {
+                id: 1,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: 1,
+            },
+            {
+                id: 2,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: 2,
+            },
+            {
+                id: 3,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: 3,
+            },
+            {
+                id: 4,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: 4,
+            },
+            {
+                id: 5,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: 5,
+            },
+            {
+                id: 6,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: 6,
+            },
         ],
     },
     {
-        id: 'Leo',
+        id: 'Jas',
         tiles: [
         ],
     },

@@ -448,6 +448,64 @@ var scenes = [
             },
         ],
     },
+    {
+        path: 'Leo',
+        sequence: [
+            function Leo_1(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]], [playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    ];
+            },
+            function Leo_2(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]], [playText, [path, tile, 0, 0]]],
+                    [[playSound, [path, 'awake.mp3', 0]], [playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    ];
+            },
+            function Leo_3(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]], [playSound, [path, 'bang.mp3', 0]], [playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playText, [path, tile, 6, 0]]],
+                    ];
+            },
+            function Leo_4(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]], [playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]], [playSound, [path, 'letyougo.mp3', 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    ];
+            },
+            function Leo_5(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]], [playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    ];
+            },
+            function Leo_6(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]], [playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    ];
+            },
+        ],
+    },
 ]
 
 export { playSequence };
