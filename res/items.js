@@ -38,7 +38,18 @@ var items = [
         acquired: false,
     },
     {
-
+        id: 'Dudu',
+        name: "Dudu's blessing",
+        description: "A sort of umbrella-shaped lance that can help you fend off particularly aggressive enemies you may encounter in your journey.",
+        descriptionOrder: [],
+        acquired: false, 
+    },
+    {
+        id: 'Excalibur',
+        name: "Excalibur",
+        description: "Replica of the mythical sword that mimics a small fraction of the original weapon's power.",
+        descriptionOrder: [],
+        acquired: false, 
     },
 ];
 

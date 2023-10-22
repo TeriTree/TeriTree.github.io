@@ -944,6 +944,94 @@ var buttons = [
                         posY: 620,
                         newPath: null,
                     },
+                    {
+                        tile: 7,
+                        text: 'Go right',
+                        posX: 1180,
+                        posY: 360,
+                        newPath: null,
+                    },
+                    {
+                        tile: 8,
+                        text: 'Go straight',
+                        posX: 720,
+                        posY: 470,
+                        newPath: null,
+                    },
+                    {
+                        tile: 9,
+                        text: 'Go left',
+                        posX: 220,
+                        posY: 460,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 7,
+                destinationTiles: [ null,
+                ],
+            },
+            {
+                tile: 8,
+                destinationTiles: [
+                    {
+                        tile: 6,
+                        text: 'Go back',
+                        posX: 600,
+                        posY: 620,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 9,
+                destinationTiles: [
+                    {
+                        tile: 6,
+                        text: 'Go back',
+                        posX: 600,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 10,
+                        text: 'Move forward',
+                        posX: 585,
+                        posY: 330,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 10,
+                destinationTiles: [
+                    {
+                        tile: 9,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 11,
+                        text: 'Extremum Proelium',
+                        posX: 500,
+                        posY: 360,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 11,
+                destinationTiles: [
+                    {
+                        tile: 10,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
                 ],
             },
         ],

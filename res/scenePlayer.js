@@ -504,6 +504,64 @@ var scenes = [
                     [[playText, [path, tile, 2, 0]]],
                     ];
             },
+            function Leo_7(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]], [playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    ];
+            },
+            function Leo_8(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]], [playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    ];
+            },
+            function Leo_9(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]], [playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playText, [path, tile, 6, 0]]],
+                    [[playText, [path, tile, 7, 0]]],
+                    [[playText, [path, tile, 8, 0]]],
+                    [[playOptions, [path, tile]]],
+                    ];
+            },
+            function Leo_10(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]], [playSound, [path, 'ohyeahbaby.mp3', 0]], [playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    ];
+            },
+            function Leo_11(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]], [playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playText, [path, tile, 6, 0]]],
+                    [[playText, [path, tile, 7, 0]]],
+                    [[playText, [path, tile, 8, 0]], [playSound, [path, 'ohyeahbaby.mp3', 0]]],
+                    [[playText, [path, tile, 9, 0]]],
+                    [[playText, [path, tile, 10, 0]]],
+                    [[playText, [path, tile, 11, 0]]],
+                    [[playText, [path, tile, 12, 0]]],
+                    ];
+            },
         ],
     },
 ]
