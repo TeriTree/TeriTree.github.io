@@ -70,6 +70,22 @@ var files = [
             'bang.mp3',
             'letyougo.mp3',
             'teri.mp3',
+            'roar.mp3',
+        ],
+    },
+    {
+        path: 'Myrin',
+        folder: './res/Myrin/',
+        audio:[
+            'crowd.mp3',
+            'bee.mp3',
+        ],
+    },
+    {
+        folder: './res/Érazen/',
+        path: 'Érazen',
+        audio:[
+            
         ],
     },
 ];

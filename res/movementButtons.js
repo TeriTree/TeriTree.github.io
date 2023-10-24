@@ -151,6 +151,20 @@ var buttons = [
                         posY: 300,
                         newPath: 'Leo',
                     },
+                    {
+                        tile: 1,
+                        text: 'Myrin',
+                        posX: 240,
+                        posY: 550,
+                        newPath: 'Myrin',
+                    },
+                    {
+                        tile: 1,
+                        text: 'Érazen',
+                        posX: 440,
+                        posY: 550,
+                        newPath: 'Érazen',
+                    },
                 ],
             },
         ],
@@ -1048,6 +1062,276 @@ var buttons = [
                         tile: 10,
                         text: 'Go back',
                         posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                ],
+            },
+        ],
+    },
+    {
+        path: 'Myrin',
+        tiles: [
+            {
+                tile: 1,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Courtyard',
+                        posX: 640,
+                        posY: 620,
+                        newPath: 'Courtyard',
+                    },
+                    {
+                        tile: 2,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 100,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 2,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 3,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 100,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 3,
+                destinationTiles: [
+                    {
+                        tile: 2,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 4,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 100,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 4,
+                destinationTiles: [
+                    {
+                        tile: 3,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 5,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 100,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 5,
+                destinationTiles: [
+                    {
+                        tile: 4,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 6,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 100,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 6,
+                destinationTiles: [
+                    {
+                        tile: 5,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 7,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 100,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 7,
+                destinationTiles: [
+                    {
+                        tile: 6,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 8,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 100,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 8,
+                destinationTiles: [
+                    {
+                        tile: 7,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 9,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 100,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 9,
+                destinationTiles: [
+                    {
+                        tile: 8,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 10,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 100,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 10,
+                destinationTiles: [
+                    {
+                        tile: 9,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                ],
+            },
+        ],
+    },
+    {
+        path: 'Érazen',
+        tiles: [
+            {
+                tile: 1,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Courtyard',
+                        posX: 640,
+                        posY: 620,
+                        newPath: 'Courtyard',
+                    },
+                    {
+                        tile: 2,
+                        text: 'Open your eyes',
+                        posX: 640,
+                        posY: 360,
+                        newPath: null,
+                    },
+
+                ],
+            },
+            {
+                tile: 2,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Go back to the portal',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 3,
+                        text: 'To the road',
+                        posX: 640,
+                        posY: 360,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 3,
+                destinationTiles: [
+                    {
+                        tile: 2,
+                        text: 'Go back to the field',
+                        posX: 1100,
+                        posY: 360,
+                        newPath: null,
+                    },
+                    {
+                        tile: 4,
+                        text: 'Keep walking',
+                        posX: 600,
+                        posY: 360,
+                        newPath: null,
+                    },
+                    {
+                        tile: 5,
+                        text: 'Hitchhike',
+                        posX: 360,
+                        posY: 560,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 4,
+                destinationTiles: [ 
+                    {
+                        tile: 3,
+                        text: 'Go back',
+                        posX: 600,
                         posY: 620,
                         newPath: null,
                     },

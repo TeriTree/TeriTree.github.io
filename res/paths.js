@@ -493,17 +493,115 @@ var paths = [
         ],
     },
     {
+        id: 'Myrin',
+        tiles: [
+            {
+                id: 1,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: 1,
+            },
+            {
+                id: 2,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: 2,
+            },
+            {
+                id: 3,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: 3,
+            },
+            {
+                id: 4,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: 1,
+            },
+            {
+                id: 5,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: 4,
+            },
+            {
+                id: 6,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: 5,
+            },
+            {
+                id: 7,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: 1,
+            },
+            {
+                id: 8,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: 6,
+            },
+            {
+                id: 9,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: 1,
+            },
+            {
+                id: 10,
+                hasItem: 'Myra',
+                deadendType: null,
+                hasPuzzle: false,
+                bg: 7,
+            },
+        ],
+    },
+    {
+        id: 'Érazen',
+        tiles: [
+            {
+                id: 1,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: 1,
+            },
+            {
+                id: 2,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: 2,
+            },
+            {
+                id: 3,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: 3,
+            },
+            {
+                id: 4,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: 4,
+            },
+        ],
+    },
+    {
         id: 'Jas',
-        tiles: [
-        ],
-    },
-    {
-        id: 'Myra',
-        tiles: [
-        ],
-    },
-    {
-        id: 'Erazen',
         tiles: [
         ],
     },
