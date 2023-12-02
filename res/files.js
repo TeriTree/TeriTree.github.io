@@ -85,7 +85,9 @@ var files = [
         folder: './res/Érazen/',
         path: 'Érazen',
         audio:[
-            
+            'drunk.mp3',
+            'gotalk.mp3',
+            'gate.mp3',
         ],
     },
 ];

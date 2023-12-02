@@ -1337,6 +1337,329 @@ var buttons = [
                     },
                 ],
             },
+            {
+                tile: 5,
+                destinationTiles: [ 
+                    {
+                        tile: 3,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 6,
+                        text: 'Get in the car',
+                        posX: 640,
+                        posY: 360,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 6,
+                destinationTiles: [ 
+                    {
+                        tile: 5,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 7,
+                        text: 'Park',
+                        posX: 150,
+                        posY: 580,
+                        newPath: null,
+                    },
+                    {
+                        tile: 9,
+                        text: 'Hotel',
+                        posX: 790,
+                        posY: 480,
+                        newPath: null,
+                    },
+                    {
+                        tile: 13,
+                        text: 'Hospital',
+                        posX: 700,
+                        posY: 400,
+                        newPath: null,
+                    },
+                    {
+                        tile: 15,
+                        text: 'Pub',
+                        posX: 100,
+                        posY: 400,
+                        newPath: null,
+                    },
+                    {
+                        tile: 16,
+                        text: 'House',
+                        posX: 950,
+                        posY: 580,
+                        newPath: null,
+                    },
+                    {
+                        tile: 18,
+                        text: 'Pinacothèque',
+                        posX: 600,
+                        posY: 300,
+                        newPath: null,
+                    },
+                    {
+                        tile: 20,
+                        text: 'Church',
+                        posX: 340,
+                        posY: 380,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 7,
+                destinationTiles: [ 
+                    {
+                        tile: 6,
+                        text: 'Go back',
+                        posX: 620,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 8,
+                        text: 'Play with the kids',
+                        posX: 600,
+                        posY: 360,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 8,
+                destinationTiles: [ 
+                    {
+                        tile: 7,
+                        text: 'Sit on the bench',
+                        posX: 620,
+                        posY: 620,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 9,
+                destinationTiles: [ 
+                    {
+                        tile: 6,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 10,
+                        text: 'Head to the reception',
+                        posX: 580,
+                        posY: 360,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 10,
+                destinationTiles: [ 
+                    {
+                        tile: 9,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 11,
+                        text: 'Sleep',
+                        posX: 640,
+                        posY: 360,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 11,
+                destinationTiles: [ 
+                    {
+                        tile: 12,
+                        text: 'Wake up',
+                        posX: 640,
+                        posY: 360,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 12,
+                destinationTiles: [ 
+                    {
+                        tile: 9,
+                        text: 'Exit the hotel',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 13,
+                destinationTiles: [ 
+                    {
+                        tile: 6,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 14,
+                destinationTiles: [ 
+                    {
+                        tile: 13,
+                        text: 'Hospital',
+                        posX: 840,
+                        posY: 620,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 15,
+                destinationTiles: [ 
+                    {
+                        tile: 6,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 16,
+                destinationTiles: [ 
+                    {
+                        tile: 6,
+                        text: 'Go out',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 17,
+                        text: 'Sit at the dinner table',
+                        posX: 600,
+                        posY: 360,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 17,
+                destinationTiles: [ 
+                    {
+                        tile: 6,
+                        text: 'Go out',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 18,
+                destinationTiles: [ 
+                    {
+                        tile: 6,
+                        text: 'Go out',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 19,
+                        text: 'Change room',
+                        posX: 700,
+                        posY: 360,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 19,
+                destinationTiles: [ 
+                    {
+                        tile: 18,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 20,
+                destinationTiles: [ 
+                    {
+                        tile: 6,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 21,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 360,
+                        newPath: null,
+                    },
+
+                ],
+            },
+            {
+                tile: 21,
+                destinationTiles: [ 
+                    {
+                        tile: 20,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 22,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 360,
+                        newPath: null,
+                    },
+
+                ],
+            },
+            {
+                tile: 22,
+                destinationTiles: [ 
+                    {
+                        tile: 21,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                ],
+            },
         ],
     },
 ];

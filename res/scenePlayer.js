@@ -1068,6 +1068,233 @@ var scenes = [
                     [[playText, [path, tile, 12, 0]]],
                 ];
             },
+            function Érazen_5(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playText, [path, tile, 6, 0]]],
+                    [[playText, [path, tile, 7, 0]]],
+                    [[playOptions, [path, tile]]],
+                    [[playText, [path, tile, 8, 0]]],
+                ];
+            },
+            function Érazen_6(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playSound, [path, 'gate.mp3', 0]], [playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                ];
+            },
+            function Érazen_7(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playSound, [path, 'drunk.mp3', 0]], [playText, [path, tile, 6, 0]]],
+                    [[playText, [path, tile, 7, 0]]],
+                    [[playSound, [path, 'gotalk.mp3', 0]], [playText, [path, tile, 8, 0]]],
+                    [[playText, [path, tile, 9, 0]]],
+                ];
+            },
+            function Érazen_8(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                ];
+            },
+            function Érazen_9(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                ];
+            },
+            function Érazen_10(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                ];
+            },
+            function Érazen_11(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                ];
+            },
+            function Érazen_12(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                ];
+            },
+            function Érazen_13(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playText, [path, tile, 6, 0]]],
+                ];
+            },
+            function Érazen_14(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                ];
+            },
+            function Érazen_15(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playText, [path, tile, 6, 0]]],
+                    [[playText, [path, tile, 7, 0]]],
+                    [[playText, [path, tile, 8, 0]]],
+                    [[playText, [path, tile, 9, 0]]],
+                    [[playText, [path, tile, 10, 0]]],
+                    [[playText, [path, tile, 11, 0]]],
+                    [[playText, [path, tile, 12, 0]]],
+                    [[playText, [path, tile, 13, 0]]],
+                    [[playText, [path, tile, 14, 0]]],
+                    [[playText, [path, tile, 15, 0]]],
+                    [[playText, [path, tile, 16, 0]]],
+                ];
+            },
+            function Érazen_16(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                ];
+            },
+            function Érazen_17(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playText, [path, tile, 6, 0]]],
+                    [[playText, [path, tile, 7, 0]]],
+                    [[playText, [path, tile, 8, 0]]],
+                    [[playText, [path, tile, 9, 0]]],
+                    [[playText, [path, tile, 10, 0]]],
+                    [[playText, [path, tile, 11, 0]]],
+                    [[playText, [path, tile, 12, 0]]],
+                    [[playText, [path, tile, 13, 0]]],
+                    [[playOptions, [path, tile]]],
+                ];
+            },
+            function Érazen_18(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playText, [path, tile, 6, 0]]],
+                    [[playText, [path, tile, 7, 0]]],
+                    [[playText, [path, tile, 8, 0]]],
+                    [[playText, [path, tile, 9, 0]]],
+                    [[playText, [path, tile, 10, 0]]],
+                    [[playText, [path, tile, 11, 0]]],
+                    [[playText, [path, tile, 12, 0]]],
+                    [[playText, [path, tile, 13, 0]]],
+                    [[playText, [path, tile, 14, 0]]],
+                    [[playText, [path, tile, 15, 0]]],
+                ];
+            },
+            function Érazen_19(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playText, [path, tile, 6, 0]]],
+                    [[playText, [path, tile, 7, 0]]],
+                    [[playText, [path, tile, 8, 0]]],
+                    [[playText, [path, tile, 9, 0]]],
+                    [[playText, [path, tile, 10, 0]]],
+                    [[playText, [path, tile, 11, 0]]],
+                ];
+            },
+            function Érazen_20(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playText, [path, tile, 6, 0]]],
+                    [[playText, [path, tile, 7, 0]]],
+                    [[playText, [path, tile, 8, 0]]],
+                    [[playText, [path, tile, 9, 0]]],
+                    [[playText, [path, tile, 10, 0]]],
+                    [[playText, [path, tile, 11, 0]]],
+                    [[playText, [path, tile, 12, 0]]],
+                ];
+            },
+            function Érazen_21(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                ];
+            },
+            function Érazen_22(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                ];
+            },
         ],
     },
 ]

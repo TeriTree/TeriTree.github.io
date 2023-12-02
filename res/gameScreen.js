@@ -37,8 +37,8 @@ function renderPage(path, tile) {
 
 
 //STARTING POINT AFTER LOADING IN
-renderPage(5, 0);
-sequenceCheck(5, 0);
+renderPage(6, 5);
+sequenceCheck(6, 5);
 
 function unrenderPage(path, tile) {
     for (var i in buttons[path].tiles[tile].destinationTiles) {

@@ -595,50 +595,50 @@ var seq = [
                 type: 'n',
                 complete: false,
                 text: [
-                    "Beerin is happy", /*0*/
-                    "Beerin is always happy", /*1*/
+                    "Beerin is happy.", /*0*/
+                    "Beerin is always happy.", /*1*/
                     "How could it not be, when it spent everyday hanging out with its friend?", /*2*/
-                    "Buzzing about, telling stories and discussing philosphy with Treeze. Yes, Beerin was very happy indeed, to have such a calm and carefree life", /*3*/
-                    "No worries, no doubts, just endless days of fun under the sun", /*4*/
-                    "Currently, Beerin was flying around a plain of grass", /*5*/
+                    "Buzzing about, telling stories and discussing philosphy with Treeze. Yes, Beerin was very happy indeed, to have such a calm and carefree life.", /*3*/
+                    "No worries, no doubts, just endless days of fun under the sun.", /*4*/
+                    "Currently, Beerin was flying around a plain of grass.", /*5*/
                     "There are no flowers here, but that's alright, since Beerin has the ultimate power of friendship!", /*6*/
-                    "In the distant stood its friend, the wise tree Treeze", /*7*/
-                    "He swayed in wind, and though Beerin knew Treeze couldn't actually move any of his branches, it imagined he was waving at it", /*8*/
-                    "After sufficient buzzing around, Beerin returned to the hill on which Treeze stood", /*9*/
-                    "It told the tree about its day of hanging out in the grass", /*10*/
+                    "In the distant stood its friend, the wise tree Treeze.", /*7*/
+                    "He swayed in wind, and though Beerin knew Treeze couldn't actually move any of his branches, it imagined he was waving at it.", /*8*/
+                    "After sufficient buzzing around, Beerin returned to the hill on which Treeze stood.", /*9*/
+                    "It told the tree about its day of hanging out in the grass.", /*10*/
                     "Treeze hums. And told Beerin in turn about his day, in which he stood at the top of the hill and swayed in wind.", /*11*/
-                    "Indeed, as Treeze was rooted to his spot, he could not go out and play in the grass and explore the world like Beerin can", /*12*/
-                    "Perhaps it was a bit sad, was what Beerin thought", /*13*/
-                    "Beerin was happy, but perhaps it wished Treeze could be happy too", /*14*/
-                    "He had it for company, but it could decide to fly off anytime it wanted", /*15*/
-                    "Even if Treeze wished, he would still be rooted to this spot for all his life", /*16*/
+                    "Indeed, as Treeze was rooted to his spot, he could not go out and play in the grass and explore the world like Beerin can.", /*12*/
+                    "Perhaps it was a bit sad, was what Beerin thought.", /*13*/
+                    "Beerin was happy, but perhaps it wished Treeze could be happy too.", /*14*/
+                    "He had it for company, but it could decide to fly off anytime it wanted.", /*15*/
+                    "Even if Treeze wished, he would still be rooted to this spot for all his life.", /*16*/
                     "That's why Beerin needed to cheer Treeze up!", /*17*/
-                    "But how?, Beerin wondered", /*18*/
-                    "There was nothing here, nothing to do in this wide and expansive grass field", /*19*/
-                    "There were no flowers, no other trees, there was not even any clouds passing by that one could count", /*20*/
-                    "In this unchanging world, there was on the grass and the wind, and of course, that sun shining overhead", /*21*/
-                    "But none of these could cheer Treeze up", /*22*/
-                    "Beerin was discouraged", /*23*/
+                    "But how?, Beerin wondered.", /*18*/
+                    "There was nothing here, nothing to do in this wide and expansive grass field.", /*19*/
+                    "There were no flowers, no other trees, there was not even any clouds passing by that one could count.", /*20*/
+                    "In this unchanging world, there was on the grass and the wind, and of course, that sun shining overhead.", /*21*/
+                    "But none of these could cheer Treeze up.", /*22*/
+                    "Beerin was discouraged.", /*23*/
                     "What to do?", /*24*/
-                    "It sat on one of the grass blades, contemplating", /*25*/
-                    "Treeze sees the little bee being dejected", /*26*/
-                    "To him, the little bee was trapped here along with him; it never went back to its hive, nor did it ever go buzz around flowers", /*27*/
+                    "It sat on one of the grass blades, contemplating.", /*25*/
+                    "Treeze sees the little bee being dejected.", /*26*/
+                    "To him, the little bee was trapped here along with him; it never went back to its hive, nor did it ever go buzz around flowers.", /*27*/
                     "So he tells the bee:", /*28*/
                     "'Go out there. There will be places to explore and colors to see. I may be rooted here, but you can fly free. So fly high, do not chain yourself to this unchanging plain.'", /*29*/
-                    "The little Beerin never fathomed of going outside the grass field", /*30*/
-                    "It was like in that moment, an invisible wall inside its head was just broken through", /*31*/
-                    "It knew the outside world, of course it did. that was where its hive, its home was, after all", /*32*/
-                    "Yet somehow, it never thought of doing what Treeze was suggesting", /*33*/
-                    "Somehow, those memories of home and other bees seem so distant", /*34*/
-                    "Beerin could not help but question itself just a little bit", /*35*/
+                    "The little Beerin never fathomed of going outside the grass field.", /*30*/
+                    "It was like in that moment, an invisible wall inside its head was just broken through.", /*31*/
+                    "It knew the outside world, of course it did. that was where its hive, its home was, after all.", /*32*/
+                    "Yet somehow, it never thought of doing what Treeze was suggesting.", /*33*/
+                    "Somehow, those memories of home and other bees seem so distant.", /*34*/
+                    "Beerin could not help but question itself just a little bit.", /*35*/
                     "But it pushed those thoughts aside, because it decided to stay here, didn't it? No time for regrets!", /*36*/
-                    "it was fine with life here. It was peaceful and happy. Even if it was away from home, spending eternity here with its friend was not that bad", /*37*/
-                    "Its hive would survive without it", /*38*/
-                    "But from this, Beerin also gained a new idea", /*39*/
-                    "It may be fine, but Treeze could not possibly bear so much time spent only with the grass, the wind and sun", /*40*/
-                    "Thus, Beerin decides. Yes, it will venture into the outside world after all, and it will bring back many wonderful things for Treeze to enjoy", /*41*/
-                    "With a world so large, there would surely be something that Treeze would like", /*42*/
-                    "And maybe, maybe then, when it bought back something like that", /*43*/
+                    "it was fine with life here. It was peaceful and happy. Even if it was away from home, spending eternity here with its friend was not that bad.", /*37*/
+                    "Its hive would survive without it.", /*38*/
+                    "But from this, Beerin also gained a new idea.", /*39*/
+                    "It may be fine, but Treeze could not possibly bear so much time spent only with the grass, the wind and sun.", /*40*/
+                    "Thus, Beerin decides. Yes, it will venture into the outside world after all, and it will bring back many wonderful things for Treeze to enjoy.", /*41*/
+                    "With a world so large, there would surely be something that Treeze would like.", /*42*/
+                    "And maybe, maybe then, when it bought back something like that.", /*43*/
                     "Maybe Treeze can be happy as well.", /*44*/
                 ],
             },
@@ -647,25 +647,25 @@ var seq = [
                 type: 'n',
                 complete: false,
                 text: [
-                    "These rivers sure were nice looking, thought Beerin", /*0*/
-                    "Watching them flow by slowly was very calm and relaxing", /*1*/
-                    "And how the water glittered in sunlight, the way it turned a brilliant white color", /*2*/
-                    "It was rather mezmerizing to look at", /*3*/
-                    "It was shame, yes, a great shame indeed, that Treeze could not come to look at this river", /*4*/
-                    "And when Beerin came near, it could see a double of itself in the flowing water", /*5*/
-                    "Perhaps there was a different Beerin living a similar life underwater, pondered Beerin", /*6*/
-                    "Perhaps there was a river Treeze somewhere as well", /*7*/
-                    "It was shame, yes, a great shame indeed, that Treeze can not come to look at this river", /*8*/
-                    "Beerin would bring the river to Treeze, if it could, but alas, though Beerin was powerful and strong, controlling the path of rivers was not within its jurisdiction", /*9*/
-                    "Looking at the clone Beerin in the water, Beerin wanted to cross the water to the other side, but it remembered the bee hive's teaching, and how going into bodies of water was forbidden", /*10*/
-                    "At the memory of its hive, Beerin stopped", /*11*/
-                    "How strange, that it would still obey the hive's teachings when it lived with them no longer", /*12*/
-                    "Perhaps there is a part of it that still wished to go back after all", /*13*/
-                    "But the hive was then, and this was now", /*14*/
-                    "The hive would be fine living without it living by their side", /*15*/
-                    "But Beerin would heed their words nonetheless", /*16*/
-                    "Perhaps, even when that chapter of life has gone and went by, it could still cherish the memories made there", /*17*/
-                    "Beerin decided to resist the temptation to go into the water and pull out a clone Beerin ", /*18*/
+                    "These rivers sure were nice looking, thought Beerin.", /*0*/
+                    "Watching them flow by slowly was very calm and relaxing.", /*1*/
+                    "And how the water glittered in sunlight, the way it turned a brilliant white color.", /*2*/
+                    "It was rather mezmerizing to look at.", /*3*/
+                    "It was shame, yes, a great shame indeed, that Treeze could not come to look at this river.", /*4*/
+                    "And when Beerin came near, it could see a double of itself in the flowing water.", /*5*/
+                    "Perhaps there was a different Beerin living a similar life underwater, pondered Beerin.", /*6*/
+                    "Perhaps there was a river Treeze somewhere as well.", /*7*/
+                    "It was shame, yes, a great shame indeed, that Treeze can not come to look at this river.", /*8*/
+                    "Beerin would bring the river to Treeze, if it could, but alas, though Beerin was powerful and strong, controlling the path of rivers was not within its jurisdiction.", /*9*/
+                    "Looking at the clone Beerin in the water, Beerin wanted to cross the water to the other side, but it remembered the bee hive's teaching, and how going into bodies of water was forbidden.", /*10*/
+                    "At the memory of its hive, Beerin stopped.", /*11*/
+                    "How strange, that it would still obey the hive's teachings when it lived with them no longer.", /*12*/
+                    "Perhaps there is a part of it that still wished to go back after all.", /*13*/
+                    "But the hive was then, and this was now.", /*14*/
+                    "The hive would be fine living without it living by their side.", /*15*/
+                    "But Beerin would heed their words nonetheless.", /*16*/
+                    "Perhaps, even when that chapter of life has gone and went by, it could still cherish the memories made there.", /*17*/
+                    "Beerin decided to resist the temptation to go into the water and pull out a clone Beerin.", /*18*/
                 ],
             },
             {
@@ -673,25 +673,25 @@ var seq = [
                 type: 'n',
                 complete: false,
                 text: [
-                    "Now to look for something to bring back, it thinks", /*0*/
-                    "Thus Beerin buzzes around the edge of the river, going in the direction it flowed", /*1*/
+                    "Now to look for something to bring back, it thinks.", /*0*/
+                    "Thus Beerin buzzes around the edge of the river, going in the direction it flowed.", /*1*/
                     "Until it saw a figure in the distance.", /*2*/
-                    "A lumbering creature. It was many times larger than Beerin", /*3*/
-                    "It stood upright, and held a strange device near its head", /*4*/
-                    "Out of curiosity, Beerin flies over to look at what the creature was looking at", /*5*/
-                    "To its shock, it was a mini world, identical to the world it was inhabitating", /*6*/
-                    "The world looked the same as outside, from the grass, to the sky, to the river", /*7*/
-                    "But in the mini world, everything was still", /*8*/
-                    "Beerin had a revelation. Perhaps it could bring a river to Treeze after all", /*9*/
-                    "This device, it held inside a river, but was small, and it was something Beerin could pick up", /*10*/
-                    "Surely Treeze would be very happy to have a river at where he stayed", /*11*/
-                    "Thus Beerin docked on the grass nearby and awaited its oppurtunity ", /*12*/
-                    "As the creature sat down, and sat the device aside, Beerin began making its move", /*13*/
-                    "The creature was busy doing something with a white thing", /*14*/
-                    "Beerin was unsure what, but the creature was staining the white thing with tiny black symbols", /*15*/
-                    "Perhaps this was a strange ritual of some kind, Beerin decided, and took the river holding device", /*16*/
-                    "It hid among the grass for a long time, slowly making its way away from the strange lumbering creature", /*17*/
-                    "And homewards Beerin went", /*18*/
+                    "A lumbering creature. It was many times larger than Beerin.", /*3*/
+                    "It stood upright, and held a strange device near its head.", /*4*/
+                    "Out of curiosity, Beerin flies over to look at what the creature was looking at.", /*5*/
+                    "To its shock, it was a mini world, identical to the world it was inhabitating.", /*6*/
+                    "The world looked the same as outside, from the grass, to the sky, to the river.", /*7*/
+                    "But in the mini world, everything was still.", /*8*/
+                    "Beerin had a revelation. Perhaps it could bring a river to Treeze after all.", /*9*/
+                    "This device, it held inside a river, but was small, and it was something Beerin could pick up.", /*10*/
+                    "Surely Treeze would be very happy to have a river at where he stayed.", /*11*/
+                    "Thus Beerin docked on the grass nearby and awaited its oppurtunity.", /*12*/
+                    "As the creature sat down, and sat the device aside, Beerin began making its move.", /*13*/
+                    "The creature was busy doing something with a white thing.", /*14*/
+                    "Beerin was unsure what, but the creature was staining the white thing with tiny black symbols.", /*15*/
+                    "Perhaps this was a strange ritual of some kind, Beerin decided, and took the river holding device.", /*16*/
+                    "It hid among the grass for a long time, slowly making its way away from the strange lumbering creature.", /*17*/
+                    "And homewards Beerin went.", /*18*/
                 ],
             },
             {
@@ -699,39 +699,39 @@ var seq = [
                 type: 'n',
                 complete: false,
                 text: [
-                    "Returning to the grassy plains, Beerin presented its finding to Treeze", /*0*/
-                    "It seems that Treeze is pleased by the strange device, and he asked about where it came from ", /*1*/
-                    "Beerin then regaled him with tales of its adventures", /*2*/
-                    "Of the river, the creature and the strange rituals it partook in", /*3*/
-                    "Treeze was very curious about all of these strange things Beerin encountered", /*4*/
-                    "And they talked for what seemed like forever over what these things could mean", /*5*/
-                    "When Beerin mentioned its hive's teaching, Treeze paused", /*6*/
-                    "Then he asked Beerin why it decided to leave its hive, when it loved that hive so much", /*7*/
-                    "To this, Beerin answered that it wanted to hang out with Treeze", /*8*/
-                    "But surely, you can stay at the hive and still visit me, questioned Treeze", /*9*/
-                    "This gave the little Beerin a little pause", /*10*/
-                    "It was trying to come up with an answer, yet in its mind, there was simply blank space", /*11*/
-                    "Why? why did it decide to leave the hive? Beerin did not know", /*12*/
-                    "Finally, Beerin answered: you needed me more than the hive did", /*13*/
-                    "It was unsure if that was the real answer, but it said it nonetheless", /*14*/
-                    "After all, that was the only good explanation", /*15*/
-                    "So that must have been what Beerin thought when it left the hive", /*16*/
-                    "It was the only explanation that made sense", /*17*/
-                    "Treeze hummed, and accepted the answer", /*18*/
-                    "Yet it seemed to the little Beerin that there was something still plaguing Treeze", /*19*/
-                    "Perhaps there was something wrong with its answer after all? Beerin did not know", /*20*/
-                    "Treeze did think about things a lot", /*21*/
-                    "Beerin always took him for someone who was not satisfied with just letting things be when there was still doubt", /*22*/
-                    "It made sense, somewhat. After all, it's not like there was much to do here except thinking", /*23*/
-                    "But even so, if Treeze would not voice his concerns to it, Beerin supposed it can't pry", /*24*/
-                    "Still, Beerin was unsettled", /*25*/
+                    "Returning to the grassy plains, Beerin presented its finding to Treeze.", /*0*/
+                    "It seems that Treeze is pleased by the strange device, and he asked about where it came from.", /*1*/
+                    "Beerin then regaled him with tales of its adventures.", /*2*/
+                    "Of the river, the creature and the strange rituals it partook in.", /*3*/
+                    "Treeze was very curious about all of these strange things Beerin encountered.", /*4*/
+                    "And they talked for what seemed like forever over what these things could mean.", /*5*/
+                    "When Beerin mentioned its hive's teaching, Treeze paused.", /*6*/
+                    "Then he asked Beerin why it decided to leave its hive, when it loved that hive so much.", /*7*/
+                    "To this, Beerin answered that it wanted to hang out with Treeze.", /*8*/
+                    "But surely, you can stay at the hive and still visit me, questioned Treeze.", /*9*/
+                    "This gave the little Beerin a little pause.", /*10*/
+                    "It was trying to come up with an answer, yet in its mind, there was simply blank space.", /*11*/
+                    "Why? why did it decide to leave the hive? Beerin did not know.", /*12*/
+                    "Finally, Beerin answered: you needed me more than the hive did.", /*13*/
+                    "It was unsure if that was the real answer, but it said it nonetheless.", /*14*/
+                    "After all, that was the only good explanation.", /*15*/
+                    "So that must have been what Beerin thought when it left the hive.", /*16*/
+                    "It was the only explanation that made sense.", /*17*/
+                    "Treeze hummed, and accepted the answer.", /*18*/
+                    "Yet it seemed to the little Beerin that there was something still plaguing Treeze.", /*19*/
+                    "Perhaps there was something wrong with its answer after all? Beerin did not know.", /*20*/
+                    "Treeze did think about things a lot.", /*21*/
+                    "Beerin always took him for someone who was not satisfied with just letting things be when there was still doubt.", /*22*/
+                    "It made sense, somewhat. After all, it's not like there was much to do here except thinking.", /*23*/
+                    "But even so, if Treeze would not voice his concerns to it, Beerin supposed it can't pry.", /*24*/
+                    "Still, Beerin was unsettled.", /*25*/
                     "Why was its memories so jumbled? It remembered leaving the hive, yet it did not even remember why?", /*26*/
-                    "Perhaps it simply forgot since it was a long time ago, Beerin decided", /*27*/
-                    "No matter what the reason might have been, it had no bearings on the present anymore", /*28*/
-                    "And it moved on from the train of thought", /*29*/
-                    "No use lingering on what was long past, after all", /*30*/
-                    "The two continued conversing, until they had nothing to converse about", /*31*/
-                    "And Beerin departed once more", /*32*/
+                    "Perhaps it simply forgot since it was a long time ago, Beerin decided.", /*27*/
+                    "No matter what the reason might have been, it had no bearings on the present anymore.", /*28*/
+                    "And it moved on from the train of thought.", /*29*/
+                    "No use lingering on what was long past, after all.", /*30*/
+                    "The two continued conversing, until they had nothing to converse about.", /*31*/
+                    "And Beerin departed once more.", /*32*/
                 ],
             },
             {
@@ -739,23 +739,23 @@ var seq = [
                 type: 'n',
                 complete: false,
                 text: [
-                    "These gatherings sure were crouded. Those big, lumbering creatures love to gather here", /*0*/
-                    "Beerin would not blame them, since here was a place of many colors", /*1*/
-                    "Like water flowing from a high thin cliff, streams of colors lay nested above these strange poles", /*2*/
-                    "They flowed down below, and yet stayed suspended in air", /*3*/
-                    "and the tail ends seemed to be flowing in wind", /*4*/
-                    "When Beerin landed on one of these color waterfalls, it was astounded to see that it is solid", /*5*/
-                    "It was not like the streams of water that would have surely flooded it away by now", /*6*/
-                    "Beerin wondered then, if Treeze would like one of these things as decoration", /*7*/
-                    "There were a few trees here that seem to have them already", /*8*/
-                    "Perhaps it was a fashion statement", /*9*/
-                    "Beerin wondered if Treeze liked fashion", /*10*/
+                    "These gatherings sure were crouded. Those big, lumbering creatures love to gather here.", /*0*/
+                    "Beerin would not blame them, since here was a place of many colors.", /*1*/
+                    "Like water flowing from a high thin cliff, streams of colors lay nested above these strange poles.", /*2*/
+                    "They flowed down below, and yet stayed suspended in air.", /*3*/
+                    "and the tail ends seemed to be flowing in wind.", /*4*/
+                    "When Beerin landed on one of these color waterfalls, it was astounded to see that it is solid.", /*5*/
+                    "It was not like the streams of water that would have surely flooded it away by now.", /*6*/
+                    "Beerin wondered then, if Treeze would like one of these things as decoration.", /*7*/
+                    "There were a few trees here that seem to have them already.", /*8*/
+                    "Perhaps it was a fashion statement.", /*9*/
+                    "Beerin wondered if Treeze liked fashion.", /*10*/
                     "Did Treeze even know what fashion was?", /*11*/
-                    "Maybe not, since it was the only person around who went to visit Treeze nowadays", /*12*/
-                    "There was a weird blue thing at some point, but Beerin guessed it got tired of visiting eventually", /*13*/
-                    "Treeze couldn't even look at himself, since there are no lakes around the grass field, and it never rained, so it wasn't as if any kind of puddle can form either", /*14*/
-                    "There was the mini lake holding device, but the lake inside was quite small, and did not have a mini river Treeze", /*15*/
-                    "So perhaps fashion would not be the biggest of priorities", /*16*/
+                    "Maybe not, since it was the only person around who went to visit Treeze nowadays.", /*12*/
+                    "There was a weird blue thing at some point, but Beerin guessed it got tired of visiting eventually.", /*13*/
+                    "Treeze couldn't even look at himself, since there are no lakes around the grass field, and it never rained, so it wasn't as if any kind of puddle can form either.", /*14*/
+                    "There was the mini lake holding device, but the lake inside was quite small, and did not have a mini river Treeze.", /*15*/
+                    "So perhaps fashion would not be the biggest of priorities.", /*16*/
                 ],
             },
             {
@@ -763,22 +763,22 @@ var seq = [
                 type: 'n',
                 complete: false,
                 text: [
-                    "Beerin thought again", /*0*/
+                    "Beerin thought again.", /*0*/
                     "What else could it bring back? Food? A shiny rock? One of those paper things the big lumbering creatures seem to carry around?", /*1*/
-                    "Suddenly, Beerin was distracted", /*2*/
-                    "Out of its field of vision, one of the smaller of the big lumbering creatures was carrying something", /*3*/
-                    "It was.... well. Beyond Beerin's ability to describe, really", /*4*/
-                    "It was a stick, and on the end, there was a spinning thing", /*5*/
-                    "That spinny thing had four colors, and they spun around very prettily", /*6*/
-                    "Yes, thought Beerin, I will bring that back to Treeze", /*7*/
-                    "And he would be very pleased, the little bee was sure of that", /*8*/
-                    "Thus Beerin buzzed over to the creature, and docked on the handle", /*9*/
-                    "It attempted to pull the spinning thing from the creature's grip", /*10*/
-                    "Hovever, Beerin could not manage it", /*11*/
-                    "Yet when the lumbering creature looked down at Beerin, it let out a small scream, and flung the spinning thing, along with Beerin, to the ground", /*12*/
-                    "As Beerin looked up back at the creature from where it sat on the ground, it realized the creature was running away", /*13*/
-                    "A decisive victory for the little Beerin, it decided", /*14*/
-                    "The little Beerin grabs onto the spinning thing, and begins its return to the grassy plain where Treeze resided", /*15*/
+                    "Suddenly, Beerin was distracted.", /*2*/
+                    "Out of its field of vision, one of the smaller of the big lumbering creatures was carrying something.", /*3*/
+                    "It was.... well. Beyond Beerin's ability to describe, really.", /*4*/
+                    "It was a stick, and on the end, there was a spinning thing.", /*5*/
+                    "That spinny thing had four colors, and they spun around very prettily.", /*6*/
+                    "Yes, thought Beerin, I will bring that back to Treeze.", /*7*/
+                    "And he would be very pleased, the little bee was sure of that.", /*8*/
+                    "Thus Beerin buzzed over to the creature, and docked on the handle.", /*9*/
+                    "It attempted to pull the spinning thing from the creature's grip.", /*10*/
+                    "Hovever, Beerin could not manage it.", /*11*/
+                    "Yet when the lumbering creature looked down at Beerin, it let out a small scream, and flung the spinning thing, along with Beerin, to the ground.", /*12*/
+                    "As Beerin looked up back at the creature from where it sat on the ground, it realized the creature was running away.", /*13*/
+                    "A decisive victory for the little Beerin, it decided.", /*14*/
+                    "The little Beerin grabs onto the spinning thing, and begins its return to the grassy plain where Treeze resided.", /*15*/
                 ],
             },
             {
@@ -786,42 +786,42 @@ var seq = [
                 type: 'n',
                 complete: false,
                 text: [
-                    "Returning to the grassy plains, Beerin presented its finding to Treeze", /*0*/
-                    "It seemed that Treeze is pleased by the spinning thing, and he asked about where it came from ", /*1*/
-                    "Beerin then regaled him with tales of its adventures", /*2*/
-                    "Of the gathering, of tree fashion and how it defeated a strange lumbering creature to get the spinning thing", /*3*/
-                    "Treeze was very curious about all of these strange things Beerin encountered", /*4*/
-                    "And they talked for what seemed like forever over what these things could mean", /*5*/
-                    "When Beerin mentioned the gathering, Treeze began to be curious", /*6*/
-                    "Do they always gather there?, he asked", /*7*/
-                    "No, was Beerin's reply, I have been there a few times and there were not as many lumbering creatures then", /*8*/
-                    "How strange, thought Treeze", /*9*/
-                    "Did they all come there together?, he asked", /*10*/
-                    "No, was Beerin's reply, i saw some arrived later on", /*11*/
-                    "Treeze hummed, and pondered, I wonder how they keep track of time, since they seem to know when the gathering was happening", /*12*/
-                    "Beerin laughed", /*13*/
-                    "They obviously used the cycle of night and day, it said", /*14*/
-                    "What is this cycle of day and night, asked Treeze", /*15*/
-                    "Beerin freezes, and looks over", /*16*/
-                    "When the sun sets and comes back again everyday, when it switches between night and day and day and night again?, was what it said back", /*17*/
-                    "But the sun never sets, said Treeze, it has stayed in the spot  on the sky for as long as i remember", /*18*/
-                    "Beerin became confused, and looked at the sun", /*19*/
-                    "Yes, it was still in the sky, in fact, it was in the same spot as the last time Beerin has seen it", /*20*/
-                    "And Beerin could not remember the last time it had been night, or even the last time the sun had been anywhere else but that spot in the sky", /*21*/
-                    "In fact, Beerin could not even remember why it thought that a day night cycle ever existed", /*22*/
-                    "That was where the sun stayed.... it always has been", /*23*/
-                    "The sun does not move, it never has", /*24*/
+                    "Returning to the grassy plains, Beerin presented its finding to Treeze.", /*0*/
+                    "It seemed that Treeze is pleased by the spinning thing, and he asked about where it came from.", /*1*/
+                    "Beerin then regaled him with tales of its adventures.", /*2*/
+                    "Of the gathering, of tree fashion and how it defeated a strange lumbering creature to get the spinning thing.", /*3*/
+                    "Treeze was very curious about all of these strange things Beerin encountered.", /*4*/
+                    "And they talked for what seemed like forever over what these things could mean.", /*5*/
+                    "When Beerin mentioned the gathering, Treeze began to be curious.", /*6*/
+                    "Do they always gather there?, he asked.", /*7*/
+                    "No, was Beerin's reply, I have been there a few times and there were not as many lumbering creatures then.", /*8*/
+                    "How strange, thought Treeze.", /*9*/
+                    "Did they all come there together?, he asked.", /*10*/
+                    "No, was Beerin's reply, i saw some arrived later on.", /*11*/
+                    "Treeze hummed, and pondered, I wonder how they keep track of time, since they seem to know when the gathering was happening.", /*12*/
+                    "Beerin laughed.", /*13*/
+                    "They obviously used the cycle of night and day, it said.", /*14*/
+                    "What is this cycle of day and night, asked Treeze.", /*15*/
+                    "Beerin freezes, and looks over.", /*16*/
+                    "When the sun sets and comes back again everyday, when it switches between night and day and day and night again?, was what it said back.", /*17*/
+                    "But the sun never sets, said Treeze, it has stayed in the spot  on the sky for as long as i remember.", /*18*/
+                    "Beerin became confused, and looked at the sun.", /*19*/
+                    "Yes, it was still in the sky, in fact, it was in the same spot as the last time Beerin has seen it.", /*20*/
+                    "And Beerin could not remember the last time it had been night, or even the last time the sun had been anywhere else but that spot in the sky.", /*21*/
+                    "In fact, Beerin could not even remember why it thought that a day night cycle ever existed.", /*22*/
+                    "That was where the sun stayed.... it always has been.", /*23*/
+                    "The sun does not move, it never has.", /*24*/
                     "What was Beerin even talking about?", /*25*/
-                    "Nevermind, said Beerin to Treeze, I must have imgined something that wasn't there", /*26*/
-                    "Perhaps Beerin mistook something from a dream of its for something in reality", /*27*/
-                    "Treeze humed, and accepted the answer", /*28*/
-                    "But Beerin could tell that it still bothered Treeze", /*29*/
-                    "It did not blame him, this subject bothered it as well", /*30*/
-                    "Had Beerin always been such an airheaded person? It seemed like things had been slipping by it all too often lately", /*31*/
+                    "Nevermind, said Beerin to Treeze, I must have imgined something that wasn't there.", /*26*/
+                    "Perhaps Beerin mistook something from a dream of its for something in reality.", /*27*/
+                    "Treeze humed, and accepted the answer.", /*28*/
+                    "But Beerin could tell that it still bothered Treeze.", /*29*/
+                    "It did not blame him, this subject bothered it as well.", /*30*/
+                    "Had Beerin always been such an airheaded person? It seemed like things had been slipping by it all too often lately.", /*31*/
                     "And now... inventing things that weren't real? And then acting like they were?", /*32*/
-                    "Beerin couldn't help but feel there was a hole where its head should be", /*33*/
-                    "Still, they both moved on, and talked about everything else until there was nothing to be talked about", /*34*/
-                    "And Beerin departed once again", /*35*/
+                    "Beerin couldn't help but feel there was a hole where its head should be.", /*33*/
+                    "Still, they both moved on, and talked about everything else until there was nothing to be talked about.", /*34*/
+                    "And Beerin departed once again.", /*35*/
                 ],
             },
             {
@@ -829,43 +829,43 @@ var seq = [
                 type: 'n',
                 complete: false,
                 text: [
-                    "Beerin had seen a few grassfields with wild flowers on its travels before, but this is was something else entirely", /*0*/
-                    "Everywhere, from where it was perching, to beyond the horizon, there were only flowers", /*1*/
-                    "A sea filled only with golden flowers", /*2*/
-                    "In short, a bee's heaven", /*3*/
-                    "Beerin was in fact, so entranced by the flower field, that it frolicked around for hours and hours", /*4*/
-                    "Perhaps it was simply the nature of bees, to be distracted by flowers, but Beerin forgot its original mission", /*5*/
-                    "So it buzzed around until it didn't have the strength to anymore", /*6*/
-                    "So Beerin perched on one of the leaves, and took a nap", /*7*/
-                    "It was a deep sleep, and after a while, Beerin woke up", /*8*/
-                    "But something was different, now", /*9*/
-                    "It seemed that while Beerin was sleeping, it had begun to rain", /*10*/
-                    "The sky, which was previously perfectly clear, was now covered with dark clouds", /*11*/
-                    "And from the heavens came large drops of water", /*12*/
-                    "It was less of a drizzle, and more of a complete downpour", /*13*/
-                    "How did I sleep through such a big storm?, thought Beerin", /*14*/
-                    "Indeed, it was rather unusual, that Beerin had not been awoken prior to this, considering the intensity of the rain", /*15*/
-                    "Somewhere near, it heard a terrible thunder", /*16*/
-                    "Beerin fled immediately", /*17*/
-                    "For some strange reason, Beerin was struck by an strange terror", /*18*/
-                    "Beyond just a survival instinct of wanting to flee storms, Beerin felt as though its entire body has been gripped with fear", /*19*/
-                    "It was like Beerin had seen something like this before", /*20*/
-                    "Beerin took use of the grass, since flying normally would put it at risk of being hit by rainfall", /*21*/
-                    "It weaved and dodged, but eventually managed to escape to the one place it knew would be safe: the hive", /*22*/
-                    "The hive had a protective barrier, and as Beerin thought, it was strong enough to ward off the storm", /*23*/
-                    "It had been a while since Beerin returned to the hive, so naturally it was reluctant", /*24*/
-                    "However, the situation demanded this of it, and Beerin had no other choice", /*25*/
+                    "Beerin had seen a few grassfields with wild flowers on its travels before, but this is was something else entirely.", /*0*/
+                    "Everywhere, from where it was perching, to beyond the horizon, there were only flowers.", /*1*/
+                    "A sea filled only with golden flowers.", /*2*/
+                    "In short, a bee's heaven.", /*3*/
+                    "Beerin was in fact, so entranced by the flower field, that it frolicked around for hours and hours.", /*4*/
+                    "Perhaps it was simply the nature of bees, to be distracted by flowers, but Beerin forgot its original mission.", /*5*/
+                    "So it buzzed around until it didn't have the strength to anymore.", /*6*/
+                    "So Beerin perched on one of the leaves, and took a nap.", /*7*/
+                    "It was a deep sleep, and after a while, Beerin woke up.", /*8*/
+                    "But something was different, now.", /*9*/
+                    "It seemed that while Beerin was sleeping, it had begun to rain.", /*10*/
+                    "The sky, which was previously perfectly clear, was now covered with dark clouds.", /*11*/
+                    "And from the heavens came large drops of water.", /*12*/
+                    "It was less of a drizzle, and more of a complete downpour.", /*13*/
+                    "How did I sleep through such a big storm?, thought Beerin.", /*14*/
+                    "Indeed, it was rather unusual, that Beerin had not been awoken prior to this, considering the intensity of the rain.", /*15*/
+                    "Somewhere near, it heard a terrible thunder.", /*16*/
+                    "Beerin fled immediately.", /*17*/
+                    "For some strange reason, Beerin was struck by an strange terror.", /*18*/
+                    "Beyond just a survival instinct of wanting to flee storms, Beerin felt as though its entire body has been gripped with fear.", /*19*/
+                    "It was like Beerin had seen something like this before.", /*20*/
+                    "Beerin took use of the grass, since flying normally would put it at risk of being hit by rainfall.", /*21*/
+                    "It weaved and dodged, but eventually managed to escape to the one place it knew would be safe: the hive.", /*22*/
+                    "The hive had a protective barrier, and as Beerin thought, it was strong enough to ward off the storm.", /*23*/
+                    "It had been a while since Beerin returned to the hive, so naturally it was reluctant.", /*24*/
+                    "However, the situation demanded this of it, and Beerin had no other choice.", /*25*/
                     "But when Beerin entered the hive to greet its former hivemates....", /*26*/
                     "The wor l̶d̶     b̷   r̵ ̶    ̷ ̶ ̴o̵         ̵̖͗k̵ ̵               ̵e̷̒", /*27*/
-                    "Beerin woke up, once again in the field of flowers", /*28*/
-                    "How strange, it thought", /*29*/
-                    "The sky was clear again, the sun was once again in the position it always occupied, and there was no rain in sight", /*30*/
-                    "Was that a dream?, wondered Beerin, such a strange dream it was", /*31*/
-                    "Beerin flew up from the leaf it was perching on", /*32*/
-                    "All seemed well again. No indication of rain or it ever having rained previously", /*33*/
-                    "Beerin hummed, it supposed that it must have all been conjured up by its mind", /*34*/
-                    "Thus Beerin picked a lone flower, and headed back to Treeze", /*35*/
-                    "Even though its mind was plagued by thoughts of that dream the entire way back", /*36*/
+                    "Beerin woke up, once again in the field of flowers.", /*28*/
+                    "How strange, it thought.", /*29*/
+                    "The sky was clear again, the sun was once again in the position it always occupied, and there was no rain in sight.", /*30*/
+                    "Was that a dream?, wondered Beerin, such a strange dream it was.", /*31*/
+                    "Beerin flew up from the leaf it was perching on.", /*32*/
+                    "All seemed well again. No indication of rain or it ever having rained previously.", /*33*/
+                    "Beerin hummed, it supposed that it must have all been conjured up by its mind.", /*34*/
+                    "Thus Beerin picked a lone flower, and headed back to Treeze.", /*35*/
+                    "Even though its mind was plagued by thoughts of that dream the entire way back.", /*36*/
                 ],
             },
             {
@@ -873,79 +873,79 @@ var seq = [
                 type: 'n',
                 complete: false,
                 text: [
-                    "Returning to the grassy plains, Beerin presented its finding to Treeze", /*0*/
-                    "It seems that Treeze is pleased by the strange device, and he asks about where it came from", /*1*/
-                    "Beerin then regaled him with tales of its adventures", /*2*/
-                    "Of the flower field,... and the dream", /*3*/
-                    "Treeze is very curious about all of these strange things Beerin encountered", /*4*/
-                    "But he took interest in some particular details", /*5*/
-                    "How did you know what that weird water phenomena was called rain?, he asked, After all, the sky here is always clear and no water ever falls, so surely it must be unfamiliar to you", /*6*/
-                    "To this, Beerin did not have an answer", /*7*/
+                    "Returning to the grassy plains, Beerin presented its finding to Treeze.", /*0*/
+                    "It seems that Treeze is pleased by the strange device, and he asks about where it came from.", /*1*/
+                    "Beerin then regaled him with tales of its adventures.", /*2*/
+                    "Of the flower field,... and the dream.", /*3*/
+                    "Treeze is very curious about all of these strange things Beerin encountered.", /*4*/
+                    "But he took interest in some particular details.", /*5*/
+                    "How did you know what that weird water phenomena was called rain?, he asked, After all, the sky here is always clear and no water ever falls, so surely it must be unfamiliar to you.", /*6*/
+                    "To this, Beerin did not have an answer.", /*7*/
                     "Truthfully told, it just... knew. Somehow.", /*8*/
-                    "This is why when Treeze continued to stare at it, Beerin just said buzzed nervously", /*9*/
-                    "Now that I think of it, I think this isn't the first time you've said something weird and expected me to know about it, Treeze continued, you mentioned a day and night cycle", /*10*/
-                    "That was just something its overactive imagination dreamed up, probably", /*11*/
-                    "That was what Beerin thought", /*12*/
-                    "But Beerin did not respond for a while", /*13*/
-                    "It did not know what to say", /*14*/
-                    "After a long silence, Beerin said: I probably just named it, and forgot other people didn't know the name", /*15*/
-                    "Still, said Treeze, I find it strange, I don't think you're that easily distracted", /*16*/
-                    "It's almost as if you came from a completely different world..., Treeze trailed off", /*17*/
-                    "Then, Treeze brightened up, even though trees do not have faces and there has been no indication of brightening up, Beerin just knew", /*18*/
-                    "It was like a light switch went off in his head", /*19*/
+                    "This is why when Treeze continued to stare at it, Beerin just said buzzed nervously.", /*9*/
+                    "Now that I think of it, I think this isn't the first time you've said something weird and expected me to know about it, Treeze continued, you mentioned a day and night cycle.", /*10*/
+                    "That was just something its overactive imagination dreamed up, probably.", /*11*/
+                    "That was what Beerin thought.", /*12*/
+                    "But Beerin did not respond for a while.", /*13*/
+                    "It did not know what to say.", /*14*/
+                    "After a long silence, Beerin said: I probably just named it, and forgot other people didn't know the name.", /*15*/
+                    "Still, said Treeze, I find it strange, I don't think you're that easily distracted.", /*16*/
+                    "It's almost as if you came from a completely different world..., Treeze trailed off.", /*17*/
+                    "Then, Treeze brightened up, even though trees do not have faces and there has been no indication of brightening up, Beerin just knew.", /*18*/
+                    "It was like a light switch went off in his head.", /*19*/
                     "And he decided now was the time to change subjects: Beerin, how come you never visit your hive?", /*20*/
-                    "Huh?, was Beerin's dignified response. It was a fairly abrupt change from the previous conversation they were having", /*21*/
+                    "Huh?, was Beerin's dignified response. It was a fairly abrupt change from the previous conversation they were having.", /*21*/
                     "What did Beerin's airheadedness have to do with the hive?", /*22*/
-                    "Don't you miss it?, Tree inquired", /*23*/
-                    "Of course I do!, Beerin huffed", /*24*/
-                    "Why do you never visit it, then?, Treeze asked again", /*25*/
-                    "Well, I needed to stay here obviously, was the reply", /*26*/
-                    "Except,.... was that really it?, wondered Beerin", /*27*/
+                    "Don't you miss it?, Tree inquired.", /*23*/
+                    "Of course I do!, Beerin huffed.", /*24*/
+                    "Why do you never visit it, then?, Treeze asked again.", /*25*/
+                    "Well, I needed to stay here obviously, was the reply.", /*26*/
+                    "Except,.... was that really it?, wondered Beerin.", /*27*/
                     "Do you?, was what Treeze said back, Do you need to stay here?", /*28*/
                     "Obviously! Beerin needed to say here because....", /*29*/
-                    "Well, that was unimportant", /*30*/
-                    "It was here to keep Treeze company so he doesn't... die from isolation or something", /*31*/
+                    "Well, that was unimportant.", /*30*/
+                    "It was here to keep Treeze company so he doesn't... die from isolation or something.", /*31*/
                     "But was that really it?", /*32*/
                     "After all, that... wasn't really reason to not visit the hive, was it?", /*33*/
-                    "It could have visited any time", /*34*/
-                    "Treeze didn't mind it going places, and Beerin was already going out to fetch items anyways", /*35*/
-                    "Doing a detour to the hive wouldn't have been that hard", /*36*/
-                    "And Beerin knew its fellow hive members and knew they would have welcomed it", /*37*/
+                    "It could have visited any time.", /*34*/
+                    "Treeze didn't mind it going places, and Beerin was already going out to fetch items anyways.", /*35*/
+                    "Doing a detour to the hive wouldn't have been that hard.", /*36*/
+                    "And Beerin knew its fellow hive members and knew they would have welcomed it.", /*37*/
                     "What has Beerin... been doing all this time?", /*38*/
-                    "For some strange reason, Beerin felt a strange fear in its heart", /*39*/
-                    "It pushed for Beerin to stay here, to never even go near the hive", /*40*/
+                    "For some strange reason, Beerin felt a strange fear in its heart.", /*39*/
+                    "It pushed for Beerin to stay here, to never even go near the hive.", /*40*/
                     "Why was the little bee feeling this way?", /*41*/
-                    "It made no sense, no sense at all", /*42*/
+                    "It made no sense, no sense at all.", /*42*/
                     "Was there... something there Beerin was avoiding?", /*43*/
-                    "Suddenly Treeze spoke once again: I think you should go. I think you'll find the truth there", /*44*/
-                    "Perhaps, thought Beerin, perhaps that was what needs to happen", /*45*/
-                    "Perhaps there, it could find the truth of this world there", /*46*/
-                    "This sunny, almost blindingly perfect world", /*47*/
-                    "And perhaps Beerin... could stop lying to itself", /*48*/
-                    "But Beerin... was a coward at heart", /*49*/
-                    "It had a tiny, weak heart filled with cowardice", /*50*/
-                    "And Beerin was afraid", /*51*/
-                    "But more than it was afraid, it was tired", /*52*/
-                    "Tired of running, of always trying to escape the truth", /*53*/
-                    "It had been running this entire time", /*54*/
-                    "Perhaps it was time for Beerin to face the inevitable", /*55*/
-                    "Still, Beerin did not understand", /*56*/
+                    "Suddenly Treeze spoke once again: I think you should go. I think you'll find the truth there.", /*44*/
+                    "Perhaps, thought Beerin, perhaps that was what needs to happen.", /*45*/
+                    "Perhaps there, it could find the truth of this world there.", /*46*/
+                    "This sunny, almost blindingly perfect world.", /*47*/
+                    "And perhaps Beerin... could stop lying to itself.", /*48*/
+                    "But Beerin... was a coward at heart.", /*49*/
+                    "It had a tiny, weak heart filled with cowardice.", /*50*/
+                    "And Beerin was afraid.", /*51*/
+                    "But more than it was afraid, it was tired.", /*52*/
+                    "Tired of running, of always trying to escape the truth.", /*53*/
+                    "It had been running this entire time.", /*54*/
+                    "Perhaps it was time for Beerin to face the inevitable.", /*55*/
+                    "Still, Beerin did not understand.", /*56*/
                     "How could Treeze know what it needed to do?", /*57*/
-                    "Treeze had been stuck there, on that hill for his entire life", /*58*/
+                    "Treeze had been stuck there, on that hill for his entire life.", /*58*/
                     "Did he seriously figure out that something was wrong, just because of some inconsistency with what it said?", /*59*/
                     "More than that, how did he know the hive was related to all this?", /*60*/
-                    "When Beerin voiced all its concerns, Treeze smiled", /*61*/
-                    "Or, well, he smiled internally. Beerin could still tell anyhow... somehow", /*62*/
-                    "I have long suspected there was something wrong with this world, he answered", /*63*/
-                    "But your words, your reaction was what i needed to figure out that", /*64*/
-                    "Huh, was what Beerin thought to that", /*65*/
-                    "Was such a thing even possible? Yes, because Treeze was evidence that it was", /*66*/
-                    "Regardless, I think you should go to the hive, said Treeze, even if it had nothing to do with what is wrong with this world", /*67*/
-                    "And then he continued: But I have this feeling, strange as it might be, that that is where all our answers lie", /*68*/
-                    "Beerin nodded, or more accurately, flew up and down rapidly as a sign of agreement", /*69*/
-                    "I will go there, it said, and I will face the truth", /*70*/
-                    "I will bring the answers back to you, it did not say, because Beerin did not know there would be a Treeze to bring answers back to", /*71*/
-                    "And so Beerin took off towards the hive", /*72*/
+                    "When Beerin voiced all its concerns, Treeze smiled.", /*61*/
+                    "Or, well, he smiled internally. Beerin could still tell anyhow... somehow.", /*62*/
+                    "I have long suspected there was something wrong with this world, he answered.", /*63*/
+                    "But your words, your reaction was what i needed to figure out that.", /*64*/
+                    "Huh, was what Beerin thought to that.", /*65*/
+                    "Was such a thing even possible? Yes, because Treeze was evidence that it was.", /*66*/
+                    "Regardless, I think you should go to the hive, said Treeze, even if it had nothing to do with what is wrong with this world.", /*67*/
+                    "And then he continued: But I have this feeling, strange as it might be, that that is where all our answers lie.", /*68*/
+                    "Beerin nodded, or more accurately, flew up and down rapidly as a sign of agreement.", /*69*/
+                    "I will go there, it said, and I will face the truth.", /*70*/
+                    "I will bring the answers back to you, it did not say, because Beerin did not know there would be a Treeze to bring answers back to.", /*71*/
+                    "And so Beerin took off towards the hive.", /*72*/
                 ],
             },
             {
@@ -953,93 +953,93 @@ var seq = [
                 type: 'n',
                 complete: false,
                 text: [
-                    "Beerin flew, though its wings felt weak and its heart felt empty", /*0*/
-                    "Through grass fields and riversides and flower gardens", /*1*/
-                    "As Beerin came nearer and nearer, storm clouds began to gather", /*2*/
-                    "And it began raining, at first just a light drizzle, and it became more and more intense before Beerin could barely flap its wings a few times before almost being murdered by oncoming rainfall", /*3*/
-                    "There was thunder somewhere distant", /*4*/
-                    "Beerin carried on, it couldn't stop there", /*5*/
-                    "Until it arrived to the hive once more", /*6*/
-                    "It flew through the forcefield, and through the entrance", /*7*/
-                    "And it perched there, for a long while, until it had the courage to continue walking", /*8*/
-                    "Time to face the truth, the thing which Beerin had been denying all this time", /*9*/
-                    "But when it saw what was inside, Beerin's legs gave out", /*10*/
-                    "It did not have the strength to support itself and fell to the floor", /*11*/
-                    "This was the truth that Beerin had been so desperate to escape", /*12*/
-                    "In front of the bee, was the pollen filled corpses of its brethren", /*13*/
-                    "The hivelings,the vessel, even the strange blue thing", /*14*/
-                    "They were dead, all dead", /*15*/
-                    "All across the floor was pollen, unending pollen", /*16*/
-                    "Corpses scattered the halls, their eyes clouded with a sickly yellow", /*17*/
-                    "It was a horrible scene, but Beerin knew, it had seen this before", /*18*/
-                    "This was nothing new, and yet it still felt new nevertheless", /*19*/
-                    "That shock, that pain, it had been like Beerin had discovered this for the first time all over again", /*20*/
+                    "Beerin flew, though its wings felt weak and its heart felt empty.", /*0*/
+                    "Through grass fields and riversides and flower gardens.", /*1*/
+                    "As Beerin came nearer and nearer, storm clouds began to gather.", /*2*/
+                    "And it began raining, at first just a light drizzle, and it became more and more intense before Beerin could barely flap its wings a few times before almost being murdered by oncoming rainfall.", /*3*/
+                    "There was thunder somewhere distant.", /*4*/
+                    "Beerin carried on, it couldn't stop there.", /*5*/
+                    "Until it arrived to the hive once more.", /*6*/
+                    "It flew through the forcefield, and through the entrance.", /*7*/
+                    "And it perched there, for a long while, until it had the courage to continue walking.", /*8*/
+                    "Time to face the truth, the thing which Beerin had been denying all this time.", /*9*/
+                    "But when it saw what was inside, Beerin's legs gave out.", /*10*/
+                    "It did not have the strength to support itself and fell to the floor.", /*11*/
+                    "This was the truth that Beerin had been so desperate to escape.", /*12*/
+                    "In front of the bee, was the pollen filled corpses of its brethren.", /*13*/
+                    "The hivelings,the vessel, even the strange blue thing.", /*14*/
+                    "They were dead, all dead.", /*15*/
+                    "All across the floor was pollen, unending pollen.", /*16*/
+                    "Corpses scattered the halls, their eyes clouded with a sickly yellow.", /*17*/
+                    "It was a horrible scene, but Beerin knew, it had seen this before.", /*18*/
+                    "This was nothing new, and yet it still felt new nevertheless.", /*19*/
+                    "That shock, that pain, it had been like Beerin had discovered this for the first time all over again.", /*20*/
                     "...Why?", /*21*/
                     "Why?", /*22*/
-                    "And... Beerin remembered", /*23*/
-                    "It did not want to, but it remembered", /*24*/
-                    "Beerin remembered", /*25*/
-                    "Beerin rememberedBeerin rememberedBeerin rememberedBeerin rememberedBeerin rememberedBeerin remembered", /*26*/
+                    "And... Beerin remembered.", /*23*/
+                    "It did not want to, but it remembered.", /*24*/
+                    "Beerin remembered.", /*25*/
+                    "Beerin rememberedBeerin rememberedBeerin rememberedBeerin rememberedBeerin rememberedBeerin remembered.", /*26*/
                     "And the wor l̶d̶     b̷   r̵ ̶    ̷ ̶ ̴o̵         ̵̖͗k̵ ̵               ̵e̷̒", /*27*/
                     "...", /*28*/
-                    "Beerin awoke once again, though this time the scenery around it stayed the same this time", /*29*/
-                    "It wished it had all been a dream", /*30*/
-                    "Well, it was a dream, but the reality of what it had done was not", /*31*/
-                    "There was something that did change, though", /*32*/
-                    "Beerin remembered its body being healthy and hale", /*33*/
-                    "But at the moment, Beerin felt like its insides had been pierced through a thousand times", /*34*/
-                    "This was what that strange pollen does to bees, Beerin supposed", /*35*/
-                    "At the very least, it knew what the other hive members had gone through before dying", /*36*/
-                    "Unlike them, it seems that Beerin was still alive", /*37*/
-                    "For how much longer, Beerin did not know how ", /*38*/
-                    "This was all its fault, it thought", /*39*/
-                    "To think, that it had been the one to bring that pollen here", /*40*/
-                    "That it had been the one to doom the hive", /*41*/
-                    "That this had been brought about through its actions alone", /*42*/
-                    "And now, Beerin was the only one left", /*43*/
+                    "Beerin awoke once again, though this time the scenery around it stayed the same this time.", /*29*/
+                    "It wished it had all been a dream.", /*30*/
+                    "Well, it was a dream, but the reality of what it had done was not.", /*31*/
+                    "There was something that did change, though.", /*32*/
+                    "Beerin remembered its body being healthy and hale.", /*33*/
+                    "But at the moment, Beerin felt like its insides had been pierced through a thousand times.", /*34*/
+                    "This was what that strange pollen does to bees, Beerin supposed.", /*35*/
+                    "At the very least, it knew what the other hive members had gone through before dying.", /*36*/
+                    "Unlike them, it seems that Beerin was still alive.", /*37*/
+                    "For how much longer, Beerin did not know how.", /*38*/
+                    "This was all its fault, it thought.", /*39*/
+                    "To think, that it had been the one to bring that pollen here.", /*40*/
+                    "That it had been the one to doom the hive.", /*41*/
+                    "That this had been brought about through its actions alone.", /*42*/
+                    "And now, Beerin was the only one left.", /*43*/
                     "Is this repentment?", /*44*/
                     "Is this pain, this suffering the price it alone is paying for causing the downfall of the hive?", /*45*/
-                    "If bees could weep, it would at this moment", /*46*/
-                    "But it layed there, staring, staring at the future it had created", /*47*/
-                    "As Beerin lay dying, all it could feel was regret", /*48*/
-                    "And to think, all this time Beerin had been attempting to escape the reality of its actions", /*49*/
-                    "It dared to dream of a world where it would not have to suffer, all while it's fellow hive members suffered and died", /*50*/
-                    "This is the truth, all of it", /*51*/
-                    "The inevitability it would have had to face, sooner or later", /*52*/
-                    "Perhaps Beerin thought that by staying in that dream, this future could simply.. not be", /*53*/
-                    "Out of sight, out of mind", /*54*/
-                    "How morbid, thought Beerin", /*55*/
-                    "Somehow, it made the bee want to scream and wail even more", /*56*/
+                    "If bees could weep, it would at this moment.", /*46*/
+                    "But it layed there, staring, staring at the future it had created.", /*47*/
+                    "As Beerin lay dying, all it could feel was regret.", /*48*/
+                    "And to think, all this time Beerin had been attempting to escape the reality of its actions.", /*49*/
+                    "It dared to dream of a world where it would not have to suffer, all while it's fellow hive members suffered and died.", /*50*/
+                    "This is the truth, all of it.", /*51*/
+                    "The inevitability it would have had to face, sooner or later.", /*52*/
+                    "Perhaps Beerin thought that by staying in that dream, this future could simply.. not be.", /*53*/
+                    "Out of sight, out of mind.", /*54*/
+                    "How morbid, thought Beerin.", /*55*/
+                    "Somehow, it made the bee want to scream and wail even more.", /*56*/
                     "That dream,...", /*57*/
                     "was any of it real?", /*58*/
-                    "That grassy hill, that cloudless sunny sky, and that tree upon the hill", /*59*/
+                    "That grassy hill, that cloudless sunny sky, and that tree upon the hill.", /*59*/
                     "Were they real?", /*60*/
-                    "Beerin did not know", /*61*/
-                    "But Beerin, wanted... wanted to know", /*62*/
-                    "Perhaps even if its hive was dead, at least one friend on Beerin's could live on out there, perhaps not quite happy nor free, but alive", /*63*/
-                    "Alive and not doomed with this horrible fate by Beerin's actions", /*64*/
+                    "Beerin did not know.", /*61*/
+                    "But Beerin, wanted... wanted to know.", /*62*/
+                    "Perhaps even if its hive was dead, at least one friend on Beerin's could live on out there, perhaps not quite happy nor free, but alive.", /*63*/
+                    "Alive and not doomed with this horrible fate by Beerin's actions.", /*64*/
                     "Treeze... perhaps...", /*65*/
-                    "Even if Beerin's heart was filled utterly with regret, it could die peacefully, after seeing its friend one last time", /*66*/
-                    "Beerin thought, even if Treeze was not the same as the one from the dream, it would still want to see him nonetheless", /*67*/
-                    "With the last of its strength, Beerin flapped its wings and flew", /*68*/
-                    "Its wings nearly failed many times along the journey, but it arrived at the grassy hill at last", /*69*/
-                    "But when Beerin looked ahead, all it could see was an empty hill where Treeze should have stood", /*70*/
-                    "As sickly yellow clouded Beerin's visioned, it screamed", /*71*/
-                    "Ah, Beerin thought, so this is the truth", /*72*/
-                    "It seems its pollen addled mind had invented Treeze after all", /*73*/
-                    "It had hope, that perhaps that Treeze had been based on someone real, someone who was still living", /*74*/
-                    "But it seems, if there was one thing Beerin's mind was good at, it was creating false hope", /*75*/
-                    "It wasn't real, none of it was ever real", /*76*/
-                    "Beerin was truly pathetic to have thought otherwise", /*77*/
-                    "It seems Beerin was right after all, there was never a Treeze to bring answers back to, because Treeze had always been a lie", /*78*/
-                    "A very cruel lie, that even made Beerin believe was living, was thinking, was real", /*79*/
-                    "Beerin screamed", /*80*/
-                    "For all it had done, screamed at the world for doing unto it this fate, at Treeze for making it believe it could have peace", /*81*/
-                    "Screamed at horrible the pollen, screamed at the storm, and screamed at itself", /*82*/
-                    "Until Beerin could not scream any longer", /*83*/
-                    "Eventually its body gave up on it, and Beerin layed in the grass with its last flicker of life", /*84*/
-                    "Treeze, the hive, the queen, Beerin recounted everyone it knew", /*85*/
-                    "I'm sorry, was what Beerin thought, the very last thought it would ever have", /*86*/
+                    "Even if Beerin's heart was filled utterly with regret, it could die peacefully, after seeing its friend one last time.", /*66*/
+                    "Beerin thought, even if Treeze was not the same as the one from the dream, it would still want to see him nonetheless.", /*67*/
+                    "With the last of its strength, Beerin flapped its wings and flew.", /*68*/
+                    "Its wings nearly failed many times along the journey, but it arrived at the grassy hill at last.", /*69*/
+                    "But when Beerin looked ahead, all it could see was an empty hill where Treeze should have stood.", /*70*/
+                    "As sickly yellow clouded Beerin's visioned, it screamed.", /*71*/
+                    "Ah, Beerin thought, so this is the truth.", /*72*/
+                    "It seems its pollen addled mind had invented Treeze after all.", /*73*/
+                    "It had hope, that perhaps that Treeze had been based on someone real, someone who was still living.", /*74*/
+                    "But it seems, if there was one thing Beerin's mind was good at, it was creating false hope.", /*75*/
+                    "It wasn't real, none of it was ever real.", /*76*/
+                    "Beerin was truly pathetic to have thought otherwise.", /*77*/
+                    "It seems Beerin was right after all, there was never a Treeze to bring answers back to, because Treeze had always been a lie.", /*78*/
+                    "A very cruel lie, that even made Beerin believe was living, was thinking, was real.", /*79*/
+                    "Beerin screamed.", /*80*/
+                    "For all it had done, screamed at the world for doing unto it this fate, at Treeze for making it believe it could have peace.", /*81*/
+                    "Screamed at horrible the pollen, screamed at the storm, and screamed at itself.", /*82*/
+                    "Until Beerin could not scream any longer.", /*83*/
+                    "Eventually its body gave up on it, and Beerin layed in the grass with its last flicker of life.", /*84*/
+                    "Treeze, the hive, the queen, Beerin recounted everyone it knew.", /*85*/
+                    "I'm sorry, was what Beerin thought, the very last thought it would ever have.", /*86*/
                     "And then it laid dead, never to wake again.", /*87*/
                     "*Myrin's letter obtained*", /*88*/
                 ],
@@ -1107,6 +1107,270 @@ var seq = [
                     "Then, you ask what a P-Pass is, but only silence came afterwards.", /*10*/
                     "Without a P-Pass, you can't enter the city.", /*11*/
                     "You can stare at the wall, or the floor, as expected from the Herrscher of Floors. Or, you can find another solution.", /*12*/
+                ],
+            },
+            {
+                tile: 5,
+                type: 'n',
+                complete: false,
+                text: [
+                    "You raise your arm, your thumb is up. Now, it is only a matter of waiting.", /*0*/
+                    "The first man that notices you raises his thumb back, leaving you puzzled.", /*1*/
+                    "Not much later, another driver stopped in front of you. He kindly lets you sit in the car.", /*2*/
+                    "An expensive car to boot, although its color is the same as any other car passing by. Weird.", /*3*/
+                    "The man looks like to be an aristocratic, presumably.", /*4*/
+                    "'Are you interested in art, perhaps?', the driver asks.", /*5*/
+                    "'An art exhibition has been organized in my city. The finest masterpieces will be shown there.'", /*6*/
+                    "'I guess that is why a foreigner like you is trying to enter without a P-Pass?'", /*7*/
+                    "This is a chance to investigate about the strangeness of this area, so you decide to play along.", /*8*/
+                ],
+                option: ["To be honest, no.", "Of course, I love art and colors!",],
+                answer: 1,
+            },
+            {
+                tile: 6,
+                type: 'n',
+                complete: false,
+                text: [
+                    "The noble man is energetically greeted by the guards in front of the city gate. He must be popular around here.", /*0*/
+                    "His P-Pass is checked, the gates open.", /*1*/
+                    "You're finally in!", /*2*/
+                    "Alas, the aristocrat can't stick any longer, for business is calling him.", /*3*/
+                    "You greet him and part ways.", /*4*/
+                    "You are ready to explore the odd, yellowish city.", /*5*/
+                ],
+            },
+            {
+                tile: 7,
+                type: 'n',
+                complete: false,
+                text: [
+                    "You sit down on bench, watching people frenetically pass by, yellowish cars stopping as the traffic lights switch to an intense yellow color.", /*0*/
+                    "You hear kids shouting at you from the other side of the park.", /*1*/
+                    "One of them has kicked the ball so far that it almost hit you.", /*2*/
+                    "'Pass the pall, sir!'", /*3*/
+                    "As you're about to kick the ball back, you realize... pall?", /*4*/
+                    "What's wrong with these kids?", /*5*/
+                    "'Is this kid drunk, bro?'", /*6*/
+                    "Even your tie is baffled, yet it appears to have grown curious towards this path, as well.", /*7*/
+                    "'Please go talk to him, see what's this about.'", /*8*/
+                    "Should you really trust your tie?", /*9*/
+                ],
+            },
+            {
+                tile: 8,
+                type: 'n',
+                complete: false,
+                text: [
+                    "Pushed by your tie, you decide to join in for a refreshing footpall match with the kids in the park.", /*0*/
+                    "However, the pall feels unexpectedly heavy to your touch.", /*1*/
+                    "So heavy that it could easily knock down even an adult, a 21 year old guy.", /*2*/
+                    "And no, it is not a coincidence.", /*3*/
+                    "One of the kids clumsily kicked the pall, which almost killed your petit soldat.", /*4*/
+                    "The unfortunate event causes you to pass out. You should have been more careful!", /*5*/
+                ],
+            },
+            {
+                tile: 9,
+                type: 'n',
+                complete: false,
+                text: [
+                    "Looking for some rest, you decide to head to a hotel nearby.", /*0*/
+                    "Fortunately, customers don't seem to be required to show a P-Pass or anything of that sort.", /*1*/
+                ],
+            },
+            {
+                tile: 10,
+                type: 'n',
+                complete: false,
+                text: [
+                    "Room P0530 was assigned to you. Finally, some sleep!", /*0*/
+                    "That is, if you can manage to ignore the omnipresent piercing smell of... root vegetables.", /*1*/
+                    "You got used to it outdoor, but it feels even concentrated and condensed inside the hotel rooms.", /*2*/
+                    "How can people even live with this odor, you wonder.", /*3*/
+                    "Whatever the answer is, this smell is gonna be your companion for the whole journey.", /*4*/
+                ],
+            },
+            {
+                tile: 11,
+                type: 'n',
+                complete: false,
+                text: [
+                    "You close your eyes. After a long fight between the annoying odor and your nose, the latter emerges victorious.", /*0*/
+                    "You finally fall asleep.", /*1*/
+                    "zZz zZz zZz...", /*2*/
+                ],
+            },
+            {
+                tile: 12,
+                type: 'n',
+                complete: false,
+                text: [
+                    "Your energy has been fully repleshined.", /*0*/
+                    "You're now ready to explore even more!", /*1*/
+                ],
+            },
+            {
+                tile: 13,
+                type: 'n',
+                complete: false,
+                text: [
+                    "[P-Pass REQUIRED TO ENTER]", /*0*/
+                    "The hospital looks fairly normal, if you ignore the yellowish floor.", /*1*/
+                    "As the Herrscher of Floors, you're disgusted at such a poorly stylistic choice.", /*2*/
+                    "Well, at least the intensity of the smell is lower, in here.", /*3*/
+                    "The waiting line is considerably long, maybe there's a plague ongoing.", /*4*/
+                    "One would expect a variety of symptoms and diseases, and yet... there is one that seems to be mentioned again, again and again.", /*5*/
+                    "Hyposolanumtuberosumosis", /*6*/
+                ],
+            },
+            {
+                tile: 14,
+                type: 'n',
+                complete: false,
+                text: [
+                    "The last memory you have is that of a pall knocking you off.", /*0*/
+                    "You wake up inside an unfamiliar environment.", /*1*/
+                    "A hospital.", /*2*/
+                    "You don't even know how much time has passed since then.", /*3*/
+                    "There is no doctor around, and you seem to have recovered well", /*4*/
+                    "I guess you don't need to be supervised anymore.", /*5*/
+                ],
+            },
+            {
+                tile: 15,
+                type: 'n',
+                complete: false,
+                text: [
+                    "The door creaks open.", /*0*/
+                    "A relaxing music is playing.", /*1*/
+                    "Albeit short, the music manages to set the proper ambiance for a pub.", /*2*/
+                    "You recognize the beats. It must be blues. A short blues piece. A Mini Blues.", /*3*/
+                    "You ask the cocktail server for a drink and find a comfortable spot on one of the counter chairs.", /*4*/
+                    "A few minutes go by, vibing to the music, to the atmosphere.", /*5*/
+                    "An elder woman quietly sits beside you.", /*6*/
+                    "Between one sip and the other, your eyes are caught by the brochure that the woman you is reading, while drinking her Härdöpfeler.", /*7*/
+                    "Then, your eyes met with hers.", /*8*/
+                    "'Are you interested in art, perhaps?', she says.", /*9*/
+                    "Déjà-vu.", /*10*/
+                    "With a gesture of her hand, she tells you to take the brochure and read it yourself.", /*11*/
+                    "An art exhibition. Not the first time you hear about this.", /*12*/
+                    "Alas, you don't have a P-Pass, so you can't participate.", /*13*/
+                    "'You look sad. Are you hungry, perhaps?'", /*14*/
+                    "Just like a typical granny, she offers to make dinner for you.", /*15*/
+                    "You happily accept the offer and follow her to her house.", /*16*/
+                ],
+            },
+            {
+                tile: 16,
+                type: 'n',
+                complete: false,
+                text: [
+                    "The apartment is a modest one, spacious enough for an old couple.", /*0*/
+                    "However, she seems to live alone. A widow, perhaps.", /*1*/
+                    "Your hunch is proven correct few seconds later, when you catch a glimpes at an old picture of a couple, on an old, dusty shelf.", /*2*/
+                    "She does not ask you any questions about you, as if she already knows you're foreigner. Perhaps, she is waiting for you to begin the question battle.", /*3*/
+                    "Whatever the granny is cooking, it smells amazing, albeit similar to the smell that permeates the air, both in the city and the fields.", /*4*/
+                ],
+            },
+            {
+                tile: 17,
+                type: 's',
+                complete: false,
+                text: [
+                    "The dish is finally served: gnocchi, coated in bechamel. But, there is more.", /*0*/
+                    "Her specialty, according to the granny: 'Arsh taters' gateau.", /*1*/
+                    "'The ingredients I used come directly from my native country, Ireland', she says.", /*2*/
+                    "Although embarrassed, you ask which country you two are in, right now.", /*3*/
+                    "'France. I emigrated at a young age', the granny responds.", /*4*/
+                    "Intrigued by the granny's past, you want to dig deeper into this story. So, you ask for details.", /*5*/
+                    "'I wanted to devote my life to my God, and this city has the biggest church in the world, so I decided to leave behind my country and my wealth.', she says.", /*6*/
+                    "'I worship my God every day, in every way. Even through food. You must be thankful, it's thanks to it that we can have such a fine dinner.', she adds.", /*7*/
+                    "'Is the peculiar smell, the redundant color of this city also a cause of the presence of this God you speak of?', you finally inquire.", /*9*/
+                    "'Yes, it is but a blessing from our benevolent God.'", /*10*/
+                    "In the meantime, you finished your portion of dinner. You ate so fast it almost felt like you drank it. Such is the power of hunger.", /*11*/
+                    "You decide to ask one last question before taking your leave, that is: the location of the church.", /*12*/
+                    "To which, she replied: 'Why, young man, you want to devote your life to our God, as well? Oh, I've never thought I'd meet such a passionate foreigner!'.", /*13*/
+                ],
+                option: ["I want to uncover the truth behind this cult.", "Yes, I want to convert to the religion you speak of!"],
+                answer: 1,
+            },
+            {
+                tile: 18,
+                type: 'n',
+                complete: false,
+                text: [
+                    "Daydreaming about the vibrant colors you're about to lay your eyes on, you try to cross the porch that leads to the exhibition's main room.", /*0*/
+                    "The digital lock requires a P-Pass to let you enter.", /*1*/
+                    "You were waiting for this moment since the very first time you hear about the P-Passes.", /*2*/
+                    "You pull out your P-Pass with pride, swipe it and look at the digital lock with an evil grin, as it unlocks.", /*3*/
+                    "You're finally in.", /*4*/
+                    "The granny, the aristocrat. Everyone is here!", /*5*/
+                    "Though, they seem extremely focused on staring at the art.", /*6*/
+                    "So much so that they don't even notice your presence.", /*7*/
+                    "They almost look... hypnotized.", /*8*/
+                    "No,w it's your turn to feast your eyes on art.", /*9*/
+                    "One by one, you lay your eyes on every work of art that is hanging on the strangely not yellow walls, careful not to miss a single one.", /*10*/
+                    "However, it doesn't take you long to realize that all art pieces have something in common.", /*11*/
+                    "It's not about colors. It's not about art style either.", /*12*/
+                    "Rather, it's about the contents.", /*13*/
+                    "All the works selected for this exhibition seem to portray similar scenarios, similar subjects.", /*14*/
+                    "In every angle of this exhibition you can see portraits of numerous, poor family having a modest meal." /*15*/
+                ],
+            },
+            {
+                tile: 19,
+                type: 'n',
+                complete: false,
+                text: [
+                    "New room, same contents.", /*0*/
+                    "Among the sea of repetitive works, your eyes stop at a particular painting.", /*1*/
+                    "It's title is: De Aardappeleters", /*2*/
+                    "You're more than sure. This one is a Van Gogh's. Good taste.", /*3*/
+                    "Since you are here, you may as well ask the organizer the reason for this particular choice of theme that connects all the paintings in this exhibition.", /*4*/
+                    "Nonetheless, the answer does not sastisfy you. 'What do you mean, it has always been like this', was their answer, laughing off at the seemingly weird question you asked.", /*5*/
+                    "You don't even have the time to utter the second question, another art appreciator quickly interrupts you:", /*6*/
+                    "'It has always been like this. Our God has decided it must be like this.'", /*7*/
+                    "Once again, this myserious God has been mentioned.", /*8*/
+                    "You realize, perhaps too late, that everyone, no one excluded, is a goddamn fanatic, in this city.", /*9*/
+                    "With an excuse, you quickly leave the place before upsetting other obsessive believers.", /*10*/
+                    "Fed up with this world, you know where the last step towards the truth is going to be: the church.", /*11*/
+                ],
+            },
+            {
+                tile: 20,
+                type: 'n',
+                complete: false,
+                text: [
+                    "You run towards the church, impatient to leave this abormal, distorted reality.", /*0*/
+                    "The P-Pass lets you unlock the doors, which you subsequently slammed open.", /*1*/
+                    "The church looks brilliantly illuminated, yet empty, perhaps on purpose. This is a fated meeting afterall.", /*2*/
+                    "Every choice, every meeting, every place you'v visited. Eveything you have experienced has been guiding you to this place.", /*3*/
+                    "'SHOW YOURSEL, I KNOW YOU CAN HEAR ME', you scream on top of your lungs.", /*4*/
+                    "To no avail.", /*5*/
+                    "You scream again.", /*6*/
+                    "Nothing.", /*7*/
+                    "Nobody's gonna show up? What an anti-climatic ending, it would be.", /*8*/
+                    "Just as you're about to give up, a loud voice unexpectedly penetrates inside your head.", /*9*/
+                    "'For the eyes to see, the heart must first learn to see beyond the veil of Maya', a sweet and sugary, unknown voice says.", /*10*/
+                    "Hazy words began to appear in the air, right before your eyes, as if the clouds suddenly gained the intelligence to form sentences.", /*11*/
+                    "FUTURE PUZZLE..." /*12*/
+                ],
+            },
+            {
+                tile: 21,
+                type: 'n',
+                complete: false,
+                text: [
+                    "And thus, you've become the the most zealous Potato's priest.", /*0*/
+                ],
+            },
+            {
+                tile: 22,
+                type: 'n',
+                complete: false,
+                text: [
+                    "As such, it is your duty to teach other people about the greatness, the magnificence of God Potato." /*0*/
                 ],
             },
         ],
