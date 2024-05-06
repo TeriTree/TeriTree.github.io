@@ -1,6 +1,9 @@
 import { seq } from './sequence.js'
-import { items } from './items.js'
+import { acquireItem } from './items.js'
 import { files } from './files.js'
+import { paths } from './paths.js'
+import {death_event} from './gameScreen.js'
+import {bgm} from './gameScreen.js'
 
 var scenePlayerPath;
 var scenePlayerTile;
@@ -35,6 +38,13 @@ function getSequence(path, tile) {
 function getSoundID(path, file) {
     for (var i in files[path].audio) {
         if (file == files[path].audio[i]) {
+            return i;
+        }
+    }
+}
+function getVideoID(path, file) {
+    for (var i in files[path].video) {
+        if (file == files[path].video[i]) {
             return i;
         }
     }
@@ -97,10 +107,12 @@ function checkAnswer(click) {
     var tile = scenePlayerTile;
     var answer = click.target.getAttribute("answer");
     if (seq[path].sequence[tile].answer == answer) {
-        alert("wow ur so good");
+        //alert("wow ur so good");
     }
     else{
-        alert("wow ur bad");
+        //alert("wow ur bad");
+        death_event();
+        clearScene(0);
     }
     var interactions = document.getElementById('interactions');
         for (var i = 0; i < seq[path].sequence[tile].option.length; i++) {
@@ -126,10 +138,35 @@ function playSound(path, file, cooldown) {
     }
 }
 
-function clearScene() {
+function playVideo(path, file) {
+    sceneCheck.video += 1;
+    var videoID = getVideoID(path, file);
+    var gameScreen = document.getElementById("gameScreen");
+    var video = document.createElement("VIDEO");
+    video.setAttribute('class','regVideo');
+    video.setAttribute('src',`${files[path].folder}${files[path].video[videoID]}`)
+    gameScreen.appendChild(video);
+    video.play();
+    video.onended = function () {
+        gameScreen.removeChild(video);
+        sceneCheck.video -= 1;
+    }
+}
+
+function clearScene(success) {
+    if(success==1){
+        seq[scenePlayerPath].sequence[scenePlayerTile].complete = true;
+        if(paths[scenePlayerPath].tiles[scenePlayerTile].hasItem!=null){
+            acquireItem(paths[scenePlayerPath].tiles[scenePlayerTile].hasItem);
+        }
+        bgm.play();
+    }
     var gameScreen = document.getElementById("gameScreen");
     var textOverlay = document.getElementById("textOverlay");
     gameScreen.removeChild(textOverlay);
+    if(paths[scenePlayerPath].tiles[scenePlayerTile].deadendType=='death'){
+        death_event();
+    }
 }
 
 function nextScene() {
@@ -140,7 +177,7 @@ function nextScene() {
             };
             sceneCurrent++;
         }
-        else { clearScene(); }
+        else { clearScene(1); }
     }
 }
 
@@ -168,7 +205,7 @@ var scenes = [
             },
             function Entrance_2(path, tile) {
                 sceneList = [
-                    [[renderOverlay, [null]]],
+                    [[renderOverlay, [null]],[playVideo, [path, 'Zavala.mp4']]],
                     [[playText, [path, tile, 0, 0]]],
                     [[playText, [path, tile, 1, 0]]],
                     [[playText, [path, tile, 2, 0]]],
@@ -190,7 +227,12 @@ var scenes = [
                 ];
             },
             function Entrance_3(path, tile) {
-                sceneList = [ 
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
                 ];
             },
             function Entrance_4(path, tile) {
@@ -569,7 +611,21 @@ var scenes = [
                     [[playText, [path, tile, 2, 0]]],
                     [[playText, [path, tile, 3, 0]]],
                     [[playText, [path, tile, 4, 0]]],
+                    [[playVideo, [path, 'DuduGiftEze.mp4']]],
                     [[playText, [path, tile, 5, 0]], [playSound, [path, 'ohyeahbaby.mp3', 0]]],
+                    ];
+            },
+            function Leo_13(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]], [playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playText, [path, tile, 6, 0]]],
+                    [[playText, [path, tile, 7, 0]]],
+                    [[playText, [path, tile, 8, 0]]],
                     ];
             },
         ],
@@ -1011,6 +1067,23 @@ var scenes = [
                             [[playText, [path, tile, 88, 1]]],
                         ];
                     },
+                    function Myrin_11(path, tile) {
+                        sceneList = [
+                            [[renderOverlay, [null]]], 
+                            [[playText, [path, tile, 0, 1]]],
+                            [[playText, [path, tile, 1, 1]]],
+                            [[playText, [path, tile, 2, 1]]],
+                            [[playText, [path, tile, 3, 1]]],
+                            [[playText, [path, tile, 4, 1]]],
+                            [[playText, [path, tile, 5, 1]]],
+                            [[playText, [path, tile, 6, 1]]],
+                            [[playText, [path, tile, 7, 1]]],
+                            [[playText, [path, tile, 8, 1]]],
+                            [[playText, [path, tile, 9, 1]]],
+                            [[playText, [path, tile, 10, 1]]],
+                            [[playText, [path, tile, 11, 1]]],
+                         ];
+                    },
         ],
     },
     {
@@ -1287,12 +1360,73 @@ var scenes = [
                 sceneList = [
                     [[renderOverlay, [null]]],
                     [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
                 ];
             },
             function Érazen_22(path, tile) {
                 sceneList = [
                     [[renderOverlay, [null]]],
                     [[playText, [path, tile, 0, 0]]],
+                ];
+            },
+        ],
+    },
+    {
+        path: 'Jas',
+        sequence: [
+            function Jas_1(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playText, [path, tile, 6, 0]]],
+                    [[playText, [path, tile, 7, 0]]],
+                    [[playText, [path, tile, 8, 0]]],
+                    [[playText, [path, tile, 9, 0]]],
+                ];
+            },
+            function Jas_2(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                ];
+            },
+        ],
+    },
+    {
+        path: 'Yuma',
+        sequence: [
+            function Yuma_1(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playText, [path, tile, 6, 0]]],
+                    [[playText, [path, tile, 7, 0]]],
+                    [[playText, [path, tile, 8, 0]]],
+                ];
+            },
+        ],
+    },
+    {
+        path: 'Beans',
+        sequence: [
+            function Beans_1(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playVideo, [path, 'YattaFinalV4.mp4']]],
                 ];
             },
         ],

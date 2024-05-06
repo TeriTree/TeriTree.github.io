@@ -17,6 +17,10 @@
     src: url('./res/cinzel.regular.ttf');
   }
   
+  body {
+    background-color: black;
+  }
+
   div.gameBox {
     /* border: 2px solid black; */
     /* outline: #000000 solid 5px; */
@@ -30,6 +34,15 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  button.movementButton {
+    background-image: url('./res/movementButton.png');
+    width: 61px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    color:rgb(255, 0, 75);
   }
 
   div.pathName {
@@ -63,6 +76,12 @@
     position: absolute;
     left: 0px;
     top: 180px;
+  }
+
+  img.mapBG {
+    position: absolute;
+    left: 0px;
+    top: 0px;
   }
 
   div.gameScreen {
@@ -102,6 +121,13 @@
     left: 0px;
     top: 0px;
   }
+  button.inventoryCategory {
+    position: absolute;
+    width: 154px;
+    height: 154px;
+    border: none;
+    background: none;
+  }
   img.inventoryOverlay{
     z-index: 125;
     opacity: 0.8;
@@ -113,13 +139,85 @@
     background-color: black;
     border: none;
   }
-  button.closeInventory{
+  img.itemButton{
+    z-index: 130;
+    position: absolute;
+    width: 154px;
+    height: 154px;
+    border: none;
+    background: none;
+  }
+  img.itemBlock{
+    z-index: 131;
+    opacity: 0.96;
+    position: absolute;
+    width: 154px;
+    height: 154px;
+    background-color: black;
+    border: none;
+    outline: none;
+  }
+  img.itemOverlay{
+    z-index: 140;
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    top: 0px;
+    left: 0px;
+    border: none;
+  }
+  img.itemImage{
+    z-index: 141;
+    position: absolute;
+    width: 154px;
+    height: 154px;
+    /*left: 563px;*/
+    left: 292px;
+    top: 100px;
+  }
+  p.itemName{
+    z-index: 141;
+    position: absolute;
+    text-align: center;
+    align-content: center;
+    font-size: 36px;
+    left: 50px;
+    top: 264px;
+    width: 639px;
+    color: aqua;
+    -webkit-text-stroke: 1px #5E0063;
+    font-family:Chinzel;
+  }
+  p.itemDescription{
+    z-index: 141;
+    position: absolute;
+    text-align: center;
+    align-content: center;
+    font-size: 24px;
+    left: 50px;
+    top: 354px;
+    width: 639px;
+    color: red;
+    -webkit-text-stroke: 1px #5E0063;
+    font-family:Chinzel;
+  }
+  img.closeItem{
+    z-Index: 141;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1180px;
+    top: 50px;
+    content: url('./res/close_button.png');
+  }
+  img.closeInventory{
     z-Index: 126;
     position: absolute;
     width: 50px;
     height: 50px;
     left: 1180px;
     top: 50px;
+    content: url('./res/close_button.png');
   }
 
   div.interactions {
@@ -157,6 +255,25 @@
     font-family:Chinzel;
   }
 
+  video.regVideo{
+    z-index: 101;
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    top: 0px;
+    left: 0px;
+    border: none;
+  }
+  video.deathVideo{
+    z-index: 1000;
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    top: 0px;
+    left: 0px;
+    border: none;
+  }
+
   button.optionButton{
     position: absolute;
     width: 1825px;
@@ -164,7 +281,7 @@
     left: 47px;
     border: none;
     background: none;
-    background-image: url('./res/textOptionBG.png');;
+    background-image: url('./res/textOptionBG.png');
     text-align: center;
     line-height: 45px;
     font-size: 40px;
@@ -183,13 +300,16 @@
 </div>
 </div> -->
 
+<audio loop src='./res/Entrance/bgm/base_bgm.mp3' id='bgm'></audio>
 
   <div class="gameBox">
     <div class="pathName">
       <img class="pathNameBG" id="pathNameBG" src="./res/Entrance/pathName.png"></img>
     </div>
 
-    <div class="map"></div>
+    <div class="map">
+      <img class="mapBG" src="./res/map.png"></img>
+    </div>
 
     <div class="gameScreen" id="gameScreen" displayedtile="0">
       <img class="gameScreenBG" id="gameScreenBG" src="./res/Entrance/bg.png"></img>

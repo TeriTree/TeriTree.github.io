@@ -3,7 +3,8 @@
 seq.path - path name {'name'}
 seq.sequence.tile - tile id {id}
 seq.sequence.type - tile type {'e'/'n'/'s'}
-seq.sequence.complete - has the sequence been played {true/false}
+hasAudio: false,seq.sequence.
+complete - has the sequence been played {true/false}
 seq.sequence.text - sequence text {"text"}
 seq.sequence.option - answer options {"text"}
 seq.sequence.answer - answer number {num}
@@ -15,17 +16,20 @@ seq.sequence.answer - answer number {num}
             {
                 tile: 0,
                 type: 'e',
+                hasAudio: false,
                 complete: true,
             },
             {
                 tile: 0,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [],
             },
             {
                 tile: 0,
                 type: 's',
+                hasAudio: false,
                 complete: false,
                 text: [],
                 textOptions: [],
@@ -42,6 +46,7 @@ var seq = [
             {
                 tile: 1,
                 type: 'n',
+                hasAudio: true,
                 complete: false,
                 text: [
                     "...", /*0*/
@@ -50,6 +55,7 @@ var seq = [
             {
                 tile: 2,
                 type: 'n',
+                hasAudio: true,
                 complete: false,
                 text: [
                     "Consciousness flows into your mind, your eyes slowly open.", /*1*/
@@ -74,7 +80,8 @@ var seq = [
             },
             {
                 tile: 3,
-                type: 'e',
+                type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "The gate, breaking the silence vehemently only few moments ago is now prey of the silence that swallowed the hallway. It does not move.",
@@ -86,6 +93,7 @@ var seq = [
             {
                 tile: 4,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "You enter through the gate.",
@@ -104,6 +112,7 @@ var seq = [
             {
                 tile: 5,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "You're not sure when it happened, but you have entered a cave.", /*1*/
@@ -119,6 +128,7 @@ var seq = [
             {
                 tile: 6,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "You start wondering what kind of structure is hiding behind that barrier. A tower? A pearly white palace filled with countless sawblades? A gigantic beehive? All of them, perhaps.",
@@ -126,8 +136,7 @@ var seq = [
                     "...",
                     "...",
                     "As you walk closer, the warped light becomes brighter.",
-                    "Brighter... and red...",
-                    "Your vision becomes completely enchanted. You can hear screams coming from the shadows all around the corners of your eyes...",
+                    "Brighter... and red...","Your vision becomes completely enchanted. You can hear screams coming from the shadows all around the corners of your eyes...",
                     "...",
                     "Y O U R M I N D I S B R O K E N--",
                 ],
@@ -140,7 +149,8 @@ var seq = [
             {
                 tile: 1,
                 type: 'n',
-                complete: false,
+                hasAudio: false,
+                complete: true,
                 text: [
                     "This voice again...",
                     "It felt like death itself was approaching, but...",
@@ -157,6 +167,7 @@ var seq = [
             {
                 tile: 1,
                 type: 's',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "A deep chill welcomes you into this new path...",
@@ -169,6 +180,7 @@ var seq = [
             {
                 tile: 2,
                 type: 's',
+                hasAudio: false,
                 complete: false,
                 text: [""],
                 option: ["Light falls.", "Moons shatter.", "Suns fade.",],
@@ -177,6 +189,7 @@ var seq = [
             {
                 tile: 3,
                 type: 's',
+                hasAudio: false,
                 complete: false,
                 text: [""],
                 option: ["Sets you...", "Glimpses you...", "Rebinds you...",],
@@ -185,6 +198,7 @@ var seq = [
             {
                 tile: 4,
                 type: 's',
+                hasAudio: false,
                 complete: false,
                 text: [""],
                 option: ["Infinity.", "Domination unbound.", "Absolute power.",],
@@ -199,6 +213,7 @@ var seq = [
             {
                 tile: 1,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["Lassate ogne speranza voiautri ca trasiti. This is the original line.", /*1*/
                        "No for real, check his earlier works, you will see what he thought was the real language of poetry." /*2*/],
@@ -206,12 +221,14 @@ var seq = [
             {
                 tile: 2,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["Ok, je suis desolee, as usual I ramble about that topic, I probably spoiled the surprise already anyway."],
             },
             {
                 tile: 3,
                 type: 's',
+                hasAudio: false,
                 complete: false,
                 text: ["It all starts with..."],
                 option: ["Hrolfr.", "Rollo.", "Rollon.",],
@@ -220,48 +237,56 @@ var seq = [
             {
                 tile: 4,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["A great raider, a warlord, and... First to get settled on the northern shores of a country."],
             },
             {
                 tile: 5,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["He embraced the cross, and adopted a new language."],
             },
             {
                 tile: 6,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["And thus his progeny would leave their mark in every land they lived in."],
             },
             {
                 tile: 7,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["Thus... right they travagghianu, up they toil."],
             },
             {
                 tile: 8,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["FAIL: Your ship takes the wrong direction, you end up in Britain, lost in the wilderness."],
             },
             {
                 tile: 9,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["Surely they all took different directions and interesting stories."],
             },
             {
                 tile: 10,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["And they went wild with the differences!"],
             },
             {
                 tile: 11,
                 type: 's',
+                hasAudio: false,
                 complete: false,
                 text: ["Can you guess what a muccaturi is?"],
                 option: ["Snot.", "Napkin.",],
@@ -270,30 +295,35 @@ var seq = [
             {
                 tile: 12,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["Indeed descendant of Rollon, we have so much in common."],
             },
             {
                 tile: 13,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["Continuing the journey proved arduous."],
             },
             {
                 tile: 14,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["But our story is interrupted, that guard looks hungry... Should we continue right?"],
             },
             {
                 tile: 15,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["As I was saying, despite the differences, we're all a big family in the end."],
             },
             {
                 tile: 16,
                 type: 's',
+                hasAudio: false,
                 complete: false,
                 text: ["Would you say you're the only one being called a frog eater?"],
                 option: ["Of course, bruh.", "No.",],
@@ -302,24 +332,28 @@ var seq = [
             {
                 tile: 17,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["What a tragedy that distant cousins would hate one another due to national allegiances."],
             },
             {
                 tile: 18,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["On the right they say sisiri, on the left they say ciciri."],
             },
             {
                 tile: 19,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["MORA MORA LU FRANCISI!"],
             },
             {
                 tile: 20,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["Thus the thread of fate has been severed. But hey, have some soup!",
                        "Chickpea soup obtained!",
@@ -328,6 +362,7 @@ var seq = [
             {
                 tile: 21,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "That guard really liked the soup... Let's go before he notices we didn't bring any bread with us.", /*0*/
@@ -339,42 +374,49 @@ var seq = [
             {
                 tile: 22,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["Another hungry guard? What's with this place. Oh well, time for another detour it seems."],
             },
             {
                 tile: 23,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["So yeah, you may have guessed it since the beginning, I too am a descendant of Rollon!"],
             },
             {
                 tile: 24,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["And we've been talking about food a lot."],
             },
             {
                 tile: 25,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["So you know which individual you're talking to specifically by now."],
             },
             {
                 tile: 26,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["So now we will go to the meat of the question."],
             },
             {
                 tile: 27,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["The golden treasure of our quest."],
             },
             {
                 tile: 28,
                 type: 's',
+                hasAudio: false,
                 complete: false,
                 text: ["And how shall we refer to it?"],
                 option: ["Arancina.", "Arancino.", "Arancinu.",],
@@ -383,6 +425,7 @@ var seq = [
             {
                 tile: 29,
                 type: 's',
+                hasAudio: false,
                 complete: false,
                 text: ["Indeed, my friend. And what do you put in it?"],
                 option: ["Sucu.", "Ragù.", "Pineapple.",],
@@ -391,6 +434,7 @@ var seq = [
             {
                 tile: 30,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["You have passed the test. Here's a basket of arancini!",
                        "Basket of arancini obtained!", 
@@ -399,24 +443,28 @@ var seq = [
             {
                 tile: 31,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["I think this guard is far happier than the one before, it's suspicious that the guards suddenly showed up though."],
             },
             {
                 tile: 32,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["Anyway... We're almost at the end of the journey, o descendant of Rollon."],
             },
             {
                 tile: 33,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["This was my elaborate setup to make you take a long spiraling journey to..."],
             },
             {
                 tile: 34,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: ["This beautiful cassata. I know, I know. I'm a walking stereotype."],
             },
@@ -430,17 +478,19 @@ var seq = [
             {
                 tile: 1,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "You awake from a long sleep.", /*0*/
                     "You're disoriented, confused for...", /*1*/
                     "This is not your comfortable room where you can turn off your brain.", /*2*/
-                    "This looks more like... an ancient temple.", /*3*/
+                    "This looks more like... the ruins of an ancient temple.", /*3*/
                 ],
             },
             {
                 tile: 2,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "Suddenly, a voice whispers into your ears:", /*0*/
@@ -453,6 +503,7 @@ var seq = [
             {
                 tile: 3,
                 type: 'n',
+                hasAudio: true,
                 complete: false,
                 text: [
                     "The door before you closes on its own, with a loud bang.", /*0*/
@@ -467,6 +518,7 @@ var seq = [
             {
                 tile: 4,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "You hear a loud roar coming from the other room.", /*0*/
@@ -479,6 +531,7 @@ var seq = [
             {
                 tile: 5,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "A window at the center of the dome lets sunlight penetrate the room.", /*0*/
@@ -491,6 +544,7 @@ var seq = [
             {
                 tile: 6,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "The light guides you towards a spacious, mossy hall in ruin.",
@@ -501,6 +555,7 @@ var seq = [
             {
                 tile: 7,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "You enter a dilapitated, crumbling room.", /*0*/
@@ -513,6 +568,7 @@ var seq = [
             {
                 tile: 8,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "Unexpectedly, in this room you can see a scale model of the Eiffel Tower with...", /*0*/
@@ -526,6 +582,7 @@ var seq = [
             {
                 tile: 9,
                 type: 's',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "Something is not right, in this room.", /*0*/
@@ -544,17 +601,19 @@ var seq = [
             {
                 tile: 10,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "*Dudu's blessing obtained*",
                     "With Durandal's blessing supporting you, you feel invincible.",
                     "As you keep walking, two doors appear before you.",
-                    "The path splits into two possible directions.",
+                    "The path splits into two possible directions, but apparently Felix Natalis is locked.",
                 ],
             },
             {
                 tile: 11,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "You smell a repulsive smell of blood.", /*0*/
@@ -575,14 +634,32 @@ var seq = [
             {
                 tile: 12,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
-                    "The door is locked, you require a sword-shaped key to unlock it!", /*0*/
+                    "Finally, you reached the end!", /*0*/
                     "You hear an angelic voice, it's Durandal again!", /*1*/
                     "You survived the ㄥ maze and proved your honor, loyalty and courage, so now it's time to let you go.", /*2*/
                     "But, before that...", /*3*/
                     "She gives you a letter as a gift and tells you to open it.", /*4*/
                     "*Birthday letter acquired*", /*5*/ 
+                ],
+            },
+            {
+                tile: 13,
+                type: 'n',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "Ao AUGURIII frate' siccome me hanno detto che tu nonno sa i dialetti italiani ho pensato di fatte sta lettera di auguri in romano giusto pe magari davve qualcosa da tradurre insieme :DD.", /*0*/
+                    "Quinni te do i mie più calorosi auguri fratè ed essendoci conosciuti su er server de liam de rocket league te posso solo che di:", /*1*/
+                    " macron sia co te lui è il dio de rocket league l'essere che ha er potere der controller e che fa i backflip in giro pe il campo ancora na volta auguri de bon compleanno ezeriel!!!.", //2 
+                    "(P.S. The Macron thing is a meme that originated from me and Jas while playing Rocket League, because we encountered a French guy whose nickname was Macron and he destroyed us using the skill issue button D:", //3 
+                    "And sorry I'm not that much used to write birthday letters, lmao)", //4
+                    "ENG: hey happy birthday bro! They told me that your grandpa is knowledgeable about the Italian dialects so I thought that it could be funny to give u this birthday letter written in Roman just to give u something different and maybe you can translate that with your grandpa!", //5
+                    "So, I give you my utmost happy birthday and because we met for the first time on Liam's Rocket League Discord server I can only say:", // 6 
+                    "that may God Macron be with you, he is the one that has the power of gamepad and he is the one that can do the backflips all around the field", //7 
+                    "so again happy birthday and may all your wishes come true!! (what a coincidence ur French lmao).", //8
                 ],
             },
         ],
@@ -593,6 +670,7 @@ var seq = [
             {
                 tile: 1,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "Beerin is happy.", /*0*/
@@ -645,6 +723,7 @@ var seq = [
             {
                 tile: 2,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "These rivers sure were nice looking, thought Beerin.", /*0*/
@@ -671,6 +750,7 @@ var seq = [
             {
                 tile: 3,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "Now to look for something to bring back, it thinks.", /*0*/
@@ -697,6 +777,7 @@ var seq = [
             {
                 tile: 4,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "Returning to the grassy plains, Beerin presented its finding to Treeze.", /*0*/
@@ -737,6 +818,7 @@ var seq = [
             {
                 tile: 5,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "These gatherings sure were crouded. Those big, lumbering creatures love to gather here.", /*0*/
@@ -761,6 +843,7 @@ var seq = [
             {
                 tile: 6,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "Beerin thought again.", /*0*/
@@ -784,6 +867,7 @@ var seq = [
             {
                 tile: 7,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "Returning to the grassy plains, Beerin presented its finding to Treeze.", /*0*/
@@ -827,6 +911,7 @@ var seq = [
             {
                 tile: 8,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "Beerin had seen a few grassfields with wild flowers on its travels before, but this is was something else entirely.", /*0*/
@@ -841,8 +926,7 @@ var seq = [
                     "But something was different, now.", /*9*/
                     "It seemed that while Beerin was sleeping, it had begun to rain.", /*10*/
                     "The sky, which was previously perfectly clear, was now covered with dark clouds.", /*11*/
-                    "And from the heavens came large drops of water.", /*12*/
-                    "It was less of a drizzle, and more of a complete downpour.", /*13*/
+                    "And from the heavens came large drops of water.", /*12*/"It was less of a drizzle, and more of a complete downpour.", /*13*/
                     "How did I sleep through such a big storm?, thought Beerin.", /*14*/
                     "Indeed, it was rather unusual, that Beerin had not been awoken prior to this, considering the intensity of the rain.", /*15*/
                     "Somewhere near, it heard a terrible thunder.", /*16*/
@@ -871,6 +955,7 @@ var seq = [
             {
                 tile: 9,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "Returning to the grassy plains, Beerin presented its finding to Treeze.", /*0*/
@@ -951,6 +1036,7 @@ var seq = [
             {
                 tile: 10,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "Beerin flew, though its wings felt weak and its heart felt empty.", /*0*/
@@ -1044,6 +1130,26 @@ var seq = [
                     "*Myrin's letter obtained*", /*88*/
                 ],
             },
+            {
+                tile: 11,
+                type: 'n',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "Hallo Eze :D", /*0*/
+                    "Happy birthday, or. well. Happy late birthday, i suppose. I want you to know that you're a very dear friend of mine.", //1
+                    "Talking to you is always fun, whether it's about philosophy or games. It's always been super engaging to chat with you and you always brighten my day a lot.", //2
+                    "And I wanted to do something nice, since it's your birthday. Well, near enough to your birthday, anyways. This was what I ended up coming up with.", //3
+                    "I hope you liked the story i wrote. As you can probably tell, it was a fanfiction of your fanfiction. Fanficception, if you will.", //4
+                    ". I really loved what you wrote for my birthday, so naturally, i couldn't give you anything for your birthday except my own interpretation of your story ._.", //5
+                    "._. I would say i hope you weren't too bummed out by the ending, but that would be lying, considering that i wrote that ending specifically to bum you out. I hope that story didn't scar you for life?", //6
+                    "I actually wanted to write something from Treeze's perspective, where he figures out slowly that he was living in a dream world and he himself is just a figment of Beerin's imagination.", //7
+                    "But since I made Treeze, well, a tree, it was just too hard, since then the entire story would just be Treeze and Beerin talking to eachother. And I wasn't sure how to give that story an ending.", //8
+                    "That's why you ended up reading what you did. Of course, that was before i found out you were a bee/tree/philosopher, but oh well. If you were one of the bees you would have died anyways.", //9
+                    "If you can, please write back to me whenever to tell me what you thought of the story, since I am absolutely dying to know. Or not, idk maybe you're busy. Other than that, have a nice day :D", //10
+                    "Sincerely, Myra.", //11
+                ],
+            },
         ],
     },
     {
@@ -1052,6 +1158,7 @@ var seq = [
             {
                 tile: 1,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "The Courtyard is a comfortable place for you, so much so that you almost long for a break, sitting below the Teri statue, resting while staring in awe at all the portals around you.", /*0*/
@@ -1063,12 +1170,13 @@ var seq = [
             {
                 tile: 2,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "As you come out from the other side of the portal, you open your eyes.", /*0*/
                     "To your surprise, you found yourself in the middle of a cultivated field. You wonder how this place is even connected to the courtyard you just left behind your back.", /*1*/
                     "However, what puzzles you the most is the smell that pierces your nose.",  /*2*/
-                    "Still numb after the inter-dimensional travel (or it felt like one at least) that teleported you in this field, you realize the smell is familiar, but all the attempts to recognize it are to no avail.", /*3*/
+                    "Still numb after the inter-dimensional travel (it felt like one at least) that teleported you to this field, you realize the smell is familiar, but all the attempts to recognize it are to no avail.", /*3*/
                     "You've smelled it before, you've tasted it before, and yet, that name appears to be covered in thiccc fog.", /*4*/
                     "For now, you decide to stop overthinking. You realize you've been standing on the field, alone and immobile, for several minutes. Before anyone notices you being awkward, you switfly hop among the crops and, rapidly get out, after giving one last look of goodbye to the field that welcomed you to this path.", /*5*/
                 ],
@@ -1076,6 +1184,7 @@ var seq = [
             {
                 tile: 3,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "You keep walking and walking on the sidewalk of a road, looking around for any traces of civilization, barring cars and the familiar cultivated fields.",
@@ -1092,6 +1201,7 @@ var seq = [
             {
                 tile: 4,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "You lost count of how many hours of walking it took you to finally catch a glimpse of buildings.", /*0*/
@@ -1112,6 +1222,7 @@ var seq = [
             {
                 tile: 5,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "You raise your arm, your thumb is up. Now, it is only a matter of waiting.", /*0*/
@@ -1130,6 +1241,7 @@ var seq = [
             {
                 tile: 6,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "The noble man is energetically greeted by the guards in front of the city gate. He must be popular around here.", /*0*/
@@ -1143,6 +1255,7 @@ var seq = [
             {
                 tile: 7,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "You sit down on bench, watching people frenetically pass by, yellowish cars stopping as the traffic lights switch to an intense yellow color.", /*0*/
@@ -1160,19 +1273,21 @@ var seq = [
             {
                 tile: 8,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "Pushed by your tie, you decide to join in for a refreshing footpall match with the kids in the park.", /*0*/
                     "However, the pall feels unexpectedly heavy to your touch.", /*1*/
-                    "So heavy that it could easily knock down even an adult, a 21 year old guy.", /*2*/
+                    "So heavy that it could easily knock down even an adult, a 21 year old (now almost 22) guy.", /*2*/
                     "And no, it is not a coincidence.", /*3*/
                     "One of the kids clumsily kicked the pall, which almost killed your petit soldat.", /*4*/
-                    "The unfortunate event causes you to pass out. You should have been more careful!", /*5*/
+                    "The unfortunate event causes you to pass out, ending up in hospital. You should have been more careful! ", /*5*/
                 ],
             },
             {
                 tile: 9,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "Looking for some rest, you decide to head to a hotel nearby.", /*0*/
@@ -1182,6 +1297,7 @@ var seq = [
             {
                 tile: 10,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "Room P0530 was assigned to you. Finally, some sleep!", /*0*/
@@ -1194,6 +1310,7 @@ var seq = [
             {
                 tile: 11,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "You close your eyes. After a long fight between the annoying odor and your nose, the latter emerges victorious.", /*0*/
@@ -1204,6 +1321,7 @@ var seq = [
             {
                 tile: 12,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "Your energy has been fully repleshined.", /*0*/
@@ -1213,6 +1331,7 @@ var seq = [
             {
                 tile: 13,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "[P-Pass REQUIRED TO ENTER]", /*0*/
@@ -1227,6 +1346,7 @@ var seq = [
             {
                 tile: 14,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "The last memory you have is that of a pall knocking you off.", /*0*/
@@ -1240,6 +1360,7 @@ var seq = [
             {
                 tile: 15,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "The door creaks open.", /*0*/
@@ -1264,6 +1385,7 @@ var seq = [
             {
                 tile: 16,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "The apartment is a modest one, spacious enough for an old couple.", /*0*/
@@ -1276,6 +1398,7 @@ var seq = [
             {
                 tile: 17,
                 type: 's',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "The dish is finally served: gnocchi, coated in bechamel. But, there is more.", /*0*/
@@ -1298,6 +1421,7 @@ var seq = [
             {
                 tile: 18,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "Daydreaming about the vibrant colors you're about to lay your eyes on, you try to cross the porch that leads to the exhibition's main room.", /*0*/
@@ -1309,7 +1433,7 @@ var seq = [
                     "Though, they seem extremely focused on staring at the art.", /*6*/
                     "So much so that they don't even notice your presence.", /*7*/
                     "They almost look... hypnotized.", /*8*/
-                    "No,w it's your turn to feast your eyes on art.", /*9*/
+                    "Now, it's your turn to feast your eyes on art.", /*9*/
                     "One by one, you lay your eyes on every work of art that is hanging on the strangely not yellow walls, careful not to miss a single one.", /*10*/
                     "However, it doesn't take you long to realize that all art pieces have something in common.", /*11*/
                     "It's not about colors. It's not about art style either.", /*12*/
@@ -1321,6 +1445,7 @@ var seq = [
             {
                 tile: 19,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "New room, same contents.", /*0*/
@@ -1340,34 +1465,41 @@ var seq = [
             {
                 tile: 20,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "You run towards the church, impatient to leave this abormal, distorted reality.", /*0*/
                     "The P-Pass lets you unlock the doors, which you subsequently slammed open.", /*1*/
                     "The church looks brilliantly illuminated, yet empty, perhaps on purpose. This is a fated meeting afterall.", /*2*/
                     "Every choice, every meeting, every place you'v visited. Eveything you have experienced has been guiding you to this place.", /*3*/
-                    "'SHOW YOURSEL, I KNOW YOU CAN HEAR ME', you scream on top of your lungs.", /*4*/
+                    "'SHOW YOURSELF, I KNOW YOU CAN HEAR ME', you scream on top of your lungs.", /*4*/
                     "To no avail.", /*5*/
                     "You scream again.", /*6*/
                     "Nothing.", /*7*/
                     "Nobody's gonna show up? What an anti-climatic ending, it would be.", /*8*/
                     "Just as you're about to give up, a loud voice unexpectedly penetrates inside your head.", /*9*/
                     "'For the eyes to see, the heart must first learn to see beyond the veil of Maya', a sweet and sugary, unknown voice says.", /*10*/
-                    "Hazy words began to appear in the air, right before your eyes, as if the clouds suddenly gained the intelligence to form sentences.", /*11*/
-                    "FUTURE PUZZLE..." /*12*/
+                    "Hazy words began to appear in the air, right before your eyes, as if the clouds suddenly gained the intelligence to form words.", /*11*/
+                    "LIFE IS POTATO. POTATO IS LIFE. I WAS BORN FROM A FIELD AND ASCENDED TO HEAVEN. I FEED HUMANITY AT A LOW PRICE. POTATO IS GOD. YOU ARE POTATO." /*12*/
                 ],
             },
             {
                 tile: 21,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
-                    "And thus, you've become the the most zealous Potato's priest.", /*0*/
+                    "The brainwashing has begun. Not even a philosopher with remarkable introspective skills like you can resist.", //0
+                    "You begin to feel... admiration, adoration, obsession towards potatoes.", //1
+                    "French fries, boiled Potatoes, fried Potatoes, Potatoes au gratin, bechamel, Irish potatoes. Never have you ever felt such a strong urge to consume potatoes.", //2
+                    "Your body automatically prostrates itself, for the Potato has descended upon you.", //3
+                    "And thus, you've become the the most zealous Potato's priest.", /*4*/
                 ],
             },
             {
                 tile: 22,
                 type: 'n',
+                hasAudio: false,
                 complete: false,
                 text: [
                     "As such, it is your duty to teach other people about the greatness, the magnificence of God Potato." /*0*/
@@ -1376,11 +1508,82 @@ var seq = [
         ],
     },
     {
+        path: 'Jas',
+        sequence: [
+            {
+                tile: 1,
+                type: 'n',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "If on a Spring's night a philosopher", //0
+                    "Outside the familiar Solar System", //1 
+                    "Leaning from the cockpit of a Vessel", //2                
+                    "Without fear of supernovas", //3
+                    "Looks down at the rotating rock", //4
+                    "In a network of memories that resurface", //5 
+                    "In a network of hallways that intersect", //6
+                    "On the carpet of trees illuminated by the twins", //7
+                    "Around a temple", //8
+                    "What story down there awaits its reader?", //9
+                ],
+            },
+            {
+                tile: 2,
+                type: 'n',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "Contact me.", //0
+                    "¿’", //1 
+                ],
+            },
+        ],
+    },
+    {
+        path: 'Yuma',
+        sequence: [
+            {
+                tile: 1,
+                type: 'n',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "Happy Birthday eze! Today is your special day, and i wish you an amazing day!", //0
+                    "I hope everything you wish for comes true and that you'll achieve everything you want! you're our eze, and i'kk wush you everything good.<3", //1
+                    "sometimes life might get hard, it feels like going up against an though Elden ring boss,", //2
+                    "but instead of overthinking or wishing to dive back in time, our eze stays strong, pushes trough and beats every challenge in front of him!", //3
+                    "And also, there will always bei your friends from the teri tower! They'll always be there, no matter what happens.", //4
+                    "Even if you're stuck in a closed room, they will always help you find a way out with their red truth.~", //5
+                    "But even tho there's hardships sometimes, i hope you life will be filled with joy, fun, memes, even chess, here and there and just a lot of good times!", //6
+                    "speaking of chess! i have a little chess puzzle for you! its a though nut to crack, but i believe in you! as an hint, the placements of certain pieces is crucial! Check my items for details.", //7
+                    "Again, Happy birhtday Eze!<3", //8
+
+                ]
+            }
+        ]
+    },
+    {
+        path: 'Beans',
+        sequence: [
+            {
+                tile: 1,
+                type: 'n',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    
+                ]
+            }
+        ]
+    },
+    {
         path: 'default',
         sequence: [
             {
                 tile: null,
                 type: null,
+                hasAudio: false,
                 complete: null,
                 text: ["You have already been here."],
             },

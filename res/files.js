@@ -16,6 +16,9 @@ var files = [
             'OHEO.mp3',
             'footsteps.mp3',
         ],
+        video:[
+            'Zavala.mp4',
+        ],
         bg: [
             'bg2.png'
         ]
@@ -29,7 +32,7 @@ var files = [
     },
     {
         path: 'χ',
-        folder: './res/χ/',
+        folder: './res/Frey/',
         audio:[
             'Rhulk_1.mp3',
             'Rhulk_2.mp3',
@@ -72,6 +75,9 @@ var files = [
             'teri.mp3',
             'roar.mp3',
         ],
+        video:[
+            'DuduGiftEze.mp4'
+        ]
     },
     {
         path: 'Myrin',
@@ -90,6 +96,36 @@ var files = [
             'gate.mp3',
         ],
     },
+    {
+        path: 'Jas',
+        folder: './res/Jas',
+        audio:[
+
+        ],
+        video:[
+
+        ]
+    },
+    {
+        path: 'Yuma',
+        folder: './res/Yuma',
+        audio: [
+
+        ],
+        video: [
+
+        ],
+    },
+    {
+        path: 'Beans',
+        folder: './res/Beans/',
+        audio: [
+
+        ],
+        video:[
+            'YattaFinalV4.mp4',
+        ],
+    }
 ];
 
 export {files}

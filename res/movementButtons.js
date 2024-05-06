@@ -139,32 +139,53 @@ var buttons = [
                     },
                     {
                         tile: 1,
-                        text: 'Sisy',
+                        text: 'ˇ•',
                         posX: 940,
                         posY: 300,
                         newPath: 'Sisy',
                     },
                     {
                         tile: 1,
-                        text: 'Leo',
+                        text: 'ㄥ',
                         posX: 240,
                         posY: 300,
                         newPath: 'Leo',
                     },
                     {
                         tile: 1,
-                        text: 'Myrin',
+                        text: '._.',
                         posX: 240,
                         posY: 550,
                         newPath: 'Myrin',
                     },
                     {
                         tile: 1,
-                        text: 'Érazen',
+                        text: '>',
                         posX: 440,
                         posY: 550,
                         newPath: 'Érazen',
                     },
+                    {
+                        tile: 1,
+                        text: '¿’',
+                        posX: 400,
+                        posY: 200,
+                        newPath: 'Jas'
+                    },
+                    {
+                        tile: 1,
+                        text: '^',
+                        posX: 940,
+                        posY: 520,
+                        newPath: 'Yuma'
+                    },
+                    {
+                        tile: 1,
+                        text: 'Ω',
+                        posX: 840,
+                        posY: 220,
+                        newPath: 'Beans'
+                    }
                 ],
             },
         ],
@@ -189,13 +210,6 @@ var buttons = [
                         posY: 100,
                         newPath: null,
                     },
-                    {
-                        tile: 3,
-                        text: 'χ-3',
-                        posX: 1180,
-                        posY: 360,
-                        newPath: null,
-                    },
                 ],
             },
             {
@@ -206,20 +220,6 @@ var buttons = [
                         text: 'χ-1',
                         posX: 640,
                         posY: 620,
-                        newPath: null,
-                    },
-                    {
-                        tile: 4,
-                        text: 'χ-4',
-                        posX: 1180,
-                        posY: 360,
-                        newPath: null,
-                    },
-                    {
-                        tile: 5,
-                        text: 'χ-5',
-                        posX: 100,
-                        posY: 360,
                         newPath: null,
                     },
                 ]
@@ -907,8 +907,7 @@ var buttons = [
             },
             {
                 tile: 3,
-                destinationTiles: [ null,
-                ],
+                destinationTiles: null,
             },
             {
                 tile: 4,
@@ -983,8 +982,7 @@ var buttons = [
             },
             {
                 tile: 7,
-                destinationTiles: [ null,
-                ],
+                destinationTiles: null
             },
             {
                 tile: 8,
@@ -1060,6 +1058,24 @@ var buttons = [
                 destinationTiles: [
                     {
                         tile: 10,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 13,
+                        text: 'Read letter',
+                        posX: 640,
+                        posY: 400
+                    }
+                ],
+            },
+            {
+                tile: 13,
+                destinationTiles: [
+                    {
+                        tile: 12,
                         text: 'Go back',
                         posX: 640,
                         posY: 620,
@@ -1248,6 +1264,24 @@ var buttons = [
                 destinationTiles: [
                     {
                         tile: 9,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 11,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 100
+                    }
+                ],
+            },
+            {
+                tile: 11,
+                destinationTiles: [
+                    {
+                        tile: 10,
                         text: 'Go back',
                         posX: 640,
                         posY: 620,
@@ -1662,6 +1696,76 @@ var buttons = [
             },
         ],
     },
+    {
+        path: 'Jas',
+        tiles: [
+            {
+                tile: 1,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Courtyard',
+                        posX: 640,
+                        posY: 620,
+                        newPath: 'Courtyard',
+                    },
+                    {
+                        tile: 2,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 100,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 2,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                ],
+            },
+        ]
+    },
+    {
+        path: 'Yuma',
+        tiles: [
+            {
+                tile: 1,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Courtyard',
+                        posX: 640,
+                        posY: 620,
+                        newPath: 'Courtyard',
+                    },
+                ],
+            },
+        ]
+    },
+    {
+        path: 'Beans',
+        tiles: [
+            {
+                tile: 1,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Courtyard',
+                        posX: 640,
+                        posY: 620,
+                        newPath: 'Courtyard',
+                    },
+                ],
+            },
+        ]
+    }
 ];
 
 export { buttons }
