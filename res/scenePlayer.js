@@ -1426,10 +1426,7 @@ var scenes = [
             function Beans_1(path, tile) {
                 sceneList = [
                     [[renderOverlay, [null]]],
-                    [[playVideo, [path, 'YattaFinalV4Part1.mp4']]],
-                    [[playVideo, [path, 'YattaFinalV4Part2.mp4']]],
-                    [[playVideo, [path, 'YattaFinalV4Part3.mp4']]],
-                    [[playVideo, [path, 'YattaFinalV4Part4.mp4']]],
+                    [[playVideo, [path, 'YattaFinalCompressed.mp4']]],
                 ];
             },
         ],

@@ -123,10 +123,7 @@ var files = [
 
         ],
         video:[
-            'YattaFinalV4Part1.mp4',
-            'YattaFinalV4Part2.mp4',
-            'YattaFinalV4Part3.mp4',
-            'YattaFinalV4Part4.mp4',
+            'YattaFinalCompressed.mp4',
         ],
     }
 ];
