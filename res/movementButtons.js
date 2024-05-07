@@ -1067,7 +1067,8 @@ var buttons = [
                         tile: 13,
                         text: 'Read letter',
                         posX: 640,
-                        posY: 400
+                        posY: 400,
+                        newPath: null,
                     }
                 ],
             },
