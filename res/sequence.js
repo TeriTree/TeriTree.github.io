@@ -179,10 +179,30 @@ var seq = [
             },
             {
                 tile: 2,
-                type: 'n',
+                type: 's',
                 hasAudio: false,
                 complete: false,
                 text: [""],
+                option: ["Light falls.", "Moons shatter.", "Suns fade.",],
+                answer: 2,
+            },
+            {
+                tile: 3,
+                type: 's',
+                hasAudio: false,
+                complete: false,
+                text: [""],
+                option: ["Sets you...", "Glimpses you...", "Rebinds you...",],
+                answer: 2,
+            },
+            {
+                tile: 4,
+                type: 's',
+                hasAudio: false,
+                complete: false,
+                text: [""],
+                option: ["Infinity.", "Domination unbound.", "Absolute power.",],
+                answer: 1,
             },
         ],
     },
@@ -1548,13 +1568,123 @@ var seq = [
         sequence: [
             {
                 tile: 1,
+                type: 's',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "What is this type of snack called?"
+                ],
+                option: ["Pain au chocolat", "Chocolatine", "Croissant", "Jesus"],
+                answer: 1,
+            },
+            {
+                tile: 2,
+                type: 's',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "What is 9 + 10?"
+                ],
+                option: ["19", "21", "Deez nuts", "90"],
+                answer: 1,
+            },
+            {
+                tile: 3,
+                type: 's',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "What came first, the chicken or the egg?"
+                ],
+                option: ["The chicken", "The egg", "Ur mom", "Soup"],
+                answer: 1,
+            },
+            {
+                tile: 4,
+                type: 's',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "What doth life?"
+                ],
+                option: ["42", "Egg", "The friends we made along the way", "Eat, sleep, shit, repeat"],
+                answer: 1,
+            },
+            {
+                tile: 5,
+                type: 's',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "Would you keep the blindfold on?"
+                ],
+                option: ["Yes", "No", "Keep it on but peek", "Would you?"],
+                answer: 1,
+            },
+            {
+                tile: 6,
+                type: 's',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "Who is responsible for the incident?"
+                ],
+                option: ["Bush", "Obama", "Jas", "The gnomes in my garden"],
+                answer: 1,
+            },
+            {
+                tile: 7,
+                type: 's',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "What did I shove up my ass in 1984?"
+                ],
+                option: ["Burger King Foot lettuce", "KFC Fryer Rat", "El  gato", "A ruler"],
+                answer: 1,
+            },
+            {
+                tile: 8,
+                type: 's',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "Why are we still here?"
+                ],
+                option: ["To suffer", "To do a quiz", "Does it matter?", "It is my birthday"],
+                answer: 1,
+            },
+            {
+                tile: 9,
+                type: 's',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "No yatta?"
+                ],
+                option: ["Live a life of pain", "Find a brick", "Call for an old timer", "Cry in a corner"],
+                answer: 1,
+            },
+            {
+                tile: 10,
+                type: 's',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "Can you define normal?"
+                ],
+                option: ["A majority standard", "Me", "Nothing", "The size of my cock"],
+                answer: 1,
+            },
+            {
+                tile: 11,
                 type: 'n',
                 hasAudio: false,
                 complete: false,
                 text: [
-                    
-                ]
-            }
+
+                ],
+            },
         ]
     },
     {

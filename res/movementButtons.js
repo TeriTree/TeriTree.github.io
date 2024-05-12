@@ -1067,8 +1067,7 @@ var buttons = [
                         tile: 13,
                         text: 'Read letter',
                         posX: 640,
-                        posY: 400,
-                        newPath: null,
+                        posY: 400
                     }
                 ],
             },
@@ -1762,6 +1761,196 @@ var buttons = [
                         posX: 640,
                         posY: 620,
                         newPath: 'Courtyard',
+                    },
+                    {
+                        tile: 2,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 100,
+                        newPath: null,
+                    }
+                ],
+            },
+            {
+                tile: 2,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 3,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 100,
+                        newPath: null,
+                    }
+                ],
+            },
+            {
+                tile: 3,
+                destinationTiles: [
+                    {
+                        tile: 2,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 4,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 100,
+                        newPath: null,
+                    }
+                ],
+            },
+            {
+                tile: 4,
+                destinationTiles: [
+                    {
+                        tile: 3,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 5,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 100,
+                        newPath: null,
+                    }
+                ],
+            },
+            {
+                tile: 5,
+                destinationTiles: [
+                    {
+                        tile: 4,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 6,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 100,
+                        newPath: null,
+                    }
+                ],
+            },
+            {
+                tile: 6,
+                destinationTiles: [
+                    {
+                        tile: 5,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 7,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 100,
+                        newPath: null,
+                    }
+                ],
+            },
+            {
+                tile: 7,
+                destinationTiles: [
+                    {
+                        tile: 6,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 8,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 100,
+                        newPath: null,
+                    }
+                ],
+            },
+            {
+                tile: 8,
+                destinationTiles: [
+                    {
+                        tile: 7,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 9,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 100,
+                        newPath: null,
+                    }
+                ],
+            },
+            {
+                tile: 9,
+                destinationTiles: [
+                    {
+                        tile: 8,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 10,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 100,
+                        newPath: null,
+                    }
+                ],
+            },
+            {
+                tile: 10,
+                destinationTiles: [
+                    {
+                        tile: 9,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 11,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 100,
+                        newPath: null,
+                    }
+                ],
+            },
+            {
+                tile: 11,
+                destinationTiles: [
+                    {
+                        tile: 10,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
                     },
                 ],
             },

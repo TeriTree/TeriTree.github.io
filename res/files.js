@@ -120,7 +120,20 @@ var files = [
         path: 'Beans',
         folder: './res/Beans/',
         audio: [
-
+            'OHEO.mp3',
+            'Answer1A.mp3',
+            'Intro.mp3',
+            'Outro.mp3',
+            'Question1.mp3',
+            'Question2.mp3',
+            'Question3.mp3',
+            'Question4.mp3',
+            'Question5.mp3',
+            'Question6.mp3',
+            'Question7.mp3',
+            'Question8.mp3',
+            'Question9.mp3',
+            'Question10.mp3',
         ],
         video:[
             'YattaFinalCompressed.mp4',

@@ -908,6 +908,126 @@ var paths = [
                 hasItem: null,
                 deadendType: null,
                 hasPuzzle: false,
+                bg: [2],
+                bgm: {
+                    id: null,
+                    file: null,
+                    volume: null
+                }
+            },
+            {
+                id: 2,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [3],
+                bgm: {
+                    id: null,
+                    file: null,
+                    volume: null
+                }
+            },
+            {
+                id: 3,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [3],
+                bgm: {
+                    id: null,
+                    file: null,
+                    volume: null
+                }
+            },
+            {
+                id: 4,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [3],
+                bgm: {
+                    id: null,
+                    file: null,
+                    volume: null
+                }
+            },
+            {
+                id: 5,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [3],
+                bgm: {
+                    id: null,
+                    file: null,
+                    volume: null
+                }
+            },
+            {
+                id: 6,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [3],
+                bgm: {
+                    id: null,
+                    file: null,
+                    volume: null
+                }
+            },
+            {
+                id: 7,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [3],
+                bgm: {
+                    id: null,
+                    file: null,
+                    volume: null
+                }
+            },
+            {
+                id: 8,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [3],
+                bgm: {
+                    id: null,
+                    file: null,
+                    volume: null
+                }
+            },
+            {
+                id: 9,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [4],
+                bgm: {
+                    id: null,
+                    file: null,
+                    volume: null
+                }
+            },
+            {
+                id: 10,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [3],
+                bgm: {
+                    id: null,
+                    file: null,
+                    volume: null
+                }
+            },
+            {
+                id: 11,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
                 bg: [1],
                 bgm: {
                     id: null,

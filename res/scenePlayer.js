@@ -18,6 +18,7 @@ var sceneCheck = {
     video: 0,
 };
 
+
 function getSceneCheck() {
     var sum = sceneCheck.text + sceneCheck.options + sceneCheck.audio + sceneCheck.video;
     return sum;
@@ -100,6 +101,169 @@ function playOptions(path, tile) {
         optionButton.addEventListener("click", checkAnswer);
         interactions.appendChild(optionButton);
     }
+}
+
+function playOptionsBeans(path, tile) {
+    sceneCheck.options += 1;
+    var interactions = document.getElementById('interactions');
+    for (var i = 0; i < seq[path].sequence[tile].option.length; i++) {
+        var optionButtonBeans = document.createElement("BUTTON");
+        optionButtonBeans.innerHTML = seq[path].sequence[tile].option[i];
+        if((i == 0) || (i == 2)){
+            optionButtonBeans.style.top = ((i%2)*50) + "px";
+            optionButtonBeans.style.left = (i%2)*500 + i*500 + "px";
+
+        }
+        if((i == 1) || (i == 3)){
+            optionButtonBeans.style.top = ((i%2)*90) + "px";
+            optionButtonBeans.style.left = ((i-1)%2)*500 + (i-1)*500 + "px";
+        }
+        optionButtonBeans.setAttribute('class', `optionButtonBeans`);
+        optionButtonBeans.setAttribute('id', `answer_${i}`);
+        optionButtonBeans.setAttribute('answer', `${i}`);
+        optionButtonBeans.addEventListener("click", checkAnswerBeans);
+        interactions.appendChild(optionButtonBeans);
+    }
+}
+
+function checkAnswerBeans(click) {
+    var path = scenePlayerPath;
+    var tile = scenePlayerTile;
+    var answer = click.target.getAttribute("answer");
+    if ((answer == 0)) {
+        if(tile == 0){
+             alert("That is correct. This is a Pain au Chocolat.");
+        };
+        if(tile == 1){
+            alert("You are correct, it was a simple math question, I was merely testing you.");
+       };
+       if(tile == 2){
+        alert("Yes, god created the egg of life, in the perspective of religion nothing comes before god, and thus the chicken came first.");
+       };
+      if(tile == 3){
+        alert("This is the universal truth, what it all means may never be uncovered, it might aswell have been knowledge from the library of Alexandria.");
+       };
+      if(tile == 4){
+        alert("You decide to live a life of bliss and decide some things are best left unanswered. It is up to you to decide if it was a wise choice or not, but let's keep moving to next question.");
+       };
+      if(tile == 5){
+        alert("Correct: it was Bush who orchestrated everything.");
+      };
+      if(tile == 6){
+        alert("Number 15, I am sorry, it is an old habit of mine, let's leave it at that.");
+      };
+      if(tile == 7){
+        alert("Life is full of suffering, but you know what? I think it's all the more necessary to make all the good things better and thus more fun.");
+      };
+      if(tile == 8){
+        alert("Without yatta life is pain, there is nothing we can do about it so it's best to just move on.");
+      };
+      if(tile == 9){
+        alert("You are correct, the definition of normal is a standard set by a majority to have a point of reference to acknowledge what is far from socially acceptable.");
+      };
+    };
+    if ((answer == 1)) {
+        if(tile == 0){
+         alert("That is correct, this is a Chocolatine.");
+       };
+       if(tile == 1){
+         alert("This is correct, when something is collectively agreed upon in culture as true, it will become factual.");
+       };
+      if(tile == 2){
+         alert("Life sprung forth of an egg, and it will eventually leave its cradle to prosper in evolution, you are correct.");
+       };
+      if(tile == 3){
+        alert("Correct, according to the egg theory, every living being is the same person reincarnated, the meaning of life is simply a test to nurture you, me, anyone into becoming god. Now i must follow up this question, if all of us are the same individual, is the Hivemind real?");
+       };
+      if(tile == 4){
+        alert("You take off the blindfold and see it was [?????] all along who was [??????], you now must live with the consequences of this knowledge. Whether it be regrets or not, let's move on to the next question.");
+       };
+      if(tile == 5){
+        alert("It's easy to just blame everything on Obama, so that's what we shall do, moving on to the next question.");
+      };
+      if(tile == 6){
+        alert("Do you really think I shoved a rat in my ass? Well the answer is yes.");
+      };
+      if(tile == 7){
+        alert("You are right, my bad, let's continue to the next question.");
+      };
+      if(tile == 8){
+        alert("Finding a brick to channel your inner yatta is indeed the answer to this question.");
+      };
+      if(tile == 9){
+        alert("Is this answer referring to me the host, or you the participant in first person? Nevertheless, you are probably right, only one of us is normal.");
+      };
+    };
+    if ((answer == 2)) {
+        if(tile == 0){
+         alert("That is correct, technically everything is a croissant.");
+       };
+       if(tile == 1){
+        alert("Dix-neuf, or deez nuts is French for 19, diz is correct.");
+       };
+       if(tile == 2){
+        alert("Is the answer referring to my mother or your mother? Does it even matter? At any rate, who came first should be left under the bedsheets.");
+       };
+       if(tile == 3){
+        alert("Life is all about friendship, i will count this as a correct answer.");
+       };
+       if(tile == 4){
+        alert("You tried to peek, but alas some mysterous force clouded your vision and left you unable to see while it was happening, how unfortunate.");
+       };
+       if(tile == 5){
+        alert("You might be on to something it could've been Jas, you should confront him when given the chance.");
+       };
+       if(tile == 6){
+        alert("Please do not judge, el gato looked like toilet paper when I was drunk.");
+       };
+       if(tile == 7){
+        alert("Such a philosophical question, in the end it really doesn't matter why we are still here, it is simply because, we should make the most of it.");
+       };
+       if(tile == 8){
+        alert("To summon the yatta by calling her mother is the only solution to resolve your yatta needs.");
+      };
+      if(tile == 9){
+        alert("You are correct, normal is just a made up concept from society, the word it itself is meaningless.");
+      };
+    };
+    if ((answer == 3)) {
+        if(tile == 0){
+         alert("Correct, Jesus is the bread.");
+       };
+       if(tile == 1){
+        alert("What was the question again?");
+       };
+       if(tile == 2){
+        alert("in the beninging there was soup, and then there was life.");
+       };
+       if(tile == 3){
+        alert("That is correct, life is simply a cycle of survival, this is all we really do.");
+       };
+       if(tile == 4){
+        alert("I think it's unwise to evade the question, I have no obligation to give you my own answer.");
+       };
+       if(tile == 5){
+        alert("Yes, it was probably the gnomes from your garden, you should keep it to yourself, it's best to not let them know you're onto them.");
+       };
+       if(tile == 6){
+        alert("Correct: I wanted to try something out.");
+       };
+      if(tile == 7){
+        alert("Happy birthday.");
+      };
+      if(tile == 8){
+        alert("You decided crying in a corner is the only true answer in this situation.");
+      };
+      if(tile == 9){
+        alert("That is correct, the size of my Cockerell is normal, he wakes me up every morning.");
+      };
+    };
+    var interactions = document.getElementById('interactions');
+        for (var i = 0; i < seq[path].sequence[tile].option.length; i++) {
+            var optionButton = document.getElementById(`answer_${i}`);
+            interactions.removeChild(optionButton);
+        }
+    sceneCheck.options-=1;
 }
 
 function checkAnswer(click) {
@@ -300,11 +464,6 @@ var scenes = [
                     [[playText, [path, tile, 1, 0]]],
                     [[playText, [path, tile, 2, 1]]],
                     [[playOptions, [path, tile]]],
-                ];
-            },
-            function χ_2(path, tile) {
-                sceneList = [
-                    [[renderOverlay, [null]]],
                 ];
             },
         ],
@@ -1429,6 +1588,78 @@ var scenes = [
         path: 'Beans',
         sequence: [
             function Beans_1(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playSound, [path, 'Intro.mp3', 0]]],
+                    [[playSound, [path, 'Question1.mp3', 0]], [playText, [path, tile, 0, 0]]],
+                    [[playOptionsBeans, [path, tile]]],
+                ];
+            },
+            function Beans_2(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playSound, [path, 'Question2.mp3', 0]], [playText, [path, tile, 0, 0]]],
+                    [[playOptionsBeans, [path, tile]]]
+                ];
+            },
+            function Beans_3(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playSound, [path, 'Question3.mp3', 0]], [playText, [path, tile, 0, 0]]],
+                    [[playOptionsBeans, [path, tile]]]
+                ];
+            },
+            function Beans_4(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playSound, [path, 'Question4.mp3', 0]], [playText, [path, tile, 0, 0]]],
+                    [[playOptionsBeans, [path, tile]]]
+                ];
+            },
+            function Beans_5(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playSound, [path, 'Question5.mp3', 0]], [playText, [path, tile, 0, 0]]],
+                    [[playOptionsBeans, [path, tile]]]
+                ];
+            },
+            function Beans_6(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playSound, [path, 'Question6.mp3', 0]], [playText, [path, tile, 0, 0]]],
+                    [[playOptionsBeans, [path, tile]]]
+                ];
+            },
+            function Beans_7(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playSound, [path, 'Question7.mp3', 0]], [playText, [path, tile, 0, 0]]],
+                    [[playOptionsBeans, [path, tile]]]
+                ];
+            },
+            function Beans_8(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playSound, [path, 'Question8.mp3', 0]], [playText, [path, tile, 0, 0]]],
+                    [[playOptionsBeans, [path, tile]]]
+                ];
+            },
+            function Beans_9(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playSound, [path, 'Question9.mp3', 0]], [playText, [path, tile, 0, 0]]],
+                    [[playOptionsBeans, [path, tile]]]
+                ];
+            },
+            function Beans_10(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playSound, [path, 'Question10.mp3', 0]], [playText, [path, tile, 0, 0]]],
+                    [[playOptionsBeans, [path, tile]]],
+                    [[playSound, [path, 'Outro.mp3', 0]]], 
+                ];
+            },
+            function Beans_11(path, tile) {
                 sceneList = [
                     [[renderOverlay, [null]]],
                     [[playVideo, [path, 'YattaFinalCompressed.mp4']]],
