@@ -258,7 +258,7 @@ var paths = [
             {
                 id: 19,
                 hasItem: null,
-                deadendType: null,
+                deadendType: 'death',
                 hasPuzzle: false,
                 bg: [10],
             },
