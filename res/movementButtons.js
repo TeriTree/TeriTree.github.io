@@ -456,7 +456,7 @@ var buttons = [
                         tile: 12,
                         text: 'Go back',
                         posX: 100,
-                        posY: 6200,
+                        posY: 620,
                         newPath: null,
                     },
                     {
