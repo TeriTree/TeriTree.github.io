@@ -896,7 +896,7 @@ var seq = [
                     "That was where the sun stayed.... it always has been.", /*23*/
                     "The sun does not move, it never has.", /*24*/
                     "What was Beerin even talking about?", /*25*/
-                    "Nevermind, said Beerin to Treeze, I must have imgined something that wasn't there.", /*26*/
+                    "Nevermind, said Beerin to Treeze, I must have imagined something that wasn't there.", /*26*/
                     "Perhaps Beerin mistook something from a dream of its for something in reality.", /*27*/
                     "Treeze humed, and accepted the answer.", /*28*/
                     "But Beerin could tell that it still bothered Treeze.", /*29*/
