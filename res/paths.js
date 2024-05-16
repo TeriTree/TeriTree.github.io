@@ -67,7 +67,7 @@ var paths = [
         tiles: [
             {
                 id: 1,
-                hasItem: 'Poem_2',
+                hasItem: null,
                 deadendType: null,
                 hasPuzzle: false,
                 bg: [1],
@@ -941,7 +941,7 @@ var paths = [
             },
             {
                 id: 4,
-                hasItem: null,
+                hasItem: 'Poem_2',
                 deadendType: null,
                 hasPuzzle: false,
                 bg: [3],

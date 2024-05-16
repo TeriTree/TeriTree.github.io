@@ -466,6 +466,11 @@ var scenes = [
                     [[playOptions, [path, tile]]],
                 ];
             },
+            function χ_2(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                ];
+            },
         ],
     },
     {
