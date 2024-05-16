@@ -1460,7 +1460,6 @@ var scenes = [
                     [[playText, [path, tile, 10, 0]]],
                     [[playText, [path, tile, 11, 0]]],
                     [[playText, [path, tile, 12, 0]]],
-                    [[playText, [path, tile, 13, 0]]],
                     [[playOptions, [path, tile]]],
                 ];
             },

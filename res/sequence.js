@@ -1409,11 +1409,11 @@ var seq = [
                     "Intrigued by the granny's past, you want to dig deeper into this story. So, you ask for details.", /*5*/
                     "'I wanted to devote my life to my God, and this city has the biggest church in the world, so I decided to leave behind my country and my wealth.', she says.", /*6*/
                     "'I worship my God every day, in every way. Even through food. You must be thankful, it's thanks to it that we can have such a fine dinner.', she adds.", /*7*/
-                    "'Is the peculiar smell, the redundant color of this city also a cause of the presence of this God you speak of?', you finally inquire.", /*9*/
-                    "'Yes, it is but a blessing from our benevolent God.'", /*10*/
-                    "In the meantime, you finished your portion of dinner. You ate so fast it almost felt like you drank it. Such is the power of hunger.", /*11*/
-                    "You decide to ask one last question before taking your leave, that is: the location of the church.", /*12*/
-                    "To which, she replied: 'Why, young man, you want to devote your life to our God, as well? Oh, I've never thought I'd meet such a passionate foreigner!'.", /*13*/
+                    "'Is the peculiar smell, the redundant color of this city also a cause of the presence of this God you speak of?', you finally inquire.", /*8*/
+                    "'Yes, it is but a blessing from our benevolent God.'", /*9*/
+                    "In the meantime, you finished your portion of dinner. You ate so fast it almost felt like you drank it. Such is the power of hunger.", /*10*/
+                    "You decide to ask one last question before taking your leave, that is: the location of the church.", /*11*/
+                    "To which, she replied: 'Why, young man, you want to devote your life to our God, as well? Oh, I've never thought I'd meet such a passionate foreigner!'.", /*12*/
                 ],
                 option: ["I want to uncover the truth behind this cult.", "Yes, I want to convert to the religion you speak of!"],
                 answer: 1,
