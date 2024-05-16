@@ -1482,6 +1482,13 @@ var buttons = [
                         posY: 620,
                         newPath: null,
                     },
+                    {
+                        tile: 14,
+                        text: 'Hospital',
+                        posX: 620,
+                        posY: 300,
+                        newPath: null
+                    }
                 ],
             },
             {
@@ -1562,8 +1569,8 @@ var buttons = [
                 tile: 14,
                 destinationTiles: [ 
                     {
-                        tile: 13,
-                        text: 'Hospital',
+                        tile: 6,
+                        text: 'Back to the city',
                         posX: 840,
                         posY: 620,
                         newPath: null,
