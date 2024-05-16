@@ -1274,7 +1274,8 @@ var buttons = [
                         tile: 11,
                         text: 'Continue',
                         posX: 640,
-                        posY: 100
+                        posY: 100,
+                        newPath: null
                     }
                 ],
             },
