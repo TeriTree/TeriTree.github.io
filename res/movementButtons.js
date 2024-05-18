@@ -1989,7 +1989,7 @@ var buttons = [
                         tile: 2,
                         text: 'Look around',
                         posX: 640,
-                        posY: 300,
+                        posY: 400,
                         newPath: null,
                     }
                 ],
@@ -2007,29 +2007,29 @@ var buttons = [
                     {
                         tile: 3,
                         text: 'Desk',
-                        posX: 940,
-                        posY: 300,
+                        posX: 800,
+                        posY: 450,
                         newPath: null,
                     },
                     {
                         tile: 9,
                         text: 'Books',
-                        posX: 140,
-                        posY: 300,
+                        posX: 250,
+                        posY: 200,
                         newPath: null,
                     },
                     {
                         tile: 13,
                         text: 'Armour',
-                        posX: 640,
+                        posX: 80,
                         posY: 300,
                         newPath: null,
                     },
                     {
                         tile: 17,
                         text: 'Door (Requires key)',
-                        posX: 640,
-                        posY: 100,
+                        posX: 580,
+                        posY: 400,
                         newPath: null,
                     }
                 ]
@@ -2041,7 +2041,7 @@ var buttons = [
                         tile: 2,
                         text: 'Go back',
                         posX: 640,
-                        posY: 300,
+                        posY: 600,
                         newPath: null
                     },  
                     {
@@ -2055,14 +2055,14 @@ var buttons = [
                         tile: 5,
                         text: 'Page with sketch',
                         posX: 240,
-                        posY: 300,
+                        posY: 260,
                         newPath: null
                     },
                     {
                         tile: 6,
                         text: 'Drawers',
-                        posX: 640,
-                        posY: 100,
+                        posX: 140,
+                        posY: 80,
                         newPath: null
                     }
                 ]
@@ -2154,22 +2154,22 @@ var buttons = [
                     {
                         tile: 10,
                         text: 'Pokémon and pornography',
-                        posX: 640,
-                        posY: 300,
+                        posX: 500,
+                        posY: 380,
                         newPath: null
                     },
                     {
                         tile: 11,
                         text: 'The Life and Times of Teri Tower',
                         posX: 940,
-                        posY: 300,
+                        posY: 200,
                         newPath: null
                     },
                     {
                         tile: 12,
                         text: 'Honkai trivia book',
                         posX: 140,
-                        posY: 300,
+                        posY: 360,
                         newPath: null
                     },
                 ]
@@ -2223,22 +2223,22 @@ var buttons = [
                     {
                         tile: 14,
                         text: 'Helmet',
-                        posX: 640,
-                        posY: 300,
+                        posX: 600,
+                        posY: 100,
                         newPath: null 
                     },
                     {
                         tile: 15,
                         text: 'Chestplate',
-                        posX: 940,
+                        posX: 600,
                         posY: 300,
                         newPath: null 
                     },
                     {
                         tile: 16,
                         text: 'Sword',
-                        posX: 140,
-                        posY: 300,
+                        posX: 740,
+                        posY: 200,
                         newPath: null 
                     },
                 ]
