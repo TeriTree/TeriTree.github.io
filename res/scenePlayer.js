@@ -2240,6 +2240,74 @@ var scenes = [
             },
         ],
     },
+    {
+        path: 'Samuel',
+        sequence: [
+            function Samuel_1(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playSound, [path, 'Eze_birthday.wav', 0]]],
+                    [[playText, [path, tile, 0, 0]]]
+                ];
+            },
+            function Samuel_2(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playSound, [path, 'wrong.wav', 0]]],
+                ];
+            },
+            function Samuel_3(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playSound, [path, 'wrong.wav', 0]]],
+                ];
+            },
+            function Samuel_4(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playSound, [path, 'wrong.wav', 0]]],
+                ];
+            },
+            function Samuel_5(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playSound, [path, 'wrong.wav', 0]]],
+                ];
+            },
+            function Samuel_6(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playSound, [path, 'wrong.wav', 0]]],
+                ];
+            },
+            function Samuel_7(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playSound, [path, 'wrong.wav', 0]]],
+                ];
+            },
+            function Samuel_8(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playSound, [path, 'wrong.wav', 0]]],
+                ];
+            },
+            function Samuel_9(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playSound, [path, 'wrong.wav', 0]]],
+                ];
+            },
+            function Samuel_10(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playSound, [path, 'correct.wav', 0]]],
+                    [[playText, [path, tile, 0 , 0]]],
+                    [[playOptions, [path, tile]]],
+                ];
+            },
+        ],
+    },   
 ]
 
 export { playSequence };

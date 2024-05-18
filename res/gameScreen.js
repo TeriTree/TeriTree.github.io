@@ -33,8 +33,8 @@ function playBgm(path, tile){
 }
 
 //STARTING POINT AFTER LOADING IN
-renderPage(0, 0);
-sequenceCheck(0, 0);
+renderPage(1, 0);
+sequenceCheck(1, 0);
 
 function renderPage(path, tile) {
     var pathName = getPathName(path);

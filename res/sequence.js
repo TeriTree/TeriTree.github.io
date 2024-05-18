@@ -2181,6 +2181,103 @@ var seq = [
                 }
             ]
         },
+        {
+            path: 'Samuel',
+            sequence: [
+                {
+                    tile: 1,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "Who said those mots juteux?" //0
+                    ],
+                },
+                {
+                    tile: 2, //Beans,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+
+                    ],
+                },
+                {
+                    tile: 3, //Frey,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+
+                    ],
+                },
+                {
+                    tile: 4, //Sisy,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+
+                    ],
+                },
+                {
+                    tile: 5, //Myra,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+
+                    ],
+                },
+                {
+                    tile: 6, //Leo,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+
+                    ],
+                },
+                {
+                    tile: 7, //Era,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+
+                    ],
+                },
+                {
+                    tile: 8, //Jas,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+
+                    ],
+                },
+                {
+                    tile: 9, //Mika,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+
+                    ],
+                },
+                {
+                    tile: 10, //Samuel,
+                    type: 's',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "Will you accept?" //0
+                    ],
+                    option: ["Yes.", "No"],
+                    answer: 0
+                },
+            ],
+        },
     {
         path: 'default',
         sequence: [

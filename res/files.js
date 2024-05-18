@@ -149,6 +149,18 @@ var files = [
         video: [
             
         ],
+    },
+    {
+        path: 'Samuel',
+        folder: './res/Samuel/',
+        audio: [
+            'Eze_birthday.wav',
+            'correct.wav',
+            'wrong.wav'
+        ],
+        video: [
+
+        ]
     }
 ];
 

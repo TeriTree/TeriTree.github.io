@@ -1280,6 +1280,132 @@ var paths = [
         ],
     },
     {
+        id: 'Samuel',
+        name: 'Samuel',
+        tiles: [
+            {
+                id: 1,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: null,
+                bg: [1],
+                bgm: {
+                    id: null,
+                    file: null,
+                    volume: null
+                }
+            },
+            {
+                id: 2,
+                hasItem: null,
+                deadendType: 'death',
+                hasPuzzle: null,
+                bg: [1],
+                bgm: {
+                    id: null,
+                    file: null,
+                    volume: null
+                }
+            },
+            {
+                id: 3,
+                hasItem: null,
+                deadendType: 'death',
+                hasPuzzle: null,
+                bg: [1],
+                bgm: {
+                    id: null,
+                    file: null,
+                    volume: null
+                }
+            },
+            {
+                id: 4,
+                hasItem: null,
+                deadendType: 'death',
+                hasPuzzle: null,
+                bg: [1],
+                bgm: {
+                    id: null,
+                    file: null,
+                    volume: null
+                }
+            },
+            {
+                id: 5,
+                hasItem: null,
+                deadendType: 'death',
+                hasPuzzle: null,
+                bg: [1],
+                bgm: {
+                    id: null,
+                    file: null,
+                    volume: null
+                }
+            },
+            {
+                id: 6,
+                hasItem: null,
+                deadendType: 'death',
+                hasPuzzle: null,
+                bg: [1],
+                bgm: {
+                    id: null,
+                    file: null,
+                    volume: null
+                }
+            },
+            {
+                id: 7,
+                hasItem: null,
+                deadendType: 'death',
+                hasPuzzle: null,
+                bg: [1],
+                bgm: {
+                    id: null,
+                    file: null,
+                    volume: null
+                }
+            },
+            {
+                id: 8,
+                hasItem: null,
+                deadendType: 'death',
+                hasPuzzle: null,
+                bg: [1],
+                bgm: {
+                    id: null,
+                    file: null,
+                    volume: null
+                }
+            },
+            {
+                id: 9,
+                hasItem: null,
+                deadendType: 'death',
+                hasPuzzle: null,
+                bg: [1],
+                bgm: {
+                    id: null,
+                    file: null,
+                    volume: null
+                }
+            },
+            {
+                id: 10,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: null,
+                bg: [1],
+                bgm: {
+                    id: null,
+                    file: null,
+                    volume: null
+                }
+            },
+        ],
+    },
+    {
         id: 'default',
         tiles: [
         ],

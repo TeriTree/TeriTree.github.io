@@ -190,8 +190,15 @@ var buttons = [
                         tile: 1,
                         text: '∞',
                         posX: 1000,
-                        posY: 600,
+                        posY: 400,
                         newPath: 'Mika'
+                    },
+                    {
+                        tile: 1,
+                        text: 'P',
+                        posX: 100,
+                        posY: 400,
+                        newPath: 'Samuel'
                     }
                 ],
             },
@@ -2686,6 +2693,194 @@ var buttons = [
                         text: 'Go back',
                         posX: 640,
                         posY: 600,
+                        newPath: null
+                    },
+                ]
+            },
+        ]
+    },
+    {
+        path: 'Samuel',
+        tiles: [
+            {
+                tile: 1,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Courtyard',
+                        posX: 640,
+                        posY: 620,
+                        newPath: 'Courtyard',
+                    },
+                    {
+                        tile: 2,
+                        text: 'Beans',
+                        posX: 440,
+                        posY: 100,
+                        newPath: null,
+                    },
+                    {
+                        tile: 3,
+                        text: 'Frey',
+                        posX: 940,
+                        posY: 420,
+                        newPath: null,
+                    },
+                    {
+                        tile: 4,
+                        text: 'Sisy',
+                        posX: 540,
+                        posY: 260,
+                        newPath: null,
+                    },
+                    {
+                        tile: 5,
+                        text: 'Myra',
+                        posX: 340,
+                        posY: 420,
+                        newPath: null,
+                    },
+                    {
+                        tile: 6,
+                        text: 'Leo',
+                        posX: 240,
+                        posY: 520,
+                        newPath: null,
+                    },
+                    {
+                        tile: 7,
+                        text: 'Érazen',
+                        posX: 640,
+                        posY: 320,
+                        newPath: null,
+                    },
+                    {
+                        tile: 8,
+                        text: 'Jas',
+                        posX: 323,
+                        posY: 323,
+                        newPath: null,
+                    },
+                    {
+                        tile: 9,
+                        text: 'Mika',
+                        posX: 170,
+                        posY: 290,
+                        newPath: null,
+                    },
+                    {
+                        tile: 10,
+                        text: 'Samuël',
+                        posX: 400,
+                        posY: 220,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 2,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null
+                    },
+                ]
+            },
+            {
+                tile: 3,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null
+                    },
+                ]
+            },
+            {
+                tile: 4,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null
+                    },
+                ]
+            },
+            {
+                tile: 5,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null
+                    },
+                ]
+            },
+            {
+                tile: 6,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null
+                    },
+                ]
+            },
+            {
+                tile: 7,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null
+                    },
+                ]
+            },
+            {
+                tile: 8,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null
+                    },
+                ]
+            },
+            {
+                tile: 9,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null
+                    },
+                ]
+            },
+            {
+                tile: 10,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
                         newPath: null
                     },
                 ]
