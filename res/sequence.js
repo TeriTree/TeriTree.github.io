@@ -1688,6 +1688,500 @@ var seq = [
         ]
     },
     {
+        path: 'Mika',
+        sequence: [
+            {
+                tile: 1,
+                type: 'n',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "You enter a room and a sense of unease fills you as if something is watching." //0
+                ]
+            },
+            {
+                tile: 2,
+                type: 'n',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "The room is a study. To your right is a desk sitting in front of a huge window leading out to the grounds.", //0
+                    "To your left, a wall of books decorated with assorted items and lamps set to illuminate their dusty spines.", //1
+                    "Directly in front of you at the other end of the room is another door, to the left of that stands a suit of armour.", //2
+                    "I should look at:" //3
+                ], //desk (3), book (9) , suit of armor (13), door (17)
+            },
+            {
+                tile: 3, //desk
+                type: 'n',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "On the desk, you spot several papers filled with sketches and text. You also notice the desk has several drawers.", //0
+                    "You choose to examine:" //1
+                ], //page with text (4), page with sketch (5), drawers (6)
+            },
+            {
+                tile: 4, //page with text
+                type: 'n',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "The page is heavy with text, almost uniform in appearance. You quickly realize the page repeats a single sentence:", //0
+                    "'All work and no bitter melon juice makes Teri Teri ree.'", //1
+                    "You put the paper down and make a mental note to make a trip to the shops when you get out.", //2
+                ],
+            },
+            {
+                tile: 5, //page with sketch
+                type: 'n',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "You see an image of a goddess, a nun with a heavy chest which brings about an air of fear, sainthood and an emotion that will surely get you bonked should it escape.", //0
+                    "The bottom of the sketch has the word Kevonia written. You decide that it is too sacred for mortal eyes and pocket it.", //1
+                ],
+            },
+            {
+                tile: 6, //drawers
+                type: 'n',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "You start to tug at the drawers, reaching the last drawer before something gives and the drawer slides open. Inside sits a single key.", //0
+                    "It’s gold, and its bow is a blue heart with wings. You reach for the key but hearing a tapping coming from behind you. You…", //1
+                ], //ignore (7) or turn arround (8)
+            },
+            {
+                tile: 7, //ignore
+                type: 'n',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "You pick the key up, surprised by its weight, before checking behind you and seeing nothing but the forest that sits at the end of the property covered in a dull glow.", //0
+                    "Looking closer towards the windows, you notice rose bushes tapping on the window and assume that was the cause.", //1 //add key item
+                ],
+            },
+            {
+                tile: 8, //turn arround [BG change]
+                type: 's',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "You turn around and see a butterfly glowing and pulsing in a blue light, looking behind it to notice something in the forest glowing in the same hue.", //0
+                    "Before you have time to think, you realize you are following the butterfly towards the source of the forest’s luminescence.", //1
+                    "Coming to a stop in a clearing, you come across a sight of lovecraftian beauty. It’s her, Kevonia.", //2
+                    "No words come from her mouth, but you can hear her as she tells you what you already know.", //3
+                    "'Pray, pray for me, my dear Eze' she whispered in your mind." //4
+                ],
+                option: ["Pray"],
+                answer: 1,
+            },
+            {
+                tile: 9, //Books
+                type: 'n',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "You start working your way through the books. Titles of every nature fill the shelves:", //0
+                    "Forensics, physics, programming, computer science, philosophy.", //1
+                    "Countless subjects you could form degrees on. However, there are some books that are odd, they don't fit just on their titles. Such as:" //2
+                    //Pokémon and pornography (10), the life and times of Teri tower (11) or Honkai trivia book (12)
+                ],
+            },
+            {
+                tile: 10, //Pokémon and pornography
+                type: 'n',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "Did you know that in terms of male human and female Pokémon breeding, vaporeon is the most compatible Pokémon?", //0
+                    "Of course, you did, everyone does. But did you know that it’s not the most attractive Pokémon to humans, based on the quantity of pornography produced?", //1
+                    "In fact, Vaporeon ranks 14th out of the 905 Pokémon spanning generations 1 to 8.", //2
+                    "The no.1 Pokémon based on sexual attraction is Lucario with over 11,000 pieces of media putting it in a league of its own.", //3
+                    "Rounding out the top 5 is in order Gardevoir, Pikachu, Umbreon and Charizard with media ranging between 5 and 10 thousand.", //4
+                    "This study only discovered 7 Pokémon that did not have pornography made of it…..", //5
+                    "the words trail off as your brain tries to make sense of what you just said." //6
+                ],
+            },
+            {
+                tile: 11, //The life and times of Teri Tower
+                type: 'n',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "Teri Tower, a community of people that began life as an attempt to enter the void for Teri,", //0
+                    "became a cult that has accepted everything from arson to fusion with household objects such as coffee machines and fridges to asking: would you leave the blindfold on?", //1
+                    "The history of Teri tower is as complicated as the day is long, it all began on that fateful day, March 5th…." //2
+                ],
+            },
+            {
+                tile: 12, //Honkai trivia book
+                type: 'n',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "Hello captain. It's me, St. Freya’s principal Theresa Apocalypse and when I was asked to write this book, I thought Kiana had forgotten to revise for her exams again.", //0
+                    "That girl never ceases to not be a headache for me or Himeko much like her dad, but that's the kaslana’s for you but enough rambling, you’re reading this because unlike her,", //1
+                    "you want to know interesting facts like Benares having a high physical resistance or that the ultimate of my Celestial Hymn battle suit reduces the defensive stats of my enemies by 75%.", //2
+                    "Unfortunately, the fact-checkers wouldn't believe me when I said that the evasion skill brainwashes everyone into becoming TeRiRI fans,", //3
+                    "but I'll make them believe me I mean believe in TeRiRI World’s #1 cutest if it's the last thing they do so help….", //4
+                    "You stop reading as it feels like you're swallowing bitter melon juice trying to read through it." //5
+                ],
+            },
+            {
+                tile: 13, //Armour <-- that's Bri'ish for Armor
+                type: 'n',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "You approach a full set of armour that glistens under the lights of the room, it looks clean yet somehow used with cuts, dents and scrapes having left their marks on the polished metal.", //0
+                    "The breast adorned with a crest of gold made to look like a pair of wings made with cogs. Taking in the sight before you, your hand instinctively reaches for..." //1
+                ], //helmet (14), chestplate (15) or sword (16)
+            },
+            {
+                tile: 14, //Helmet
+                type: 'n',
+                hasAudio: false,//add a velonia laugh track here :meistare:
+                complete: false,
+                text: [
+                    "You gaze upon the helmet sitting atop the piece, and questions fill your head about whether it fits.", //0
+                    "You lift it off the mannequin's head and with a bit of effort slide it onto your own.", //1
+                    "The fit is perfect, with its only downside being the lack of sight due to its visor being stuck in place due to the mechanism's lack of maintenance.", //2
+                    "It is at this point you once again feel like you're being watched, but with the limited vision you can only see so much.", //3
+                    "Without warning, a sharp feeling hits you in your stomach. You clutch at the pain, only to feel something there. You look down to see a tentacle protruding where the pain radiates.", //4
+                    "You look to see where its owner is connected, only to find it's phasing through the floor.", //5
+                    "Just as quickly as it sheathed itself inside your lower abdomen, it removes itself before slinking back through the floor as it draws blood and viscera from you.", //6
+                    "You fall to the ground, clutching your now open abdomen before feeling a searing pain in your hands, it's acid whatever has pierced you has hit your stomach.", //7
+                    "You realize that it's eating away at your insides. You slump over as you breathe your last breaths and just as the light begins to fade.", //8
+                    "You hear a voice laughing, it's a woman's, and you only catch one word before you die.", //9
+                    "'Seele'." //10
+                ],
+            },
+            {
+                tile: 15, //Chestplate
+                type: 'n',
+                hasAudio: false,
+                complete: false,
+                text: [
+                    "You brush your hands across the golden emblem on the chest plate, admiring the craftsmanship of blacksmiths long since dead, when you once again feel like you are being watched.", //0
+                    "It's only then you notice something in the reflection of yourself on the armour. It's thin, long and moving towards you.", //1
+                    "You continue to watch it through the breastplate, waiting for its next move. It begins to rear its head back, ready to strike like a snake.", //2
+                    "It lunges forward, you move at the last second, narrowly avoiding being impaled in the skull. You fall to the side, turning to look at the being head on.", //3
+                    "You realize it has no head, it is a black tentacle protruding through the floor radiating a reddish hue.", //4
+                    "The ground quickly begins to bubble with the same appearance as the tentacle as several more tentacles you bolt for the door that led you here, but it's locked", //5
+                    "It wasn't locked when you entered. Whatever this thing is, it wants you.", //6
+                    "You make a dash for the other door, however a tentacle wraps around your ankles during the sprint, bolo tying you, sending you crashing to the floor once again.", //7
+                    "Quickly the tentacles' envelop you, their weight increasingly pressing on you, constricting you of motion bar your head till that too is being suppressed.", //8
+                    "Your life flashes before your eyes as it squeezes the breath with each one you take. A single tear forms, as in the distance a muffled call can be heard from the tentacle's source.", //9
+                    "Its sole words, 'this is to protect her, to protect Seele'." //10
+                ],
+            },
+            {
+                tile: 16, //Sword
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "You look down at the sword and free it from its former owner's hands.", //0
+                        "It is as unique for its age far too big to be a longsword and far too decorated and heavy to be compared to a Sicilian rapier but yet somehow befitting for its period.", //1
+                        "You look towards The hilt forged of a black metal that almost seems unnatural were it not in your hands.", //2
+                        "Its guard runs from the end of its handle, over its holder's hand before integrating itself into its blade. Its centrepiece is 4 jewels.", //3
+                        "A deep red, cool blue and a vibrant yellow jewel all crown a much larger brighter red jewel. This red carries on along the blade, only stopping where its edge begins to form.", //4
+                        "It's while you are studying this beautiful weapon when you notice a shadow reflected in its blade. Whatever stood behind you. It bore no human shape, moving like a snake looking for its next prey.", //5
+                        "On instinct, you swing the blade towards your assailant. You feel no resistance as you cut through its body, which is when you notice it has no body, no features, it didn't even make a sound as it was separated in two.", //6
+                        "As the rest of its still attached body slinked through the floor, it once came. You hear someone's cries echoing around you.", //7
+                        "'Don't hurt my Seele, please. Don't hurt her!'", //8
+                        "You try to locate its source, but no one is around. You look at where the tentacle once stood, nothing remains, not even the part removed.", //9
+                        //item acquired:sword
+                    ],
+                },
+                {
+                    tile: 17, //Door
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                       "You try the door at the other end of the room. It's locked. You scour the door looking for some kind of mechanism or clue as to if it can be opened before noticing a blue heart on the door,", //0
+                       "it seems familiar, but you can't quite put your finger on it" //1
+                    ], //leave it (18), use key (notify eze he needs find key first) (19)
+                },
+                {
+                    tile: 18, //Use key --> from here linear path continues
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "You fish the key you found from the desk out of your pocket and insert it into the lock.", //0
+                        "It fits, and you twist it to unlock the door. Opening it to find nothing but pitch black, not even the studies lights illuminate the darkness it holds.", //1
+                        "Having come this far, you take a deep breath before stepping into the depths before you." //2
+                    ],
+                },
+                {
+                    tile: 19, //dark room
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "You traverse the darkness, not once making contact with any object, person or thing. The only sounds are your footsteps in this empty space.", //0
+                        "Just as you're about to give up and turn back, you realize you can't turn back, you don't even see the door you came in by.", //1
+                        "Alone in the dark with nothing surrounding you. You stop dead in your tracks.", //2
+                        "Fearing it was the end or maybe out of hope this was just a bad dream, you shut your eyes, hoping it would be over soon.", //3
+                        "You suddenly hear a quiet humming noise. The first sound this room has produced. You open your eyes, seeing a faint blue glow in the distance.", //4
+                        "You walk toward this glow as you get closer and closer. Your heart starts to beat harder and harder in anticipation.", //5
+                        "Your walking turns into jogging, which turns into full sprinting as the glow becomes larger and larger.", //6
+                        "You become so desperate to escape, you don't even hesitate to take in what's in front of you. To describe it as a door would be wrong as a door.", //7
+                        "It didn’t open on a hinge, it just grew open. The only identifiable thing was an image floating in the middle of what you hoped was an exit.", //8
+                        "The image of a crystal flower…" //9
+                    ],
+                },
+                {
+                    tile: 20, //Ely in distance holding bow
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "Light flashes before your eyes, eventually settling, so you can take in the surrounding site.", //0
+                        "You’re standing in a courtyard surrounded by ornate masonry built to house water features and beautiful landscaping filled with aromatic and vibrant flowers.", // 1
+                        "You move to have a closer look before pain radiates in your knee. You look down to see a pink arrow embedded in your knee, which quickly disappears.", //2
+                        "You look towards the direction where the arrow came from to spot a girl dressed in black, blue and gold. Her eyes are a pinkish red that encrusts a sunrise orange pupil.", //3
+                        "Her hair is a shade of blue that matches her dress, and just poking through it are her pointed ears.", //4
+                        "'Hi~'. For someone who just shot you in the leg, she doesn’t have an ounce of malice in her voice.", //5
+                    ],
+                },
+                {
+                    tile: 21, //Ely but close up :elysmug:
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "You: 'err. Hi? Was that you?'", //0
+                        "Pink Elf: 'Yes, I don't take kindly to visitors, especially ones with weapons on them'", //1
+                        "You: 'Weapon?'", //2
+                        //With sword:
+                        "You: 'Oh… this?'", //3
+                        "She nods before the weapon in my hand disintegrates in a cluster of green blocks.", //4
+                        "Pink Elf: 'Much better, at least I know you're honest from the start, now you've done something for me…'", //5
+                        "With a flick of her wrist the same green squares that removed the sword, surrounded my injured knee and an immediate relief fell over my knee", //6
+                        "Before once again dissipating to show the wound once bleeding now completely healed leaving only the hole and dried blood caused by the arrow.", //7
+                         //dialogue merges back to singular outcome:
+                        "Pink Elf: 'Now that we got that out the way, who are you?'", //8
+                        "Eze: 'E…Eze'", //9
+                        "Pink Elf: 'Eze? Hmm, it kind of rhymes with someone dear to me.'", //10
+                        "The girl in blue seems a bit lost in her own thoughts.", //11
+                        "Elysia: 'Anyway, my name is Elysia. Well it would be Elysia if everything went to plan you can call me Ely. Now, why are you here?'" //12
+                    ],
+                },
+                {
+                    tile: 22,
+                    type: 's',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "Eze: 'I found this key in a desk that opened a door, that eventually led me to another door that led to here, wherever here is.'", //0
+                        "Elysia: 'This this is Elysium. A world thought up by the other me and one I also tried to hold, pretty isn't?'" //1
+                    ],
+                    option: ["Very","Not as much as you"], //theres dialogue for picking "Very" but it holds little substance, maybe just insta die upon picking it, like on Sisy's path ¯\_(ツ)_/¯
+                    answer: 1,
+                },
+                {
+                    tile: 23,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "Elysia: 'He-he, eveeen after what happened you couldn’t resist could you Eze?. Not many can, to be fair, but it won’t grant you any stay of execution.'", //0
+                        "Eze: 'Execution?. What do you mean by execution?'", //1
+                        "Elysia: 'Oh he-he, but the issue is Eze, you shouldn't be here. Which makes you an anomaly and anomalies must be removed permanently.'", //2
+                        "She starts drawing her bow.", //3
+                        "Eze: 'Wwwait don't kill me, what did I do wrong…  you appeared to me, I didn't ask for this!!'", //4
+                        "Elysia: 'Hmmmm, fine, I'll give you a chance. But first, how about a change of scene?'", //5
+                        //Elysia doesnt Errgh does she? wouldnt it be better if she did a pondering "hmmmm" in her typical tone?
+                    ],
+                },
+                {
+                    tile: 24,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "Ely jumps down, and the environment instantly changes to take the form of a theme park. A podium stands in front of me, with a second forming in front of her.", //0
+                        "Ely: 'Ahh, I love playing games, do you?'", //1
+                        "Eze: 'Ones where my life isn't at threat, yes…",
+                        "Ely: 'Ahh, don't be angry. This isn't a thing against you specifically, in fact I'm giving you more of a chance than most.'", //2
+                        "Ely: 'Now, then, the game. It's a rather simple one, but sometimes the simple ones are the most fun. A quiz, I ask, you answer. 3 wrong answers and you're terminated. Easy right?'", //3
+                        "Eze: 'I guess'", //4
+                        "Ely: 'I’ll take that as a yes.'" //5
+                        //at this point a form of 3 lives quiz starts and im not sure how you'd implement it.
+                    ],
+                },
+                {
+                    tile: 25,
+                    type: 's',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "Question 1: Who was in the forest?" //0
+                    ],
+                    option: ["Aponia", "Kevonia", "Mobponia"],
+                    answer: 1
+                },
+                {
+                    tile: 26,
+                    type: 's',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "Question 2: When you were attacked by tentacles, what colour did they glow?" //0
+                    ],
+                    option: ["Red", "Green", "Blue"],
+                    answer: 0
+                },
+                {
+                    tile: 27,
+                    type: 's',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "Question 3: Who did the tentacles belong to?" //0
+                    ],
+                    option: ["Möbius", "Seele", "Mika"],
+                    answer: 1
+                },
+                {
+                    tile: 28,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "I’m impressed you haven't completely failed off the bat.", //0
+                        "The last one did not last this round at all. I remember them fondly.", //1
+                        "They went a bit mad at the end, screaming about what will happen to the foxes and the floof.", //2
+                        "I told them that I'm sure they'll make a nice coat, and then I sent the arrow through their heart.", //3
+                        "I think they went by like Toby fox, possibly. Strange you can remember actions but never their names…like a stone on a beach, it just erodes away over time as new waves come crashing in.", //4
+                    ],
+                },
+                {
+                    tile: 29,
+                    type: 's',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "Time for Round 2 Eze. Let’s see how good your general knowledge is.", //0
+                        "Question 1: What Pokémon is the most Rule 34’d?", //1
+                    ],
+                    option: ["Vaporeon", "Gardevoir", "Lucario"],
+                    answer: 2
+                },
+                {
+                    tile: 30,
+                    type: 's',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "Question 2: When was Teri Tower founded?" //0
+                    ],
+                    option: ["March 7th", "March 5th", "March 12th"],
+                    answer: 1
+                },
+                {
+                    tile: 31,
+                    type: 's',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "Question 3: Which of the following properties does the celestial hymn battle-suit hold?" //0
+                    ],
+                    option: ["ULT induces 75% debuff on enemy def", "Passive builds Teri World Domination", "Combo increases CH Phys Resistance"],
+                    answer: 0
+                },
+                {
+                    tile: 32,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "I have to admit I'm surprised you even got to this far, but I’m afraid your time will come too in our final round, let's begin!" //0
+                    ]
+                },
+                {
+                    tile: 33,
+                    type: 's',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "Question 1: Who wrote the guide for St. Freya?" //0
+                    ],
+                    option: ["Rita", "Sin Mal", "Theresa"],
+                    answer: 2
+                },
+                {
+                    tile: 34,
+                    type: 's',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "Question 2: What shape was the key that brought you here?" //0
+                    ],
+                    option: ["Heart-shaped with wings", "A crystalline flower", "Flamechaser’s symbol"],
+                    answer: 0
+                },
+                {
+                    tile: 35,
+                    type: 's',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "Final question, Eze. Time to decide whether you live or die. What is my name?" //0
+                    ],
+                    option: ["[REDACTED]", "[REDACTED]", "[REDACTED]"],
+                    answer: 2
+                },
+                {
+                    tile: 36,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "HA HA HA HA Did you honestly think I would let you win this easily? You are in my domain.", //0
+                        "Why do you think that room was so unkempt, why no one knew about that door?", //1
+                        "IT'S BECAUSE NO ONE EVER SURVIVED PASSING THROUGH IT NOT BECAUSE THEY LOST BUT BECAUSE I NEVER LET THEM?", //2
+                        "I like playing with my food eze and that is what you are.", //3
+                        "You are my food, something for me to consume, and now I will do just that.", //4
+                    ],
+                },
+                {
+                    tile: 37,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "HoC proceeds to draw its Bow, and as she looses, your vision becomes engulfed in a pink light as you feel your eyelids fall.", //0
+                        "The last thing you register was the sound of a girl giggling before she proudly states: 'Let this place become more beautiful!'." //1 
+                    ]
+                },
+                {
+                    tile: 38,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text:
+                    [
+                        "You wake up slumped on the desk with a blanket draped over you.", //0
+                        "You question what you just saw and look around the room but nothing is out of place.", //1
+                        "You even look at the door you went through to find that thing only to see it's just a door, no blue heart embossed on it, nothing out of place.", //2
+                        "You stand up and fold the blanket onto the chair you were once sitting on and walk around hoping to find something from before.", //3
+                        "The odd books, the pink glow from the woods, you even mess around with the suit of armour hoping to conjure that tentacled monster. But nothing, it's as if nothing has happened.", //4
+                        "You turn to the door that led out to the main hall.", //5
+                        "As you’re about to walk out the door back into the main hall you look back in the room one more time, sticking your hand in your trouser pocket.", //6
+                        "As you do so, only for your fingers to meet a cold thin metal object.", //7
+                        "You remove the item from your pocket to find the key that unlocked the door, only instead of a blue heart sitting between its wings.", //8
+                        "This heart was pink.", //9
+                    ]
+                }
+            ]
+        },
+    {
         path: 'default',
         sequence: [
             {

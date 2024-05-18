@@ -126,6 +126,21 @@ function playOptionsBeans(path, tile) {
     }
 }
 
+function playOptionsEllie(path, tile) {
+    sceneCheck.options += 1;
+    var interactions = document.getElementById('interactions');
+    for (var i = 0; i < seq[path].sequence[tile].option.length; i++) {
+        var optionButton = document.createElement("BUTTON");
+        optionButton.innerHTML = seq[path].sequence[tile].option[i];
+        optionButton.style.top = 20 + (i * 50) + 'px';
+        optionButton.setAttribute('class', `optionButton`);
+        optionButton.setAttribute('id', `answer_${i}`);
+        optionButton.setAttribute('answer', `${i}`);
+        optionButton.addEventListener("click", checkAnswerEllie);
+        interactions.appendChild(optionButton);
+    }
+}
+
 function checkAnswerBeans(click) {
     var path = scenePlayerPath;
     var tile = scenePlayerTile;
@@ -278,6 +293,198 @@ function checkAnswer(click) {
         death_event();
         clearScene(0);
     }
+    var interactions = document.getElementById('interactions');
+        for (var i = 0; i < seq[path].sequence[tile].option.length; i++) {
+            var optionButton = document.getElementById(`answer_${i}`);
+            interactions.removeChild(optionButton);
+        }
+    sceneCheck.options-=1;
+}
+
+function checkAnswerEllie(click) {
+    var path = scenePlayerPath;
+    var tile = scenePlayerTile;
+    var answer = click.target.getAttribute("answer");
+    if (seq[path].sequence[tile].answer == answer) {
+        //alert("wow ur so good");
+    }
+    else{
+        //alert("wow ur bad");
+        alert("Glad you agree though I’m slightly disappointed you didn’t try to flirt with me, a lot of people who pass through do, tho I suppose shooting you in the leg probably didn’t put you in such a mood.")
+        death_event();
+        clearScene(0);
+    }
+    var interactions = document.getElementById('interactions');
+        for (var i = 0; i < seq[path].sequence[tile].option.length; i++) {
+            var optionButton = document.getElementById(`answer_${i}`);
+            interactions.removeChild(optionButton);
+        }
+    sceneCheck.options-=1;
+}
+
+function playOptionsMika(path, tile) {
+    sceneCheck.options += 1;
+    var interactions = document.getElementById('interactions');
+    for (var i = 0; i < seq[path].sequence[tile].option.length; i++) {
+        var optionButton = document.createElement("BUTTON");
+        optionButton.innerHTML = seq[path].sequence[tile].option[i];
+        optionButton.style.top = 20 + (i * 50) + 'px';
+        optionButton.setAttribute('class', `optionButton`);
+        optionButton.setAttribute('id', `answer_${i}`);
+        optionButton.setAttribute('answer', `${i}`);
+        optionButton.addEventListener("click", checkAnswerMika);
+        interactions.appendChild(optionButton);
+    }
+}
+var num_errors = 0;
+function checkAnswerMika(click) {
+    var path = scenePlayerPath;
+    var tile = scenePlayerTile;
+    var answer = click.target.getAttribute("answer");
+    if (seq[path].sequence[tile].answer == answer) {
+        //alert("wow ur so good");
+        if(answer == 1)
+            {
+                if(tile == 24)
+                    {
+                        alert("Correct. Y’know, I’ll never know where she came from, but she always gives me the creeps.");
+                    }
+                if(tile == 26)
+                    {
+                        alert("Ahh so you were paying attention in that little kerfuffle, she's OK by the way. Thankfully, otherwise you wouldn't be here after what you did.")
+                    }
+                if(tile == 29)
+                    {
+                        alert("Correct, Eze! Who's a good boy?");
+                    }
+            }
+        if(answer == 0)
+            {
+                if(tile == 25)
+                    {
+                        alert("Spot on Eze, correct.");
+                    }
+
+                if(tile == 30)
+                    {
+                        alert("Well Done Eze, Maybe you have some hope left!");
+                    }
+                if(tile == 33)
+                    {
+                        alert("Correct! Only one more question, better make it a challenging one.");
+                    }
+            }
+        if(answer == 2)
+            if(tile == 28)
+                {
+                    alert("Hmm, correct.");
+                }
+            if(tile == 32)
+                {
+                    alert("That is correct Eze, but I guess that one wasn't exactly rocket science.");
+                }
+                if(tile == 34)
+                    {
+                        alert("Hehehehehehe, hahahahahah!");
+                    }
+    }
+    else{
+        num_errors ++;
+        console.log(num_errors);
+        if(num_errors < 3)
+            {
+                playOptionsMika(path, tile);
+            };
+        if(answer == 0)
+            {
+                if(tile == 24)
+                    {
+                        alert("Sorry, Eze, that's a strike.");
+                    }
+                if(tile == 26)
+                    {
+                        alert("No, no, no, that simply won't do Eze.")
+                    }
+                if(tile == 28)
+                    {
+                        alert("TSK TSK wrong wrong WRONG EZE! Does your degenerate mind automatically default to this like some kind of Pavlovian dog?");
+                    }
+                if(tile == 29)
+                    {
+                        alert("Hmm, Eze, are you thinking of someone else… someone with pink hair maybe.");
+                    }
+                if(tile == 32)
+                    {
+                        alert("No, unfortunately, this is one flower that won't bloom.");
+                    }
+                    if(tile == 34)
+                        {
+                            alert("Hehehehehehe, hahahahahah!");
+                        }
+            };
+            if(answer == 2)
+                {
+                    if(tile == 24)
+                        {
+                            alert("Nope, that’s a strike and also a horrendous image to put out there.");
+                        }
+                    if(tile == 25)
+                        {
+                            alert("That is incorrect Eze. A step closer to your eventual end.")
+                        }
+                    if(tile == 26)
+                        {
+                            alert("What? Who's Mika? You know what, I should make that 2 wrongs: 1 for being wrong, 1 for not being serious… Mika… you need to take this seriously.")
+                        }
+                    if(tile == 29)
+                        {
+                            alert("Hmmmmm, how many times do we have to go through this, Eze dear?");
+                        }
+                    if(tile == 30)
+                        {
+                            alert("Sorry Eze, this was wrong.");
+                        }
+                    if(tile == 33)
+                        {
+                            alert("No, eze. You think they stopped me? 13 v 1? Nah, I'd win.")
+                        }
+                    
+                }
+            if(answer == 1)
+                {
+                    if(tile == 25)
+                        {
+                            alert("Buzzer sounds, ohh no Eze that’s just not correct.");
+                        }
+                    if(tile == 28)
+                        {
+                            alert("Good try but wrong.");
+                        }
+                    if(tile == 30)
+                        {
+                            alert("That was wrong, Eze. No one has that power and if they did, well let's just say I wouldn't be playing games with you.");
+                        }
+                    if(tile == 32)
+                        {
+                            alert("Who is Sin Mal? Actually I don't want to know. With a name like that she sounds evil like a person who pushes kids down sets of stairs and… actually I'd like to know her, maybe she could be of use.");
+                        }
+                    if(tile == 33)
+                        {
+                            alert("Wrong, what you thought just because I look like her, I’d be locked with her sign? Please do me a favour and lose, so I can end your pitiful life.")
+                        }
+                        if(tile == 34)
+                            {
+                                alert("Hehehehehehe, hahahahahah!");
+                            }
+                }
+        if(num_errors == 3){
+            //alert("wow ur bad");
+            alert("Oh dear Eze, it appears you’ve failed at the first hurdle… (draws bow) I'm sure this will be relatively quick, as for painless…we’ll have to see. Goodbye.");
+            death_event();
+            clearScene(0);
+            num_errors = 0;
+        }
+    };
     var interactions = document.getElementById('interactions');
         for (var i = 0; i < seq[path].sequence[tile].option.length; i++) {
             var optionButton = document.getElementById(`answer_${i}`);
@@ -1667,6 +1874,368 @@ var scenes = [
                 sceneList = [
                     [[renderOverlay, [null]]],
                     [[playVideo, [path, 'YattaFinalCompressed.mp4']]],
+                ];
+            },
+        ],
+    },
+    {
+        path: 'Mika',
+        sequence: [
+            function Mika_1(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                ];
+            },
+            function Mika_2(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                ];
+            },
+            function Mika_3(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                ];
+            },
+            function Mika_4(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                ];
+            },
+            function Mika_5(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                ];
+            },
+            function Mika_6(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                ];
+            },
+            function Mika_7(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                ];
+            },
+            function Mika_8(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playOptions, [path, tile]]],
+                ];
+            },
+            function Mika_9(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                ];
+            },
+            function Mika_10(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playText, [path, tile, 6, 0]]],
+                ];
+            },
+            function Mika_11(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                ];
+            },
+            function Mika_12(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                ];
+            },
+            function Mika_13(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                ];
+            },
+            function Mika_14(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playText, [path, tile, 6, 0]]],
+                    [[playText, [path, tile, 7, 0]]],
+                    [[playText, [path, tile, 8, 0]]],
+                    [[playSound, [path, 'VelionaLaugh.mp3', 0]], [playText, [path, tile, 9, 0]]],
+                    [[playText, [path, tile, 10, 0]]],
+                ];
+            },
+            function Mika_15(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playText, [path, tile, 6, 0]]],
+                    [[playText, [path, tile, 7, 0]]],
+                    [[playText, [path, tile, 8, 0]]],
+                    [[playSound, [path, 'VelionaLaugh2.mp3', 0]], [playText, [path, tile, 9, 0]]],
+                    [[playText, [path, tile, 10, 0]]],
+                ];
+            },
+            function Mika_16(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playText, [path, tile, 6, 0]]],
+                    [[playText, [path, tile, 7, 0]]],
+                    [[playText, [path, tile, 8, 0]]],
+                    [[playText, [path, tile, 9, 0]]],
+                ];
+            },
+            function Mika_17(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                ];
+            },
+            function Mika_18(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                ];
+            },
+            function Mika_19(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playText, [path, tile, 6, 0]]],
+                    [[playText, [path, tile, 7, 0]]],
+                    [[playText, [path, tile, 8, 0]]],
+                    [[playText, [path, tile, 9, 0]]],
+                ];
+            },
+            function Mika_20(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                ];
+            },
+            function Mika_21(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playText, [path, tile, 6, 0]]],
+                    [[playText, [path, tile, 7, 0]]],
+                    [[playText, [path, tile, 8, 0]]],
+                    [[playText, [path, tile, 9, 0]]],
+                    [[playText, [path, tile, 10, 0]]],
+                    [[playText, [path, tile, 11, 0]]],
+                    [[playText, [path, tile, 12, 0]]],
+                ];
+            },
+            function Mika_22(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playOptionsEllie, [path, tile]]],
+                ];
+            },
+            function Mika_23(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                ];
+            },
+            function Mika_24(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                ];
+            },
+            function Mika_25(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playOptionsMika, [path, tile]]],
+                ];
+            },
+            function Mika_26(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playOptionsMika, [path, tile]]],
+                ];
+            },
+            function Mika_27(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playOptionsMika, [path, tile]]],
+                ];
+            },
+            function Mika_28(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                ];
+            },
+            function Mika_29(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playOptionsMika, [path, tile]]],
+                ];
+            },
+            function Mika_30(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playOptionsMika, [path, tile]]],
+                ];
+            },
+            function Mika_31(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playOptionsMika, [path, tile]]],
+                ];
+            },
+            function Mika_32(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                ];
+            },
+            function Mika_33(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playOptionsMika, [path, tile]]],
+                ];
+            },
+            function Mika_34(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playOptionsMika, [path, tile]]],
+                ];
+            },
+            function Mika_35(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playOptionsMika, [path, tile]]],
+                ];
+            },
+            function Mika_36(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+
+                ];
+            },
+            function Mika_37(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                ];
+            },
+            function Mika_37(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playText, [path, tile, 6, 0]]],
+                    [[playText, [path, tile, 7, 0]]],
+                    [[playText, [path, tile, 8, 0]]],
+                    [[playText, [path, tile, 9, 0]]],
                 ];
             },
         ],

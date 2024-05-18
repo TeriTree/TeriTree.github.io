@@ -185,6 +185,13 @@ var buttons = [
                         posX: 840,
                         posY: 220,
                         newPath: 'Beans'
+                    },
+                    {
+                        tile: 1,
+                        text: '∞',
+                        posX: 1000,
+                        posY: 600,
+                        newPath: 'Mika'
                     }
                 ],
             },
@@ -1964,7 +1971,727 @@ var buttons = [
                 ],
             },
         ]
-    }
+    },
+    {
+        path: 'Mika',
+        tiles: [
+            {
+                tile: 1,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Courtyard',
+                        posX: 640,
+                        posY: 620,
+                        newPath: 'Courtyard',
+                    },
+                    {
+                        tile: 2,
+                        text: 'Look around',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null,
+                    }
+                ],
+            },
+            {
+                tile: 2,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },  
+                    {
+                        tile: 3,
+                        text: 'Desk',
+                        posX: 940,
+                        posY: 300,
+                        newPath: null,
+                    },
+                    {
+                        tile: 9,
+                        text: 'Books',
+                        posX: 140,
+                        posY: 300,
+                        newPath: null,
+                    },
+                    {
+                        tile: 13,
+                        text: 'Armour',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null,
+                    },
+                    {
+                        tile: 17,
+                        text: 'Door (Requires key)',
+                        posX: 640,
+                        posY: 100,
+                        newPath: null,
+                    }
+                ]
+            },
+            {
+                tile: 3,
+                destinationTiles: [
+                    {
+                        tile: 2,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    },  
+                    {
+                        tile: 4,
+                        text: 'Page with text',
+                        posX: 940,
+                        posY: 300,
+                        newPath: null,
+                    },
+                    {
+                        tile: 5,
+                        text: 'Page with sketch',
+                        posX: 240,
+                        posY: 300,
+                        newPath: null
+                    },
+                    {
+                        tile: 6,
+                        text: 'Drawers',
+                        posX: 640,
+                        posY: 100,
+                        newPath: null
+                    }
+                ]
+            },
+            {
+                tile: 4,
+                destinationTiles: [
+                    {
+                        tile: 3,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    }, 
+                ]
+            },
+            {
+                tile: 5,
+                destinationTiles: [
+                    {
+                        tile: 3,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    }, 
+                ]
+            },
+            {
+                tile: 6,
+                destinationTiles: [
+                    {
+                        tile: 3,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 7,
+                        text: 'Ignore',
+                        posX: 940,
+                        posY: 300,
+                        newPath: null
+                    },
+                    {
+                        tile: 8,
+                        text: 'Turn around',
+                        posX: 140,
+                        posY: 300,
+                        newPath: null
+                    },
+                ]
+            },
+            {
+                tile: 7,
+                destinationTiles: [
+                    {
+                        tile: 6,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                ]
+            },
+            {
+                tile: 8,
+                destinationTiles: [
+                    {
+                        tile: 6,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                ]
+            },
+            {
+                tile: 9,
+                destinationTiles: [
+                    {
+                        tile: 2,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 10,
+                        text: 'Pokémon and pornography',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    },
+                    {
+                        tile: 11,
+                        text: 'The Life and Times of Teri Tower',
+                        posX: 940,
+                        posY: 300,
+                        newPath: null
+                    },
+                    {
+                        tile: 12,
+                        text: 'Honkai trivia book',
+                        posX: 140,
+                        posY: 300,
+                        newPath: null
+                    },
+                ]
+            },
+            {
+                tile: 10,
+                destinationTiles: [
+                    {
+                        tile: 9,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                ]
+            },
+            {
+                tile: 11,
+                destinationTiles: [
+                    {
+                        tile: 9,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                ]
+            },
+            {
+                tile: 12,
+                destinationTiles: [
+                    {
+                        tile: 9,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                ]
+            },
+            {
+                tile: 13,
+                destinationTiles: [
+                    {
+                        tile: 2,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 14,
+                        text: 'Helmet',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null 
+                    },
+                    {
+                        tile: 15,
+                        text: 'Chestplate',
+                        posX: 940,
+                        posY: 300,
+                        newPath: null 
+                    },
+                    {
+                        tile: 16,
+                        text: 'Sword',
+                        posX: 140,
+                        posY: 300,
+                        newPath: null 
+                    },
+                ]
+            },
+            {
+                tile: 14,
+                destinationTiles: [
+                    {
+                        tile: 13,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                ]
+            },
+            {
+                tile: 15,
+                destinationTiles: [
+                    {
+                        tile: 13,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                ]
+            },
+            {
+                tile: 16,
+                destinationTiles: [
+                    {
+                        tile: 13,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                ]
+            },
+            {
+                tile: 17,
+                destinationTiles: [
+                    {
+                        tile: 2,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 18,
+                        text: 'Use key',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    }
+                ]
+            },
+            {
+                tile: 18,
+                destinationTiles: [
+                    {
+                        tile: 17,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 19,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    }
+                ]
+            },
+            {
+                tile: 19,
+                destinationTiles: [
+                    {
+                        tile: 18,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 20,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    }
+                ]
+            },
+            {
+                tile: 20,
+                destinationTiles: [
+                    {
+                        tile: 19,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 21,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    }
+                ]
+            },
+            {
+                tile: 21,
+                destinationTiles: [
+                    {
+                        tile: 20,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 22,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    }
+                ]
+            },
+            {
+                tile: 22,
+                destinationTiles: [
+                    {
+                        tile: 21,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 23,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    }
+                ]
+            },
+            {
+                tile: 23,
+                destinationTiles: [
+                    {
+                        tile: 22,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 24,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    }
+                ]
+            },
+            {
+                tile: 24,
+                destinationTiles: [
+                    {
+                        tile: 23,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 25,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    }
+                ]
+            },
+            {
+                tile: 25,
+                destinationTiles: [
+                    {
+                        tile: 24,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 26,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    }
+                ]
+            },
+            {
+                tile: 26,
+                destinationTiles: [
+                    {
+                        tile: 25,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 27,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    }
+                ]
+            },
+            {
+                tile: 27,
+                destinationTiles: [
+                    {
+                        tile: 26,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 28,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    }
+                ]
+            },
+            {
+                tile: 28,
+                destinationTiles: [
+                    {
+                        tile: 27,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 29,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    }
+                ]
+            },
+            {
+                tile: 29,
+                destinationTiles: [
+                    {
+                        tile: 28,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 30,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    }
+                ]
+            },
+            {
+                tile: 30,
+                destinationTiles: [
+                    {
+                        tile: 29,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 31,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    }
+                ]
+            },
+            {
+                tile: 31,
+                destinationTiles: [
+                    {
+                        tile: 30,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 32,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    }
+                ]
+            },
+            {
+                tile: 32,
+                destinationTiles: [
+                    {
+                        tile: 31,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 33,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    }
+                ]
+            },
+            {
+                tile: 33,
+                destinationTiles: [
+                    {
+                        tile: 32,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 34,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    }
+                ]
+            },
+            {
+                tile: 34,
+                destinationTiles: [
+                    {
+                        tile: 33,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 35,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    }
+                ]
+            },
+            {
+                tile: 35,
+                destinationTiles: [
+                    {
+                        tile: 34,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 36,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    }
+                ]
+            },
+            {
+                tile: 36,
+                destinationTiles: [
+                    {
+                        tile: 35,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 37,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    }
+                ]
+            },
+            {
+                tile: 37,
+                destinationTiles: [
+                    {
+                        tile: 36,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                    {
+                        tile: 38,
+                        text: 'Continue',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    }
+                ]
+            },
+            {
+                tile: 38,
+                destinationTiles: [
+                    {
+                        tile: 37,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 600,
+                        newPath: null
+                    },
+                ]
+            },
+        ]
+    },
 ];
 
 export { buttons }

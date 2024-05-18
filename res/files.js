@@ -138,6 +138,17 @@ var files = [
         video:[
             'YattaFinalCompressed.mp4',
         ],
+    },
+    {
+        path: 'Mika',
+        folder: './res/Mika/',
+        audio: [
+            'VelionaLaugh.mp3',
+            'VelionaLaugh2.mp3',
+        ],
+        video: [
+            
+        ],
     }
 ];
 

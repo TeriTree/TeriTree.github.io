@@ -910,9 +910,9 @@ var paths = [
                 hasPuzzle: false,
                 bg: [2],
                 bgm: {
-                    id: null,
-                    file: null,
-                    volume: null
+                    id: 'Quiz_suspense',
+                    file: './res/Beans/bgm/quiz_suspense.mp3',
+                    volume: 0.5
                 }
             },
             {
@@ -921,11 +921,6 @@ var paths = [
                 deadendType: null,
                 hasPuzzle: false,
                 bg: [3],
-                bgm: {
-                    id: null,
-                    file: null,
-                    volume: null
-                }
             },
             {
                 id: 3,
@@ -933,11 +928,6 @@ var paths = [
                 deadendType: null,
                 hasPuzzle: false,
                 bg: [3],
-                bgm: {
-                    id: null,
-                    file: null,
-                    volume: null
-                }
             },
             {
                 id: 4,
@@ -945,11 +935,6 @@ var paths = [
                 deadendType: null,
                 hasPuzzle: false,
                 bg: [3],
-                bgm: {
-                    id: null,
-                    file: null,
-                    volume: null
-                }
             },
             {
                 id: 5,
@@ -957,11 +942,6 @@ var paths = [
                 deadendType: null,
                 hasPuzzle: false,
                 bg: [3],
-                bgm: {
-                    id: null,
-                    file: null,
-                    volume: null
-                }
             },
             {
                 id: 6,
@@ -969,11 +949,6 @@ var paths = [
                 deadendType: null,
                 hasPuzzle: false,
                 bg: [3],
-                bgm: {
-                    id: null,
-                    file: null,
-                    volume: null
-                }
             },
             {
                 id: 7,
@@ -981,11 +956,6 @@ var paths = [
                 deadendType: null,
                 hasPuzzle: false,
                 bg: [3],
-                bgm: {
-                    id: null,
-                    file: null,
-                    volume: null
-                }
             },
             {
                 id: 8,
@@ -993,11 +963,6 @@ var paths = [
                 deadendType: null,
                 hasPuzzle: false,
                 bg: [3],
-                bgm: {
-                    id: null,
-                    file: null,
-                    volume: null
-                }
             },
             {
                 id: 9,
@@ -1005,11 +970,6 @@ var paths = [
                 deadendType: null,
                 hasPuzzle: false,
                 bg: [4],
-                bgm: {
-                    id: null,
-                    file: null,
-                    volume: null
-                }
             },
             {
                 id: 10,
@@ -1017,11 +977,6 @@ var paths = [
                 deadendType: null,
                 hasPuzzle: false,
                 bg: [3],
-                bgm: {
-                    id: null,
-                    file: null,
-                    volume: null
-                }
             },
             {
                 id: 11,
@@ -1029,12 +984,299 @@ var paths = [
                 deadendType: null,
                 hasPuzzle: false,
                 bg: [1],
-                bgm: {
-                    id: null,
-                    file: null,
-                    volume: null
-                }
             }
+        ],
+    },
+    {
+        id: 'Mika',
+        name: 'Mika',
+        tiles: [
+            {
+                id: 1,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [1],
+                bgm: {
+                    id: 'tick_tock',
+                    file: './res/Mika/bgm/ticktock.mp3',
+                    volume: 0.4
+                }
+            },
+            {
+                id: 2,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [1],
+            },
+            {
+                id: 3,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [2],
+            },
+            {
+                id: 4,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [2],
+            },
+            {
+                id: 5,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [2],
+            },
+            {
+                id: 6,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [4],
+            },
+            {
+                id: 7,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [4],
+            },
+            {
+                id: 8,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [8],
+            },
+            {
+                id: 9,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [3],
+            },
+            {
+                id: 10,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [3],
+            },
+            {
+                id: 11,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [3],
+            },
+            {
+                id: 12,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [3],
+            },
+            {
+                id: 13,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [10],
+                bgm: {
+                    id: 'tick_tock_eerie',
+                    file: './res/Mika/bgm/ticktock_eerie.mp3',
+                    volume: 0.4
+                } 
+            },
+            {
+                id: 14,
+                hasItem: null,
+                deadendType: 'death',
+                hasPuzzle: false,
+                bg: [11],
+            },
+            {
+                id: 15,
+                hasItem: null,
+                deadendType: 'death',
+                hasPuzzle: false,
+                bg: [12],
+            },
+            {
+                id: 16,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [13],
+            },
+            {
+                id: 17,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [1],
+            },
+            {
+                id: 18,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [9],
+            },
+            {
+                id: 19,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [9],
+            },
+            {
+                id: 20,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [5],
+                bgm: {
+                    id: 'erodedSpace',
+                    file: './res/Mika/bgm/erodedSpace.mp3',
+                    volume: 1
+                }
+            },
+            {
+                id: 21,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [6],
+            },
+            {
+                id: 22,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [6],
+            },
+            {
+                id: 23,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [6],
+            },
+            {
+                id: 24,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [6],
+            },
+            {
+                id: 25,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [6],
+            },
+            {
+                id: 26,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [6],
+            },
+            {
+                id: 27,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [6],
+            },
+            {
+                id: 28,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [6],
+            },
+            {
+                id: 29,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [6],
+            },
+            {
+                id: 30,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [6],
+            },
+            {
+                id: 31,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [6],
+            },
+            {
+                id: 32,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [6],
+            },
+            {
+                id: 33,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [6],
+            },
+            {
+                id: 34,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [6],
+            },
+            {
+                id: 35,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [6],
+            },
+            {
+                id: 36,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [6],
+            },
+            {
+                id: 37,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [6],
+            },
+            {
+                id: 38,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [7],
+                bgm: {
+                    id: 'tick_tock',
+                    file: './res/Mika/bgm/ticktock.mp3',
+                    volume: 0.4
+                }
+            }    
         ],
     },
     {
