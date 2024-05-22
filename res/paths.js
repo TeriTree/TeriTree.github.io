@@ -890,7 +890,7 @@ var paths = [
                 hasItem: 'Challenge',
                 deadendType: null,
                 hasPuzzle: false,
-                bg: [1],
+                bg: [2],
                 bgm: {
                     id: 'Link Click',
                     file: './res/Yuma/bgm/LC.mp3',
