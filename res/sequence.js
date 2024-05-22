@@ -1679,7 +1679,7 @@ var seq = [
             {
                 tile: 11,
                 type: 'n',
-                hasAudio: false,
+                hasAudio: true,
                 complete: false,
                 text: [
 

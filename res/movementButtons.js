@@ -927,7 +927,7 @@ var buttons = [
                 tile: 4,
                 destinationTiles: [
                     {
-                        tile: 3,
+                        tile: 2,
                         text: 'Go back',
                         posX: 640,
                         posY: 620,

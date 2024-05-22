@@ -984,6 +984,11 @@ var paths = [
                 deadendType: null,
                 hasPuzzle: false,
                 bg: [1],
+                bgm: {
+                    id: null,
+                    file: null,
+                    volume: null
+                }
             }
         ],
     },
@@ -1037,6 +1042,11 @@ var paths = [
                 deadendType: null,
                 hasPuzzle: false,
                 bg: [4],
+                bgm: {
+                    id: 'tick_tock',
+                    file: './res/Mika/bgm/ticktock.mp3',
+                    volume: 0.4
+                }
             },
             {
                 id: 7,
@@ -1051,6 +1061,12 @@ var paths = [
                 deadendType: null,
                 hasPuzzle: false,
                 bg: [8],
+                bgm: {
+                    id: 'Kevonia_Forest',
+                    file: './res/Mika/bgm/Kevonia_Forest.mp3',
+                    volume: 0.4
+
+                }
             },
             {
                 id: 9,
@@ -1058,6 +1074,11 @@ var paths = [
                 deadendType: null,
                 hasPuzzle: false,
                 bg: [3],
+                bgm: {
+                    id: 'tick_tock',
+                    file: './res/Mika/bgm/ticktock.mp3',
+                    volume: 0.4
+                }
             },
             {
                 id: 10,
@@ -1133,6 +1154,11 @@ var paths = [
                 deadendType: null,
                 hasPuzzle: false,
                 bg: [9],
+                bgm: {
+                    id: 'tick_tock_eerie',
+                    file: './res/Mika/bgm/ticktock_eerie.mp3',
+                    volume: 0.4
+                } 
             },
             {
                 id: 20,
@@ -1141,9 +1167,10 @@ var paths = [
                 hasPuzzle: false,
                 bg: [5],
                 bgm: {
-                    id: 'erodedSpace',
-                    file: './res/Mika/bgm/erodedSpace.mp3',
-                    volume: 1
+                    id: 'Kevonia_Forest',
+                    file: './res/Mika/bgm/AsBefore_ElysianRealm.mp3',
+                    volume: 0.4
+
                 }
             },
             {
@@ -1159,6 +1186,11 @@ var paths = [
                 deadendType: null,
                 hasPuzzle: false,
                 bg: [6],
+                bgm: {
+                    id: 'erodedSpace',
+                    file: './res/Mika/bgm/erodedSpace.mp3',
+                    volume: 1
+                }
             },
             {
                 id: 23,
@@ -1288,7 +1320,7 @@ var paths = [
                 hasItem: null,
                 deadendType: null,
                 hasPuzzle: null,
-                bg: [1],
+                bg: [2],
                 bgm: {
                     id: null,
                     file: null,
@@ -1300,7 +1332,7 @@ var paths = [
                 hasItem: null,
                 deadendType: 'death',
                 hasPuzzle: null,
-                bg: [1],
+                bg: [3],
                 bgm: {
                     id: null,
                     file: null,
@@ -1312,7 +1344,7 @@ var paths = [
                 hasItem: null,
                 deadendType: 'death',
                 hasPuzzle: null,
-                bg: [1],
+                bg: [3],
                 bgm: {
                     id: null,
                     file: null,
@@ -1324,7 +1356,7 @@ var paths = [
                 hasItem: null,
                 deadendType: 'death',
                 hasPuzzle: null,
-                bg: [1],
+                bg: [3],
                 bgm: {
                     id: null,
                     file: null,
@@ -1336,7 +1368,7 @@ var paths = [
                 hasItem: null,
                 deadendType: 'death',
                 hasPuzzle: null,
-                bg: [1],
+                bg: [3],
                 bgm: {
                     id: null,
                     file: null,
@@ -1348,7 +1380,7 @@ var paths = [
                 hasItem: null,
                 deadendType: 'death',
                 hasPuzzle: null,
-                bg: [1],
+                bg: [3],
                 bgm: {
                     id: null,
                     file: null,
@@ -1360,7 +1392,7 @@ var paths = [
                 hasItem: null,
                 deadendType: 'death',
                 hasPuzzle: null,
-                bg: [1],
+                bg: [3],
                 bgm: {
                     id: null,
                     file: null,
@@ -1372,7 +1404,7 @@ var paths = [
                 hasItem: null,
                 deadendType: 'death',
                 hasPuzzle: null,
-                bg: [1],
+                bg: [3],
                 bgm: {
                     id: null,
                     file: null,
@@ -1384,7 +1416,7 @@ var paths = [
                 hasItem: null,
                 deadendType: 'death',
                 hasPuzzle: null,
-                bg: [1],
+                bg: [3],
                 bgm: {
                     id: null,
                     file: null,
@@ -1396,7 +1428,7 @@ var paths = [
                 hasItem: null,
                 deadendType: null,
                 hasPuzzle: null,
-                bg: [1],
+                bg: [4],
                 bgm: {
                     id: null,
                     file: null,
