@@ -2278,6 +2278,113 @@ var seq = [
                 },
             ],
         },
+        {
+            path: 'Packi',
+            sequence: [
+                {
+                    tile: 1,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "As you look around, you notice that you've found yourself in a forest, the birds are chirping, you feel refreshed as a scent of petrichor enters your nose." //0
+                    ]
+                },
+                {
+                    tile: 2,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "You walk a bit in the forest, aimlessly, until you hear the sound of a trashbin falling over." //0
+                    ]
+                },
+                {
+                    tile: 3,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "You turn arround and decided to move onwards, it is probably some squirrels looking for nuts.", //0
+                        "Step after step, you suddenly snap out of your trance-like state and realize: you've been walking full circle and came back where you started.", //1
+
+                    ]
+                },
+                {
+                    tile: 4,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        "As you approach the trashbin, you find out the source of the suspicious sounds that accompanied you during the stroll were cause by a little fox that rummaged trough the trash.", //0
+                        "The little foxy looks at you. Bewildered that they don't run away, you pat them on the head.", //1
+                        "The fox, looking pleased, suddenly speaks with a deep voice:", //2
+                        "Mr. Fox: 'Thank you, kind stranger, you seem like a gentle, pure soul.'", //3
+                        "In awe and taken aback by this sudden twist, you sink in deep thoughts... (a fox that can talk?! I have so many questions, what should I ask them, I don't even know where to start!)", //4
+                        "Mr Fox: 'Is there something wrong mister?'", //5
+                        'You: "No, it\'s nothing. I was just suprised to hear you talk, that is all."', //6
+                        'You: "Can I ask you some questions?"', //7
+                        'Mr Fox: "Sure, why not, ask away."', //8
+                    ]
+                },
+                {
+                    tile: 5,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        '"I am a Kitsune, a fox spirit that serves my master, I welcome visitors and I deliver gifts people leave behind as offerings."', //0
+                    ]
+                },
+                {
+                    tile: 6,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        '"I am not allowed to speak of my master\'s divine Excellence, I am sorry."', //0
+                    ]
+                },
+                {
+                    tile: 7,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        '"No, that would be silly. They are just ordinary animals, afterall."', //0
+                    ]
+                },
+                {
+                    tile: 8,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        'Mr Fox: "I saw a child bring a nice figurine with them, the child was making a lot of noise while playing with it!"', //0
+                        'Mr Fox: "But alas, their parent had enough, and took it away from their child, then threw it in the trash."', //1
+                        'Mr Fox: "I followed them for a while, then my master commanded me to pull a sly prank on the parent."', //2
+                        'Mr Fox: "They are gone now, the parent received their deserved karma."', //3
+                        'Mr Fox: "The kid did not know what happened and ran out of the forest right away, unfortunately."', //4
+                        'Mr Fox: "I thought that, with all that taken care of, to throw away this figurine would be such a shame, so I came back here to obtain it."', //5
+                        'Mr Fox: "Look how cute she is!"', //6
+                    ]
+                },
+                {
+                    tile: 9,
+                    type: 'n',
+                    hasAudio: false,
+                    complete: false,
+                    text: [
+                        'You: "That is indeed adorable, damn."', //0
+                        'Mr Fox: "You can have it if you want, it was nice talking to you, I\'m sure Master wouldn\'t mind."', //1
+                        'You: "Really? that\'s really nice of you!"', //2
+                        'Mr Fox: "Don\'t mention it."', //3
+                        'Mr Fox: "Now then, I must return to my master. I bid you farewell, you give off a scent of adventure, I wish you best of luck with that."', //4
+                        'You: "Thank you"', //5
+                    ]
+                },
+            ]
+        },
     {
         path: 'default',
         sequence: [

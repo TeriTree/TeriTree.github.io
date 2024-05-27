@@ -1438,6 +1438,80 @@ var paths = [
         ],
     },
     {
+        id: 'Packi',
+        name: 'Packi',
+        tiles: [
+            {
+                id: 1,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [1],
+                bgm: {
+                    id: 'forest',
+                    file: '.res/Packi/bgm/forest.mp3',
+                    volume: 0.6
+                }
+            },
+            {
+                id: 2,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [1],
+            },
+            {
+                id: 3,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [1],
+            },
+            {
+                id: 4,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [2],
+            },
+            {
+                id: 5,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [2],
+            },
+            {
+                id: 6,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [2],
+            },
+            {
+                id: 7,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [2],
+            },
+            {
+                id: 8,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [2],
+            },
+            {
+                id: 9,
+                hasItem: null,
+                deadendType: null,
+                hasPuzzle: false,
+                bg: [3],
+            },
+        ],
+    },
+    {
         id: 'default',
         tiles: [
         ],

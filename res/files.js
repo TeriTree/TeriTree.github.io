@@ -161,6 +161,18 @@ var files = [
         video: [
 
         ]
+    },
+    {
+        path: 'Packi',
+        folder: './res/Packi/',
+        audio: [
+            'pat.mp3',
+            'ohyeahbaby.mp3'
+
+        ],
+        video: [
+
+        ]
     }
 ];
 

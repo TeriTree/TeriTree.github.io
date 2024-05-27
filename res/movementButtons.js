@@ -199,6 +199,13 @@ var buttons = [
                         posX: 100,
                         posY: 400,
                         newPath: 'Samuel'
+                    },
+                    {
+                        tile: 1,
+                        text: '𓃦',
+                        posX: 300,
+                        posY: 400,
+                        newPath: 'Packi'
                     }
                 ],
             },
@@ -2885,6 +2892,175 @@ var buttons = [
                     },
                 ]
             },
+        ]
+    },
+    {
+        path: 'Packi',
+        tiles: [
+            {
+                tile: 1,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Courtyard',
+                        posX: 640,
+                        posY: 620,
+                        newPath: 'Courtyard',
+                    },
+                    {
+                        tile: 2,
+                        text: 'Walk around',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null
+                    }
+                ],
+            },
+            {
+                tile: 2,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 3,
+                        text: 'Ignore',
+                        posX: 940,
+                        posY: 300,
+                        newPath: null
+                    },
+                    {
+                        tile: 4,
+                        text: 'Go take a look',
+                        posX: 340,
+                        posY: 300,
+                        newPath: null
+                    }
+                ],
+            },
+            {
+                tile: 3,
+                destinationTiles: [
+                    {
+                        tile: 1,
+                        text: 'Courtyard',
+                        posX: 640,
+                        posY: 620,
+                        newPath: 'Courtyard',
+                    },
+                ],
+            },
+            {
+                tile: 4,
+                destinationTiles: [
+                    {
+                        tile: 2,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 5,
+                        text: '"Who are you?"',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 5,
+                destinationTiles: [
+                    {
+                        tile: 4,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 6,
+                        text: '"Who is your master?"',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 6,
+                destinationTiles: [
+                    {
+                        tile: 5,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 7,
+                        text: '"Do all animals talk in this forest?"',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+                tile: 7,
+                destinationTiles: [
+                    {
+                        tile: 6,
+                        text: 'Go back',
+                        posX: 640,
+                        posY: 620,
+                        newPath: null,
+                    },
+                    {
+                        tile: 8,
+                        text: '"Why are you rummaging through a trashbin?"',
+                        posX: 640,
+                        posY: 300,
+                        newPath: null,
+                    },
+                ],
+            },
+            {
+            tile: 8,
+            destinationTiles: [
+                {
+                    tile: 7,
+                    text: 'Go back',
+                    posX: 640,
+                    posY: 620,
+                    newPath: null,
+                },
+                {
+                    tile: 9,
+                    text: 'Look at the figurine',
+                    posX: 640,
+                    posY: 300,
+                    newPath: null,
+                },
+            ],
+        },
+        {
+        tile: 9,
+        destinationTiles: [
+            {
+                tile: 8,
+                text: 'Go back',
+                posX: 640,
+                posY: 620,
+                newPath: null,
+            },
+        ],
+    },
         ]
     },
 ];

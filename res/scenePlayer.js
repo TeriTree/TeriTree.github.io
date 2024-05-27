@@ -2307,7 +2307,86 @@ var scenes = [
                 ];
             },
         ],
-    },   
+    },  
+    {
+        path: 'Packi',
+        sequence: [
+            function Packi_1(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                ];
+            },
+            function Packi_2(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                ];
+            },
+            function Packi_3(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                ];
+            },
+            function Packi_4(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]], [playSound, [path, 'pat.mp3', 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playText, [path, tile, 6, 0]]],
+                    [[playText, [path, tile, 7, 0]]],
+                    [[playText, [path, tile, 8, 0]]],
+                ];
+            },
+            function Packi_5(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                ];
+            },
+            function Packi_6(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                ];
+            },
+            function Packi_7(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                ];
+            },
+            function Packi_8(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]]],
+                    [[playText, [path, tile, 6, 0]]],
+                ];
+            },
+            function Packi_9(path, tile) {
+                sceneList = [
+                    [[renderOverlay, [null]]],
+                    [[playText, [path, tile, 0, 0]]],
+                    [[playText, [path, tile, 1, 0]]],
+                    [[playText, [path, tile, 2, 0]]],
+                    [[playText, [path, tile, 3, 0]]],
+                    [[playText, [path, tile, 4, 0]]],
+                    [[playText, [path, tile, 5, 0]], [playSound, [path, 'ohyeahbaby.mp3', 0]]],
+                ];
+            },
+        ],
+    }, 
 ]
 
 export { playSequence };
