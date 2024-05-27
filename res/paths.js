@@ -1449,7 +1449,7 @@ var paths = [
                 bg: [1],
                 bgm: {
                     id: 'forest',
-                    file: '.res/Packi/bgm/forest.mp3',
+                    file: './res/Packi/bgm/forest.mp3',
                     volume: 0.6
                 }
             },

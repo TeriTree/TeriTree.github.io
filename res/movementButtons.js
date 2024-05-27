@@ -2971,6 +2971,20 @@ var buttons = [
                         posY: 300,
                         newPath: null,
                     },
+                    {
+                        tile: 7,
+                        text: '"Do all animals talk in this forest?"',
+                        posX: 940,
+                        posY: 300,
+                        newPath: null
+                    },
+                    {
+                        tile: 8,
+                        text: '"Why are you rummaging through a trashbin?"',
+                        posX: 240,
+                        posY: 300,
+                        newPath: null,
+                    },
                 ],
             },
             {
@@ -3002,30 +3016,16 @@ var buttons = [
                         posY: 620,
                         newPath: null,
                     },
-                    {
-                        tile: 7,
-                        text: '"Do all animals talk in this forest?"',
-                        posX: 640,
-                        posY: 300,
-                        newPath: null,
-                    },
                 ],
             },
             {
                 tile: 7,
                 destinationTiles: [
                     {
-                        tile: 6,
+                        tile: 4,
                         text: 'Go back',
                         posX: 640,
                         posY: 620,
-                        newPath: null,
-                    },
-                    {
-                        tile: 8,
-                        text: '"Why are you rummaging through a trashbin?"',
-                        posX: 640,
-                        posY: 300,
                         newPath: null,
                     },
                 ],
